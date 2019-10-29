@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="DCC_sertificate_styles.css"?>
+<dcc:digitalCalibrationCertificate
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd"
+		xmlns:dcc="https://ptb.de/dcc"
+		xmlns:si="https://ptb.de/si">
+
+    <!--
+	
+    Copyright (c) 2019 Aalto-korkeakoulusäätiö
+	
+    -->
+
+    <dcc:administrativeData>
+        <dcc:dccSoftware>
+            <dcc:software id="Notepad_plusplus">
+                <dcc:name>
+                    <dcc:content>Notepad++ (32-bit)</dcc:content>
+                </dcc:name>
+                <dcc:release>v7.6.6</dcc:release>
+                <dcc:description id="Notepad">
+                    <dcc:content lang="en">Homepage: https://notepad-plus-plus.org/</dcc:content>
+                    <dcc:content lang="en">Installed components:</dcc:content>
+                    <dcc:content lang="en">- XML Tools plugin version 2.3.2 unicode beta4 r908</dcc:content>
+                    <dcc:content lang="en">- Npp Hash Maker version 1.0 unicode 2011-07-03</dcc:content>
+                    <dcc:content lang="en">- XML Tools plugin version 2.3.2 unicode beta4 r908</dcc:content>
+                    <dcc:content lang="en">- MIME Tools Version 1.7 unicode</dcc:content>
+                </dcc:description>
+            </dcc:software>
+        </dcc:dccSoftware>
+        <dcc:coreData>
+            <dcc:countryCodeISO3166_1>FI</dcc:countryCodeISO3166_1>
+            <dcc:usedLangCodeISO639_1>fi</dcc:usedLangCodeISO639_1>
+            <dcc:usedLangCodeISO639_1>en</dcc:usedLangCodeISO639_1>
+			<dcc:usedLangCodeISO639_1>sv</dcc:usedLangCodeISO639_1>
+            <dcc:mandatoryLangCodeISO639_1>fi</dcc:mandatoryLangCodeISO639_1>
+            <dcc:uniqueIdentifier>K026-17P4654</dcc:uniqueIdentifier>
+            <dcc:beginPerformanceDate>2017-10-02</dcc:beginPerformanceDate>
+            <dcc:endPerformanceDate>2017-10-02</dcc:endPerformanceDate>
+        </dcc:coreData>
+        <dcc:items>
+            <dcc:item id="dcc2">
+                <dcc:name>
+                    <dcc:content lang="fi">Painesäädin</dcc:content>
+                    <dcc:content lang="en">Pressure controller</dcc:content>
+					<dcc:content lang="sv">Tryckregulator</dcc:content>
+                </dcc:name>
+                <dcc:description>
+                    <dcc:content lang="fi">Ruska 7250xi painesäädin</dcc:content>
+                    <dcc:content lang="en">Ruska 7250xi pressure controller</dcc:content>
+					<dcc:content lang="sv">Ruska 7250xi tryckregulator</dcc:content>
+                </dcc:description>
+                <dcc:manufacturer>
+                    <dcc:name>
+                        <dcc:content>Ruska Instrument Corporation</dcc:content>
+                    </dcc:name>
+                </dcc:manufacturer>
+                <dcc:model>7250xi</dcc:model>
+                <dcc:identifications>
+                    <dcc:identification id="id21">
+                        <dcc:issuer>manufacturer</dcc:issuer>
+                        <dcc:value>65095</dcc:value>
+                        <dcc:description>
+                            <dcc:content lang="fi">Sarjanumero</dcc:content>
+						    <dcc:content lang="en">Serial number</dcc:content>
+							<dcc:content lang="sv">Serienummer</dcc:content>
+                        </dcc:description>
+                    </dcc:identification>
+                </dcc:identifications>
+            </dcc:item>
+        </dcc:items>
+        <dcc:calibrationLaboratory>
+            <dcc:contact>
+                <dcc:name>
+                    <dcc:content>Beamex Oy Ab</dcc:content>
+                </dcc:name>
+                <dcc:eMail>service@beamex.com</dcc:eMail>
+                <dcc:location>
+                    <dcc:further id="additional">
+					    <dcc:content lang="en">ACCREDITED CALIBRATION LABORATORY</dcc:content>
+                        <dcc:content lang="fi">AKKREDITOITU KALIBROINTILABORATORIO</dcc:content>
+						<dcc:content lang="sv">AKKREDITERAT KALIBRERINGSLABORATORIUM</dcc:content>
+						<dcc:content lang="en">Calibration Laboratory</dcc:content>
+                        <dcc:content lang="fi">Kalibrointilaboratorio</dcc:content>
+                        <dcc:content lang="sv">Kalibreringslaboratorium</dcc:content>
+                    </dcc:further>
+					<dcc:street>Ristisuonraitti</dcc:street>
+					<dcc:streetNo>10</dcc:streetNo>
+					<dcc:postCode>68600</dcc:postCode>
+					<dcc:city>Pietarsaari</dcc:city>
+					<dcc:countryCode>FI</dcc:countryCode>
+                </dcc:location>
+            </dcc:contact>
+        </dcc:calibrationLaboratory>
+        <dcc:respPersons>
+            <dcc:respPerson id="Chief">
+                <dcc:person>
+                    <dcc:name>
+                        <dcc:content>Pasi Kauppila</dcc:content>
+                    </dcc:name>
+                </dcc:person>
+                <dcc:description>
+                    <dcc:content lang="en">Chief of Calibration Laboratory</dcc:content>
+                </dcc:description>
+                <dcc:mainSigner>true</dcc:mainSigner>
+                <dcc:cryptElectronicSignature>true</dcc:cryptElectronicSignature>
+                <dcc:cryptElectronicTimeStamp>true</dcc:cryptElectronicTimeStamp>
+            </dcc:respPerson>
+            <dcc:respPerson id="Engineer">
+                <dcc:person>
+                    <dcc:name>
+                        <dcc:content>Jari Kivelä</dcc:content>
+                    </dcc:name>
+                </dcc:person>
+                <dcc:description>
+                    <dcc:content lang="en">Calibration Engineer</dcc:content>
+                </dcc:description>
+                <dcc:cryptElectronicSignature>true</dcc:cryptElectronicSignature>
+                <dcc:cryptElectronicTimeStamp>true</dcc:cryptElectronicTimeStamp>
+            </dcc:respPerson>
+        </dcc:respPersons>
+        <dcc:customer>
+            <dcc:name>
+                <dcc:content>Beamex Oy Ab</dcc:content>
+            </dcc:name>
+            <dcc:eMail>service@beamex.com</dcc:eMail>
+            <dcc:location>
+                <dcc:street>Ristisuonraitti</dcc:street>
+                <dcc:streetNo>10</dcc:streetNo>
+                <dcc:postCode>68600</dcc:postCode>
+                <dcc:city>Pietarsaari</dcc:city>
+                <dcc:countryCode>FI</dcc:countryCode>
+            </dcc:location>
+        </dcc:customer>
+        <dcc:statements>
+            <dcc:statement id="MRA">
+                <dcc:convention>CIPM-MRA</dcc:convention>
+                <dcc:valid>true</dcc:valid>
+            </dcc:statement>
+            <dcc:statement>
+                <dcc:convention>Traceability</dcc:convention>
+                <dcc:traceable>true</dcc:traceable>
+                <dcc:declaration>
+                    <dcc:content lang="en">The measurement results issued in this certificate are traceable to national or international measurement standards.</dcc:content>
+					<dcc:content lang="fi">Todistuksessa annetut tulokset ovat jäljitettävissä kansallisiin tai kansainvälisiin mittanormaaleihin.</dcc:content>
+					<dcc:content lang="sv">Mätresultat i detta kalibreringsbevis är spårbara till nationella eller internationella mätnormaler.</dcc:content>
+                </dcc:declaration>
+            </dcc:statement>
+			<dcc:statement>
+                <dcc:declaration>
+                    <dcc:content lang="en">
+					This Certificate may only be reprodeuced in full, except with the prior written permisson by the issuing Laboratory.
+					FINAS is a member of the EA(European co-operation for Accreditation) Multilateral Agreement Group.
+					</dcc:content>
+					<dcc:content lang="fi">
+					Tämän todistuksen osittainen julkaiseminen on sallittu vain asianomaisen kalibrointilaboratorion antaman kirjallisen luvan perusteella.
+					FINAS on EA:n(European co-operation for Accreditation) monenkeskien tunnistamissopimusryhmän jäsen.
+					</dcc:content>
+					<dcc:content lang="sv">
+					Detta bevis får endast publiceras i sin helhet - i annat fall behövs skriftligttillstånd av kalibreringslaboratoriet.
+					FINAS är en av dem som har undertecknat EA:s (European co-operation for Accreditation) avtal om ömsesidigt erkännande.
+					</dcc:content>
+                </dcc:declaration>
+            </dcc:statement>
+        </dcc:statements>
+    </dcc:administrativeData>
+    <dcc:measurementResults>
+        <dcc:measurementResult>
+            <dcc:usedMethods>
+                <dcc:usedMethod>
+                    <dcc:name id="Method">
+						<dcc:content>Default</dcc:content>
+                        <dcc:content lang="fi">Vertaus referenssinormaaliin</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+						<dcc:content lang="fi">Kalibroinnin suoritus</dcc:content>
+                    </dcc:description>
+					<dcc:description>
+						<dcc:content lang="fi">
+						Kalibrointi suoritettiin sisäisen ohjeen no. 6327L mukaan.
+						Ennen kalibrointia painesäätimen annettiin tasaantua kalibrointilaboratoriossa vallitseviin olosuhteisiin, syöttöjännite kytkettynä.
+						Painesäädin kalibroitiin vertaamalla sitä kalibrointilaboratorion referenssinormaaliin Ruska 2465-751 s/n: 21035.
+						Mittaukset suoritettiin sekä paineen nousevassa että laskevasa suunnassa.
+						Väliaineena mittauksissa käytettiin ilmaa.
+						</dcc:content>
+                    </dcc:description>
+                    <dcc:description>
+                        <dcc:content lang="fi">Kalibroidun laitteen kunto</dcc:content>
+                    </dcc:description>
+					<dcc:description>
+                        <dcc:content lang="fi">
+						Laitteen kunnossa ei havaittu mitään huomautettavaa.
+						</dcc:content>
+                    </dcc:description>
+					<dcc:description>
+                        <dcc:content lang="fi">Referenssinormaaleilla on jäljitettävyys Suomen kansallisiin mittanormaaleihin.</dcc:content>
+                    </dcc:description>
+                </dcc:usedMethod>
+				<dcc:usedMethod>
+					<dcc:name id="Epävarmuus">
+                        <dcc:content lang="fi">Kalibroinnin epävarmuus</dcc:content>
+					</dcc:name>
+					<dcc:description>
+                        <dcc:content lang="fi">
+						Kalibroinnin epävarmuus on ilmoitettu kullekin pisteelle erikseen. Standardiepävarmuus on ilmoitettu siten,
+						että keskihajonta on kerrottu kertoimella kaksi, eli (k=2), mikä normaalijakautumalla vastaa 95% todennäköisyyttä.
+						Epävarmuus on laskettu ohjeen EA-4/02 mukaisesti seuraavista epävarmuustekijöistä: mittanormaali, kalibrointimenetelmä
+						ja ympäristöolosuhteet sekä kalibroitavan kohteen lyhytaikainen vaikutus.
+						</dcc:content>
+                    </dcc:description>
+                </dcc:usedMethod>
+            </dcc:usedMethods>
+            <dcc:measuringEquipments>
+                <dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content>Dead Weight Tester (air)</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="fi">Vaakarunko ja korkeapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
+                        <dcc:content lang="fi">Kalibroitu 08.02.2016</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>-</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>M-16P013</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Ruska Instrument Corporation</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>2465-751</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>21035</dcc:value>
+                            <dcc:description>
+                                <dcc:content>Vaakarunko</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>V-431</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="fi">Sarjanumero</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+                
+                <dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content>Dead Weight Tester (air)</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="fi">Vaakarunko ja matalapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
+                        <dcc:content lang="fi">Kalibroitu 08.02.2016</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>-</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>M-16P013</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Ruska Instrument Corporation</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>2465-751</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>21305</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="fi">Sarjanumero</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>TL-1006</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="fi">Sarjanumero</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+                
+                <dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content>Mass Set</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="fi">Kalibroitu 09.02.2016</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>-</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>M-16M013</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Ruska Instrument Corporation</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>2465-775</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>20845</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="fi">Sarjanumero</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+                
+                <dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content>Pirani Vacuum Sensor</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="fi">Kalibroitu 12.06.2017</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>-</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>K026-17P3084</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Pfeiffer Vacuum</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>Balzers TPR010</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>30666</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="fi">Sarjanumero</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+            </dcc:measuringEquipments>
+            <dcc:influenceConditions>
+                <dcc:influenceCondition>
+                    <dcc:name>
+                        <dcc:content lang="fi">Kalibrointiolosuhteet</dcc:content>
+                    </dcc:name>
+                    <dcc:data>
+                        <dcc:list>
+                            <dcc:name>
+                                <dcc:content lang="de">Kalibrointi suoritettiin vakioilmastoidussa tilassa, jossa lämpötila oli 23 °C ± 1 °C ja ilman suhteellinen kosteus 50 %RH ± 10 %RH.</dcc:content>
+                            </dcc:name>
+                            <dcc:list id="Lämpötila">
+                                <dcc:name>
+                                    <dcc:content lang="en">temperature</dcc:content>
+                                </dcc:name>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">from</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>22</si:value>
+                                        <si:unit>\degreeCelsius</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">to</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>24</si:value>
+                                        <si:unit>\degreeCelsius</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                            </dcc:list>
+                            <dcc:list id="Kosteus">
+                                <dcc:name>
+                                    <dcc:content lang="en">relative humidity</dcc:content>
+                                </dcc:name>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">from</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>40</si:value>
+                                        <si:unit>\percent</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">to</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>60</si:value>
+                                        <si:unit>\percent</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                            </dcc:list>
+                        </dcc:list>
+                    </dcc:data>
+                </dcc:influenceCondition>
+            </dcc:influenceConditions>
+            <dcc:results>
+                <dcc:result>
+                    <dcc:name>
+                        <dcc:content lang="fi">Painealue: 0 ... 160 kPa, ylipaine</dcc:content>
+                    </dcc:name>
+                    <dcc:data id="Ylipaine">
+                        <dcc:list>
+                            <dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Nimellispaine</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>5.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>10.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>20.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>40.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>80.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>100.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>130.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>160.00</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Referenssinormaalin tuottama paine</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.000000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>5.009488</si:value>
+									</si:real>
+									<si:real>
+										<si:value>10.015210</si:value>
+									</si:real>
+									<si:real>
+										<si:value>19.900777</si:value>
+									</si:real>
+									<si:real>
+										<si:value>39.67114</si:value>
+									</si:real>
+									<si:real>
+										<si:value>79.96697</si:value>
+									</si:real>
+									<si:real>
+										<si:value>99.48842</si:value>
+									</si:real>
+									<si:real>
+										<si:value>129.15993</si:value>
+									</si:real>
+									<si:real>
+										<si:value>159.18479</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Kalibroitavan laitteen näyttämä</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.00003</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.000066</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>5.00972</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.00048</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>10.01572</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.00099</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>19.90180</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0020</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>39.6729</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0038</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>79.9689</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0068</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>99.4896</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0081</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>129.1643</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.012</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>159.1883</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.014</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Poikkeama</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.000030</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.000232</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.000510</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.001023</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00176</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00193</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00118</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00437</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00351</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+                        </dcc:list>
+                    </dcc:data>
+                </dcc:result>
+                <dcc:result>
+                    <dcc:name>
+                        <dcc:content lang="fi">Painealue: 0 ... -100 kPa, alipaine</dcc:content>
+                    </dcc:name>
+                    <dcc:data id="Alipaine">
+                        <dcc:list>
+                            <dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Nimellispaine</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-10.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-20.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-40.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-60.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-80.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-94.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-99.50</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Referenssinormaalin tuottama paine</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.000000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-10.015223</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-19.901096</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-39.67296</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-59.95013</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-79.97545</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-94.11930</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-99.50191</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Kalibroitavan laitteen näyttämä</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.00003</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.000046</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>-10.01554</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0012</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>-19.90165</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0019</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>-39.6740</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0035</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>-59.9521</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0054</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>-79.9766</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0066</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>-94.1235</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0090</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>-99.5045</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0085</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Poikkeama</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>0.000030</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.000317</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.000554</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.00104</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.00197</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.00115</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.00420</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.00259</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+                        </dcc:list>
+                    </dcc:data>
+                </dcc:result>
+				<dcc:result>
+                    <dcc:name>
+                        <dcc:content lang="fi">Painealue: 70 ... 120 kPa abs</dcc:content>
+                    </dcc:name>
+                    <dcc:data id="Abs">
+                        <dcc:list>
+                            <dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Nimellispaine</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>70.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>80.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>90.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>100.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>110.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>120.00</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Referenssinormaalin tuottama paine</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>69.10617</si:value>
+									</si:real>
+									<si:real>
+										<si:value>79.11853</si:value>
+									</si:real>
+									<si:real>
+										<si:value>89.13315</si:value>
+									</si:real>
+									<si:real>
+										<si:value>99.14825</si:value>
+									</si:real>
+									<si:real>
+										<si:value>109.16288</si:value>
+									</si:real>
+									<si:real>
+										<si:value>119.17524</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Kalibroitavan laitteen näyttämä</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>69.1059</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0087</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>79.1187</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.0095</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>89.1339</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.010</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>99.1490</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.011</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>109.1640</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.012</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+									<si:real>
+										<si:value>119.1770</si:value>
+										<si:expandedUnc>
+											<si:uncertainty>0.013</si:uncertainty>
+											<si:coverageFactor>2</si:coverageFactor>
+											<si:coverageProbability>0.95</si:coverageProbability>
+										</si:expandedUnc>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="fi">Poikkeama</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\kilo\Pascal</si:listUnit>
+									<si:real>
+										<si:value>-0.00027</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00017</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00075</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00075</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00112</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00176</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+                        </dcc:list>
+                    </dcc:data>
+                </dcc:result>
+            </dcc:results>
+        </dcc:measurementResult>
+    </dcc:measurementResults>
+</dcc:digitalCalibrationCertificate>

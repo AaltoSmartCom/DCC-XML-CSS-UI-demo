@@ -1,0 +1,132 @@
+@namespace xsi url(http://www.w3.org/2001/XMLSchema-instance);
+@namespace dcc url(https://ptb.de/dcc);
+@namespace si url(https://ptb.de/si);
+body {
+  background: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+dcc|digitalCalibrationCertificate {
+  display: block;
+  max-width: 1180px;
+  margin: 40px auto;
+  padding: 120px 60px;
+  background: white;
+  -webkit-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+dcc|administrativeData {
+  display: none;
+}
+
+dcc|usedMethod dcc|name {
+  display: block;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+dcc|usedMethod dcc|description {
+  display: block;
+  margin-bottom: 1em;
+}
+
+dcc|measuringEquipments {
+  display: table;
+  width: 100%;
+  border: thin solid black;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+dcc|measuringEquipments dcc|measuringEquipment {
+  display: table-row;
+}
+
+dcc|measuringEquipments dcc|measuringEquipment > * {
+  display: table-cell;
+  border: thin solid black;
+  padding: 2px;
+}
+
+dcc|influenceConditions {
+  display: block;
+  margin-bottom: 20px;
+}
+
+dcc|influenceConditions dcc|influenceCondition > dcc|name {
+  display: block;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+dcc|influenceConditions dcc|influenceCondition dcc|data dcc|list {
+  margin-bottom: 1em;
+}
+
+dcc|influenceConditions dcc|influenceCondition dcc|data dcc|list dcc|name {
+  display: inline;
+}
+
+dcc|result {
+  display: block;
+  margin-bottom: 20px;
+}
+
+dcc|result > dcc|name dcc|content {
+  display: block;
+  font-weight: bold;
+}
+
+dcc|result > dcc|description dcc|content {
+  display: block;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+dcc|result dcc|data dcc|list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  border: thin solid black;
+}
+
+dcc|result dcc|data dcc|list dcc|quantity {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+dcc|result dcc|data dcc|list dcc|quantity dcc|name dcc|content {
+  display: block;
+  color: white;
+  background: black;
+  padding-bottom: 20px;
+}
+
+dcc|result dcc|data dcc|list dcc|quantity si|list {
+  display: block;
+}
+
+dcc|result dcc|data dcc|list dcc|quantity si|list si|listUnit {
+  display: block;
+  border: thin solid black;
+  color: white;
+  background: black;
+}
+
+dcc|result dcc|data dcc|list dcc|quantity si|list si|real si|expandedUnc {
+  display: none;
+}
+
+dcc|result dcc|data dcc|list dcc|quantity si|list si|real si|value {
+  display: block;
+  border: thin solid black;
+  padding: 2px 4px;
+}
+/*# sourceMappingURL=DCC_sertificate_styles.css.map */

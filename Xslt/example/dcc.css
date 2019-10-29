@@ -1,0 +1,53 @@
+@namespace dcc url(https://ptb.de/dcc);
+
+dcc|digitalCalibrationCertificate, dcc|administrativeData {
+    display: block;
+    color: text;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 18px;    
+}
+
+dcc|dccSoftware {
+    display: block;
+}
+
+dcc|software:before {
+    content: "Software tool used: ";
+    display: inline;
+}
+
+dcc|software {
+    display: list-item;
+}
+
+dcc|name {
+    display: block;
+}
+
+dcc|release {
+    display: block;
+}
+
+dcc|description {
+    display: inline;
+}
+
+dcc|content {
+    display: inline;
+}
+
+dcc|coreData
+
+dcc|countryCodeISO3166_1, dcc|usedLangCodeISO639_1, dcc|mandatoryLangCodeISO639_1, dcc|uniqueIdentifier, dcc|beginPerformanceDate, dcc|endPerformanceDate {
+    display: list-item;
+}
+
+dcc|countryCodeISO3166_1:before      { content: "Country: " }
+dcc|usedLangCodeISO639_1:before      { content: "Languages: " } 
+dcc|mandatoryLangCodeISO639_1:before { content: "Primary language: " }
+dcc|uniqueIdentifier:before          { content: "Unique identifier: " }
+dcc|beginPerformanceDate:before      { content: "Calibration started: " }
+dcc|endPerformanceDate:before        { content: "Calibration completed: " }
+

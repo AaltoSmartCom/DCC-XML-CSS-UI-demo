@@ -1,0 +1,270 @@
+body {
+    background: rgb(219, 219, 219);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pages {
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.page {
+    min-height: 1448px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+
+    &.cover {
+        display: grid;
+        grid-template-rows: auto;
+
+        .content {
+            display: grid;
+            grid-template-rows: auto;
+
+            .grid {
+                display: grid;
+                grid-template-rows: 1fr 300px 1fr;
+                justify-items: stretch;
+
+                .grid-item {
+                    align-self: center;
+                    justify-self: end;
+
+                    .manufacturer {
+                        text-align: left;
+                        margin-bottom: 80px;
+                    }
+
+                    .certificate {
+                        text-align: left;
+                    }
+
+                    &.logo {
+                        img {
+                            max-width: 700px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.signature {
+        display: grid;
+        grid-template-rows: 270px auto 120px;
+
+        .header {
+            display: grid;
+            align-self: start;
+
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+                grid-template-rows: 80px 190px 0px;
+                grid-template-areas:
+                    "item-1 item-1 item-2 item-2 item-2 item-2"
+                    "item-3 item-3 item-3 item-4 item-4 item-4"
+                    "item-5 item-5 item-5 item-5 item-5 item-5 ";
+
+                .grid-item {
+                    align-self: start;
+                    justify-self: start;
+
+                    &.item-1 {
+                        grid-area: item-1;
+                        img {
+                            max-width: 270px;
+                        }
+                    }
+
+                    &.item-2 {
+                        grid-area: item-2;
+                        text-transform: uppercase;
+                    }
+
+                    &.item-3 {
+                        grid-area: item-3;
+                        text-align: left;
+                    }
+
+                    &.item-4 {
+                        grid-area: item-4;
+                        align-self: end;
+                        justify-self: end;
+                        img {
+                            max-width: 140px;
+                        }
+                    }
+
+                    &.item-5 {
+                        grid-area: item-5;
+                        justify-self: stretch;
+                        border-bottom: 2px solid rgb(0, 0, 0);
+                    }
+                }
+            }
+        }
+
+        .content {
+            display: grid;
+            align-self: start;
+
+            .grid {
+                display: grid;
+                grid-template-columns: 2fr 4fr;
+                text-align: left;
+                margin-top: 150px;
+
+                .grid-item {
+                    &.title {
+                        grid-column: span 2;
+                        text-align: center;
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+
+        .footer {
+            font-size: 12px;
+            text-align: left;
+            border-top: 2px solid black;
+
+            .barcode {
+                float: right;
+                max-width: 200px;
+            }
+        }
+    }
+
+    &.results, &.equipments {
+        grid-template-rows: 80px auto;
+
+        .header {
+            display: grid;
+            align-self: start;
+
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+                grid-template-rows: 80px;
+                grid-template-areas:
+                    "item-1 item-1 item-2 item-2 item-2 item-2";
+
+                .grid-item {
+                    align-self: start;
+                    justify-self: start;
+
+                    &.item-1 {
+                        grid-area: item-1;
+                        img {
+                            max-width: 270px;
+                        }
+                    }
+
+                    &.item-2 {
+                        grid-area: item-2;
+                        justify-self: end;
+                    }
+                }
+            }
+        }
+
+        .content {
+            display: grid;
+            align-self: start;
+            margin-bottom: 30px;
+
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                text-align: left;
+                align-items: flex-start;
+
+                .grid-item {
+                    align-self: start;
+
+                    h4, p {
+                        margin: 0 0 4px;
+                    }
+
+                    &.left {
+                        justify-self: start;
+                        font-size: 0.85em;
+                    }
+
+                    &.right {
+                        justify-self: end;
+                        font-size: 0.85em;
+                    }
+
+                    &.table {
+                        grid-column: span 2;
+
+                        table {
+                            width: 100%;
+                            border-spacing: 0;
+                            table-layout: fixed;
+                            text-align: center;
+
+                            .table-title, .table-unit {
+                                background: black;
+                                color: white;
+                                vertical-align: top;
+
+                                th {
+                                    padding: 4px 2px;
+                                }
+                            }
+
+                            td {
+                                padding: 4px 2px;
+                            }
+
+                            td.bolded {
+                                font-weight: bold;
+                            }
+
+                            td.status {
+                                font-weight: bold;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .equipment-table {
+                .table-title {
+                    margin-bottom: 4px;
+                }
+
+                table {
+                    width: 100%;
+                    text-align: left;
+                    border-spacing: 0;
+                    border: 1px rgb(0, 0, 0) solid;
+
+                    th {
+                        background: rgb(162, 200, 209);
+                    }
+
+                    th, td {
+                        border: 1px rgb(0, 0, 0) solid;
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+    }
+
+}
