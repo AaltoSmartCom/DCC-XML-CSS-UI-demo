@@ -25,20 +25,20 @@ xmlns:si="https://ptb.de/si">
                                 <h3><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:name/dcc:content"/></h3>
                                 <p>
                                     <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:street"/><xsl:text> </xsl:text><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:streetNo"/><br/>
-                                    <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:countryCode"/><span  class="not-in-xml-file">-</span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:postCode"/><xsl:text> </xsl:text><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:city"/><br/>
+                                    <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:countryCode"/><span class="from-template">-</span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:postCode"/><xsl:text> </xsl:text><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:city"/><br/>
                                     <span class="not-in-xml-file">Finland</span><br/>
-                                    <span class="not-in-xml-file">Tel. +358 10 550 5000</span><br/>
-                                    <span class="not-in-xml-file">Fax. +358 10 550 5404</span>
+                                    <span class="from-template">Tel. </span><span class="not-in-xml-file">+358 10 550 5000</span><br/>
+                                    <span class="from-template">Fax. </span><span class="not-in-xml-file">+358 10 550 5404</span>
                                 </p>
                                 <p>
-                                    <a class="not-in-xml-file" href="http://www.beamex.com">www.beamex.com</a>
+                                    <a class="not-in-xml-file" href="http://www.beamex.com" target="_blank">www.beamex.com</a>
                                 </p>
                             </div>
                             <div class="certificate">
-                                <h5 class="not-in-xml-file">Certificate of Calibration No</h5>
+                                <h5 class="from-template">Certificate of Calibration No</h5>
                                 <h2><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></h2>
-                                <h3><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:model"/></h3>
-                                <h3><span  class="not-in-xml-file">S/N: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/></h3>
+                                <h1><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:model"/></h1>
+                                <h3><span  class="from-template">S/N: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/></h3>
                             </div>
                         </div>
 
@@ -72,9 +72,9 @@ xmlns:si="https://ptb.de/si">
                             <p>
                                 <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:street"/><xsl:text> </xsl:text><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:streetNo"/><br/>
                                 <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:countryCode"/><span class="not-in-xml-file">-</span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:postCode"/><xsl:text> </xsl:text><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:city"/><br/>
-                                Finland<br/>
-                                Tel. +358 10 550 5000<br/>
-                                Fax. +358 10 550 5404
+                                <span class="not-in-xml-file">Finland</span><br/>
+                                <span class="from-template">Tel. </span><span class="not-in-xml-file">+358 10 550 5000</span><br/>
+                                <span class="from-template">Fax. </span><span class="not-in-xml-file">+358 10 550 5404</span>
                             </p>
                         </div>
 
@@ -89,11 +89,11 @@ xmlns:si="https://ptb.de/si">
                 <div class="content">
                     <div class="grid">
                         <div class="grid-item title">
-                            <h2><span class="not-in-xml-file">Certificate of Calibration No </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></h2>
+                            <h2><span class="from-template">Certificate of Calibration No </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></h2>
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Customer</h3>
+                            <h3 class="from-template">Customer</h3>
                         </div>
 
                         <div class="grid-item">
@@ -106,7 +106,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Customer No</h3>
+                            <h3 class="from-template">Customer No</h3>
                         </div>
 
                         <div class="grid-item">
@@ -114,7 +114,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Item</h3>
+                            <h3 class="from-template">Item</h3>
                         </div>
 
                         <div class="grid-item">
@@ -122,7 +122,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Model</h3>
+                            <h3 class="from-template">Model</h3>
                         </div>
 
                         <div class="grid-item">
@@ -130,14 +130,14 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Manufactured by</h3>
+                            <h3 class="from-template">Manufactured by</h3>
                         </div>
 
                         <div class="grid-item">
                             <p><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:manufacturer/dcc:name/dcc:content"/></p>
                         </div>
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Serial Number</h3>
+                            <h3 class="from-template">Serial Number</h3>
                         </div>
 
                         <div class="grid-item">
@@ -145,7 +145,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Date</h3>
+                            <h3 class="from-template">Date</h3>
                         </div>
 
                         <div class="grid-item">
@@ -153,7 +153,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Signatures</h3>
+                            <h3 class="from-template">Signatures</h3>
                         </div>
 
                         <div class="grid-item">
@@ -161,7 +161,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item">
-                            <h3 class="not-in-xml-file">Documents Attached</h3>
+                            <h3 class="from-template">Documents Attached</h3>
                         </div>
 
                         <div class="grid-item">
@@ -186,13 +186,13 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item item-2">
-                            <h3><span class="not-in-xml-file">Calibration Certificate No: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></h3>
+                            <h3><span class="from-template">Calibration Certificate No: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></h3>
                         </div>
                     </div>
                 </div>
 
                 <div class="grid-item title">
-                    <h3><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:model"/><span class="not-in-xml-file">, S/N: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/><span class="not-in-xml-file">. Measurement Section (IN), S/N: 21091.</span></h3>
+                    <h3><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:model"/><span class="from-template">, S/N: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/><span class="from-template">. Measurement Section (IN), S/N: </span><span class="not-in-xml-file">21091.</span></h3>
                 </div>
 
                 <!-- Table loop start -->
@@ -206,8 +206,8 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item right not-in-xml-file">
-                            Calibrated By: Duyanh Luong<br/>
-                            Calibration Date: Oct 31, 2017
+                            <span class="from-template">Calibrated By: </span><span class="not-in-xml-file">Duyanh Luong</span><br/>
+                            <span class="from-template">Calibration Date: </span><span class="not-in-xml-file">Oct 31, 2017</span>
                         </div>
 
                         <div class="grid-item table">
@@ -282,7 +282,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item item-2">
-                            <h3><span class="not-in-xml-file">Calibration Certificate No: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></h3>
+                            <h3><span class="from-template">Calibration Certificate No: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></h3>
                         </div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@ xmlns:si="https://ptb.de/si">
                 <div class="content">
                     <div class="title">
                         <h3><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:name/dcc:content"/><xsl:text> </xsl:text><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:model"/></h3>
-                        <h3><span class="not-in-xml-file">Serial No: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/></h3>
+                        <h3><span class="from-template">Serial No: </span><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/></h3>
                     </div>
 
                     <h3><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:measurementResults/dcc:measurementResult/dcc:usedMethods/dcc:usedMethod/dcc:description/dcc:content"/></h3>
@@ -300,7 +300,7 @@ xmlns:si="https://ptb.de/si">
                     <p><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:measurementResults/dcc:measurementResult/dcc:usedMethods/dcc:usedMethod/dcc:description[4]/dcc:content"/></p>
 
                     <div class="equipment-table">
-                        <h3 class="table-title not-in-xml-file">Calibration Equipment Used</h3>
+                        <h3 class="table-title from-template">Calibration Equipment Used</h3>
                         <table>
                             <tr>
                                 <th class="not-in-xml-file">Equipment</th>

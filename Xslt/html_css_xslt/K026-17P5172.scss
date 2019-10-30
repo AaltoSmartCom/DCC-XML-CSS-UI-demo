@@ -8,7 +8,7 @@ body {
     color: red !important;
 }
 
-.xml-syntax-error {
+.from-template {
     color: blue !important;
 }
 
@@ -144,6 +144,7 @@ body {
             .barcode {
                 float: right;
                 max-width: 200px;
+                border: 2px solid blue;
             }
         }
     }
