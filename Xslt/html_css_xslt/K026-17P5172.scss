@@ -4,6 +4,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.not-in-xml-file {
+    color: red !important;
+}
+
+.xml-syntax-error {
+    color: blue !important;
+}
+
 .pages {
     max-width: 1024px;
     margin: 20px auto;
@@ -83,7 +91,6 @@ body {
 
                     &.item-2 {
                         grid-area: item-2;
-                        text-transform: uppercase;
                     }
 
                     &.item-3 {
@@ -234,6 +241,11 @@ body {
                                 text-transform: uppercase;
                             }
                         }
+                    }
+                    &.table-footer {
+                        grid-column: span 2;
+                        font-size: 12px;
+                        margin-top: 8px;
                     }
                 }
             }

@@ -4,6 +4,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.not-in-xml-file {
+  color: red !important;
+}
+
+.xml-syntax-error {
+  color: blue !important;
+}
+
 .pages {
   max-width: 1024px;
   margin: 20px auto;
@@ -109,7 +117,6 @@ body {
   -ms-grid-column: 3;
   -ms-grid-column-span: 4;
   grid-area: item-2;
-  text-transform: uppercase;
 }
 
 .page.signature .header .grid .grid-item.item-3 {
@@ -302,6 +309,12 @@ body {
 .page.results .content .grid .grid-item.table table td.status, .page.equipments .content .grid .grid-item.table table td.status {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.page.results .content .grid .grid-item.table-footer, .page.equipments .content .grid .grid-item.table-footer {
+  grid-column: span 2;
+  font-size: 12px;
+  margin-top: 8px;
 }
 
 .page.results .content .title, .page.equipments .content .title {
