@@ -1,0 +1,66 @@
+body {
+    background: rgb(219, 219, 219);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.not-in-xml-file {
+    color: red !important;
+}
+
+.from-template {
+    color: blue !important;
+}
+
+#document {
+    max-width: 880px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    padding: 72px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+
+    h1, h2, h3 {
+        color: rgb(44, 131, 190);
+    }
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px rgb(200, 84, 102) solid;
+
+    .document-title {
+        font-size: 68px;
+        font-weight: normal;
+        margin-top: 0;
+        color: black !important;
+    }
+}
+
+#signature {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#laboratory-info {
+    border-top: 3px rgb(200, 84, 102) solid;
+    border-bottom: 3px rgb(200, 84, 102) solid;
+    padding: 10px 0;
+    font-size: 14px;
+
+    .logos {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 14px;
+    .statement {
+        border-top: 3px rgb(200, 84, 102) solid;
+    }
+}

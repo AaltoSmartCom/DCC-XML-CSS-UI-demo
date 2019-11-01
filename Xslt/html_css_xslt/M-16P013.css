@@ -1,0 +1,72 @@
+body {
+  background: #dbdbdb;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.not-in-xml-file {
+  color: red !important;
+}
+
+.from-template {
+  color: blue !important;
+}
+
+#document {
+  max-width: 880px;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  padding: 72px;
+  background-color: white;
+  -webkit-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+}
+
+#document h1, #document h2, #document h3 {
+  color: #2c83be;
+}
+
+header {
+  text-align: center;
+  border-bottom: 3px #c85466 solid;
+}
+
+header .document-title {
+  font-size: 68px;
+  font-weight: normal;
+  margin-top: 0;
+  color: black !important;
+}
+
+#signature .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#laboratory-info {
+  border-top: 3px #c85466 solid;
+  border-bottom: 3px #c85466 solid;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+#laboratory-info .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+footer .statement {
+  border-top: 3px #c85466 solid;
+}
+/*# sourceMappingURL=M-16P013.css.map */
