@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dcc:digitalCalibrationCertificate
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd"
+		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.2.0/dcc.xsd"
 		xmlns:dcc="https://ptb.de/dcc"
 		xmlns:si="https://ptb.de/si">
 
