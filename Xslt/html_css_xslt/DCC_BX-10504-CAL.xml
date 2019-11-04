@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="DCC_K026-17P5172.xsl"?>
+<dcc:digitalCalibrationCertificate
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd"
+		xmlns:dcc="https://ptb.de/dcc"
+		xmlns:si="https://ptb.de/si">
+
+     <!--
+	
+    Copyright (c) 2019 Aalto-korkeakoulusäätiö
+	
+    -->
+
+    <dcc:administrativeData>
+        <dcc:dccSoftware>
+            <dcc:software id="CMX">
+                <dcc:name>
+                    <dcc:content>Beamex CMX</dcc:content>
+                </dcc:name>
+                <dcc:release>2.11.714.0 (2.11)</dcc:release>
+            </dcc:software>
+        </dcc:dccSoftware>
+        <dcc:coreData>
+            <dcc:countryCodeISO3166_1>FI</dcc:countryCodeISO3166_1>
+            <dcc:usedLangCodeISO639_1>en</dcc:usedLangCodeISO639_1>
+            <dcc:mandatoryLangCodeISO639_1>en</dcc:mandatoryLangCodeISO639_1>
+            <dcc:uniqueIdentifier>BX-10504-CAL</dcc:uniqueIdentifier>
+            <dcc:beginPerformanceDate>2019-08-09</dcc:beginPerformanceDate>
+            <dcc:endPerformanceDate>2019-08-09</dcc:endPerformanceDate>
+        </dcc:coreData>
+        <dcc:items>
+            <dcc:item id="dcc4">
+                <dcc:name>
+                    <dcc:content lang="en">Temperature Transmitter (tt)</dcc:content>
+                </dcc:name>
+                <dcc:description>
+                    <dcc:content lang="en">Transfer Function		Linear</dcc:content>
+					<dcc:content lang="en">Range					0 ... 100 °C		4 ... 20 mA</dcc:content>
+					<dcc:content lang="en">Rangeability				-200 to 850 °C</dcc:content>
+					<dcc:content lang="en">Operating temperature	-10 to 80 °C		Operating humidity		Max. 85 %</dcc:content>
+                </dcc:description>
+                <dcc:manufacturer>
+                    <dcc:name>
+                        <dcc:content>Kamstrup Flextop HRT</dcc:content>
+                    </dcc:name>
+                </dcc:manufacturer>
+                <dcc:model>TT0021</dcc:model>
+                <dcc:identifications>
+                    <dcc:identification id="id41">
+                        <dcc:issuer>manufacturer</dcc:issuer>
+                        <dcc:value>43562</dcc:value>
+                        <dcc:description>
+						    <dcc:content lang="en">Serial number</dcc:content>
+                        </dcc:description>
+                    </dcc:identification>
+                </dcc:identifications>
+            </dcc:item>
+        </dcc:items>
+        <dcc:calibrationLaboratory>
+            <dcc:contact>
+                <dcc:name>
+                    <dcc:content>Dryer temperature to controller</dcc:content>
+                </dcc:name>
+                <dcc:eMail>-</dcc:eMail>
+                <dcc:location>
+                    <dcc:further id="Location">
+						<dcc:content lang="en">Position ID		101DR-TT0021</dcc:content>
+					    <dcc:content lang="en">Location			0025 Room</dcc:content>
+						<dcc:content lang="en">Plant			Pharmaceutical Plant/Plant 1, Finland (BPF)/Block 1/101 DR (Dryer 1)/</dcc:content>
+                    </dcc:further>
+					<dcc:street>-</dcc:street>
+					<dcc:streetNo>-</dcc:streetNo>
+					<dcc:postCode>-</dcc:postCode>
+					<dcc:city>-</dcc:city>
+					<dcc:countryCode>FI</dcc:countryCode>
+                </dcc:location>
+            </dcc:contact>
+        </dcc:calibrationLaboratory>
+        <dcc:respPersons>
+            <dcc:respPerson id="Signer">
+                <dcc:person>
+                    <dcc:name>
+                        <dcc:content>Sami Koskinen</dcc:content>
+                    </dcc:name>
+                </dcc:person>
+                <dcc:mainSigner>true</dcc:mainSigner>
+                <dcc:cryptElectronicSignature>true</dcc:cryptElectronicSignature>
+                <dcc:cryptElectronicTimeStamp>true</dcc:cryptElectronicTimeStamp>
+            </dcc:respPerson>
+        </dcc:respPersons>
+        <dcc:customer>
+            <dcc:name>
+                <dcc:content>-</dcc:content>
+            </dcc:name>
+            <dcc:eMail>-</dcc:eMail>
+            <dcc:location>
+                <dcc:street>-</dcc:street>
+                <dcc:streetNo>-</dcc:streetNo>
+                <dcc:postCode>-</dcc:postCode>
+                <dcc:city>-</dcc:city>
+                <dcc:countryCode>FI</dcc:countryCode>
+            </dcc:location>
+        </dcc:customer>
+        <dcc:statements>
+            <dcc:statement>
+                <dcc:convention>Traceability</dcc:convention>
+                <dcc:traceable>true</dcc:traceable>
+            </dcc:statement>
+        </dcc:statements>
+    </dcc:administrativeData>
+    <dcc:measurementResults>
+        <dcc:measurementResult>
+            <dcc:usedMethods>
+                <dcc:usedMethod>
+                    <dcc:name id="Method">
+                        <dcc:content lang="en">Calibration Procedure</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+						<dcc:content lang="fi">Due Date					14/05/2019					Interval		365 days</dcc:content>
+						<dcc:content lang="fi">Reject If Error 			0,5 % of span</dcc:content>
+						<dcc:content lang="fi">Adjust To Error			60 % of Reject If Error		Classification	A1</dcc:content>
+						<dcc:content lang="fi">Calibration Strategy		Product Critical</dcc:content>
+                    </dcc:description>
+                </dcc:usedMethod>
+            </dcc:usedMethods>
+            <dcc:measuringEquipments>
+                <dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content lang="en">Input Calibrator</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="en">MC6 : 601404				Due Date: 10/11/2019</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>K026-17P5172</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>-</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Beamex</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>MC6</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>601404</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="en">Serial Number</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+				<dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content lang="en">Input Module</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="en">TC-R-OUT/R1 : 61055		Due Date: 10/11/2019</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>K026-17P5172</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>-</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Beamex</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>MC6, TC-R-OUT/R1</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>61065</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="en">Serial Number</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+				<dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content lang="en">Output Calibrator</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="en">MC6 : 601404			Due Date: 10/11/2019</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>K026-17P5172</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>-</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Beamex</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>MC6</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>601404</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="en">Serial Number</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+				<dcc:measuringEquipment>
+                    <dcc:name>
+                        <dcc:content lang="en">Output Module</dcc:content>
+                    </dcc:name>
+                    <dcc:description>
+                        <dcc:content lang="en">IN : 21091			Due Date: 10/11/2019</dcc:content>
+                    </dcc:description>
+                    <dcc:certificate>
+                        <dcc:reference>
+                            <dcc:content>K026-17P5172</dcc:content>
+                        </dcc:reference>
+                        <dcc:referenceID>-</dcc:referenceID>
+                        <dcc:procedure>-</dcc:procedure>
+                        <dcc:value>-</dcc:value>
+                    </dcc:certificate>
+                    <dcc:manufacturer>
+                        <dcc:name>
+                            <dcc:content>Beamex</dcc:content>
+                        </dcc:name>
+                    </dcc:manufacturer>
+                    <dcc:model>MC6, IN</dcc:model>
+                    <dcc:identifications>
+                        <dcc:identification>
+                            <dcc:issuer>manufacturer</dcc:issuer>
+                            <dcc:value>21091</dcc:value>
+                            <dcc:description>
+                                <dcc:content lang="en">Serial Number</dcc:content>
+                            </dcc:description>
+                        </dcc:identification>
+                    </dcc:identifications>
+                </dcc:measuringEquipment>
+            </dcc:measuringEquipments>
+            <dcc:influenceConditions>
+                <dcc:influenceCondition>
+                    <dcc:name>
+                        <dcc:content lang="en">Calibration Event</dcc:content>
+                    </dcc:name>
+                    <dcc:data>
+                        <dcc:list>
+							<dcc:list id="CalibrationEvent">
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">Calibration time</dcc:content>
+                                    </dcc:name>
+                                    <dcc:noQuantity>
+                                        <dcc:content>09/08/2019 10:25:40 (UTC +03:00)</dcc:content>
+                                    </dcc:noQuantity>
+                                </dcc:quantity>
+								<dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">Next Calibration</dcc:content>
+                                    </dcc:name>
+                                    <dcc:noQuantity>
+                                        <dcc:content>13/05/2020</dcc:content>
+                                    </dcc:noQuantity>
+                                </dcc:quantity>
+                            </dcc:list>
+                            <dcc:list id="EnvironmentTemperature">
+                                <dcc:name>
+                                    <dcc:content lang="en">Environment Temperature</dcc:content>
+                                </dcc:name>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">from</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>22</si:value>
+                                        <si:unit>\degreeCelsius</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">to</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>24</si:value>
+                                        <si:unit>\degreeCelsius</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                            </dcc:list>
+                            <dcc:list id="EnvironmentHumidity">
+                                <dcc:name>
+                                    <dcc:content lang="en">Environment Humidity</dcc:content>
+                                </dcc:name>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">from</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>40</si:value>
+                                        <si:unit>\percent</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                                <dcc:quantity>
+                                    <dcc:name>
+                                        <dcc:content lang="en">to</dcc:content>
+                                    </dcc:name>
+                                    <si:real>
+                                        <si:value>60</si:value>
+                                        <si:unit>\percent</si:unit>
+                                    </si:real>
+                                </dcc:quantity>
+                            </dcc:list>
+                        </dcc:list>
+                    </dcc:data>
+                </dcc:influenceCondition>
+            </dcc:influenceConditions>
+            <dcc:results>
+                <dcc:result>
+                    <dcc:name>
+                        <dcc:content lang="fi">1. As Found</dcc:content>
+                    </dcc:name>
+					<dcc:description>
+						<dcc:content lang="en">Maximum Error: -0,05 % of span</dcc:content>
+						<dcc:content lang="en">PASSED</dcc:content>
+					</dcc:description>
+                    <dcc:data id="AsFound">
+                        <dcc:list>
+                            <dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="en">Nominal Input</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\degreeCelsius</si:listUnit>
+									<si:real>
+										<si:value>0.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>25.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>50.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>75.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>100.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>75.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>50.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>25.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.00</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="en">Actual Input</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\degreeCelsius</si:listUnit>
+									<si:real>
+										<si:value>0.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>25.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>50.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>75.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>100.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>75.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>50.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>25.000</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.000</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="en">Nominal Output</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\milli\ampere</si:listUnit>
+									<si:real>
+										<si:value>4.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>8.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>12.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>16.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>20.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>16.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>12.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>8.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>4.00</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="en">Actual Output</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\milli\ampere</si:listUnit>
+									<si:real>
+										<si:value>4.0030</si:value>
+									</si:real>
+									<si:real>
+										<si:value>7.9966</si:value>
+									</si:real>
+									<si:real>
+										<si:value>11.9997</si:value>
+									</si:real>
+									<si:real>
+										<si:value>16.0014</si:value>
+									</si:real>
+									<si:real>
+										<si:value>19.9916</si:value>
+									</si:real>
+									<si:real>
+										<si:value>16.0057</si:value>
+									</si:real>
+									<si:real>
+										<si:value>11.9995</si:value>
+									</si:real>
+									<si:real>
+										<si:value>8.0014</si:value>
+									</si:real>
+									<si:real>
+										<si:value>3.9949</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+							<dcc:quantity>
+                                <dcc:name>
+                                    <dcc:content lang="en">Found Error [% of span]</dcc:content>
+                                </dcc:name>
+								<si:list>
+									<si:listUnit>\percent</si:listUnit>
+									<si:real>
+										<si:value>0.02</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.02</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.01</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.05</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.04</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.00</si:value>
+									</si:real>
+									<si:real>
+										<si:value>0.01</si:value>
+									</si:real>
+									<si:real>
+										<si:value>-0.03</si:value>
+									</si:real>
+								</si:list>
+                            </dcc:quantity>
+                        </dcc:list>
+                    </dcc:data>
+                </dcc:result>
+            </dcc:results>
+        </dcc:measurementResult>
+    </dcc:measurementResults>
+</dcc:digitalCalibrationCertificate>
