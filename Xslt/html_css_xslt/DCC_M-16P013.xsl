@@ -43,29 +43,37 @@ xmlns:si="https://ptb.de/si">
                     </div>
                     </xsl:for-each>
 
+                    <xsl:for-each select="dcc:administrativeData/dcc:items">
                     <div class="grid-item">
                         <h4 class="from-template">Kalibroitu laite</h4>
                     </div>
                     <div class="grid-item">
-                        <p class="not-in-xml-file">Painevaaka ja kaksi mäntä-sylinteriryhmää</p>
+                        <p>
+                            <xsl:for-each select="dcc:item/dcc:name">
+                                <xsl:value-of select="dcc:content"/><br/>
+                            </xsl:for-each>
+                        </p>
                     </div>
 
                     <div class="grid-item">
                         <h4 class="from-template">Valmistaja</h4>
                     </div>
                     <div class="grid-item">
-                        <p class="not-in-xml-file">Ruska Instrument Corporation</p>
+                        <p>
+                            <xsl:for-each select="dcc:item/dcc:manufacturer/dcc:name">
+                                <xsl:value-of select="dcc:content"/><br/>
+                            </xsl:for-each>
+                        </p>
                     </div>
 
                     <div class="grid-item">
                         <h4 class="from-template">Tyyppi</h4>
                     </div>
                     <div class="grid-item">
-                        <p class="not-in-xml-file">
-                            Vaakarunko 2465<br/>
-                            Mäntä-sylinteriyhdistelmät:<br/>
-                            V korkeapainealue 0,13 MPa ... 4,1 MPa<br/>
-                            TL matalapainealue 5 kPa ... 110 kPa
+                        <p>
+                            <xsl:for-each select="dcc:item">
+                                <xsl:value-of select="dcc:model"/><br/>
+                            </xsl:for-each>
                         </p>
                     </div>
 
@@ -73,18 +81,19 @@ xmlns:si="https://ptb.de/si">
                         <h4 class="from-template">Sarjanumero</h4>
                     </div>
                     <div class="grid-item">
-                        <p class="not-in-xml-file">
-                            Vaakarunko 21035<br/>
-                            Korkeapainealueen msyl.yhdistelmä V-431<br/>
-                            Matalapainealueen msyl.yhdistelmä TL-1006
+                        <p>
+                            <xsl:for-each select="dcc:item/dcc:identifications/dcc:identification">
+                                <xsl:value-of select="dcc:value"/><br/>
+                            </xsl:for-each>
                         </p>
                     </div>
+                    </xsl:for-each>
 
                     <div class="grid-item">
                         <h4 class="from-template">Kalibrointipäivä</h4>
                     </div>
                     <div class="grid-item">
-                        <p class="not-in-xml-file">08.02.2016</p>
+                        <p><xsl:value-of select="dcc:administrativeData/dcc:coreData/dcc:endPerformanceDate"/></p>
                     </div>
 
                     <div class="grid-item">
@@ -125,28 +134,129 @@ xmlns:si="https://ptb.de/si">
             </div>
 
             <div id="calibration">
+                <xsl:for-each select="dcc:measurementResults/dcc:measurementResult/dcc:usedMethods/dcc:usedMethod">
                 <div class="method">
-                    <xsl:for-each select="dcc:measurementResults/dcc:measurementResult/dcc:usedMethods/dcc:usedMethod">
                     <h3><xsl:value-of select="dcc:name/dcc:content"/></h3>
                     <p><xsl:value-of select="dcc:description/dcc:content"/></p>
-                    </xsl:for-each>
+                    <xsl:if test="dcc:description[2]">
+                        <h4><xsl:value-of select="dcc:description[2]/dcc:content"/></h4>
+                        <p><span class="not-in-xml-file">Tulosten laskennan alla olevat tekstit puuttuvat XML-datasta</span><xsl:value-of select="dcc:description[3]/dcc:content"/></p>
+                    </xsl:if>
                 </div>
-
-                <div class="method">
-                    <xsl:for-each select="dcc:measurementResults/dcc:measurementResult/dcc:usedMethods/dcc:usedMethod[2]">
-                    <h3><xsl:value-of select="dcc:name/dcc:content"/></h3>
-                    <p><xsl:value-of select="dcc:description/dcc:content"/></p>
-
-                    <h4><xsl:value-of select="dcc:description[2]/dcc:content"/></h4>
-                    <p><span class="not-in-xml-file">Tästä eteenpäin puuttuu pitkät pätkät dataa</span><xsl:value-of select="dcc:description[3]/dcc:content"/></p>
-                    </xsl:for-each>
-                </div>
+                </xsl:for-each>
 
                 <div class="condition">
                     <xsl:for-each select="dcc:measurementResults/dcc:measurementResult/dcc:influenceConditions/dcc:influenceCondition">
-                        <h3><xsl:value-of select="dcc:name/dcc:content"/></h3>
+                    <h3><xsl:value-of select="dcc:name/dcc:content"/></h3>
+                    <div class="grid"> <!-- tehty loopilla -->
+                        <xsl:for-each select="dcc:data/dcc:list/dcc:quantity">
+                        <div class="grid-item">
+                            <xsl:value-of select="dcc:name/dcc:content"/>
+                        </div>
+                        <div class="grid-item">
+                            <xsl:value-of select="si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit" />
+                        </div>
+                        </xsl:for-each>
+                    </div>
+                    </xsl:for-each>
+
+                    <xsl:for-each select="dcc:measurementResults/dcc:measurementResult/dcc:influenceConditions/dcc:influenceCondition/dcc:data/dcc:list">
+                    <div class="grid"> <!-- haettu suoraan templateen -->
+                        <div class="grid-item not-in-xml-file">
+                            Mittaaja
+                        </div>
+
+                        <div class="grid-item not-in-xml-file">
+                            Sari Saxholm
+                        </div>
+
+                        <div class="grid-item not-in-xml-file">
+                            Mittauspaikka
+                        </div>
+
+                        <div class="grid-item not-in-xml-file">
+                            MIKES 060PAI ja MIKES 061PAI
+                        </div>
+
+                        <div class="grid-item not-in-xml-file">
+                            Mittauspäivä
+                        </div>
+
+                        <div class="grid-item not-in-xml-file">
+                            8.2.2016 ja 3.2.2016
+                        </div>
+
+                        <xsl:for-each select="dcc:quantity[1]">
+                        <div class="grid-item">
+                            <xsl:value-of select="dcc:name/dcc:content"/>
+                        </div>
+
+                        <div class="grid-item">
+                            <xsl:value-of select="si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit"/>
+                        </div>
+                        </xsl:for-each>
+
+                        <xsl:for-each select="dcc:quantity[2]">
+                        <div class="grid-item">
+                            <xsl:value-of select="dcc:name/dcc:content"/>
+                        </div>
+
+                        <div class="grid-item">
+                            <xsl:value-of select="si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit"/>
+                        </div>
+                        </xsl:for-each>
+
+                        <xsl:for-each select="dcc:quantity[3]">
+                        <div class="grid-item">
+                            <xsl:value-of select="dcc:name/dcc:content"/>
+                        </div>
+
+                        <div class="grid-item">
+                            <xsl:value-of select="si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit"/>
+                        </div>
+                        </xsl:for-each>
+
+                        <xsl:for-each select="dcc:quantity[4]">
+                        <div class="grid-item">
+                            <xsl:value-of select="dcc:name/dcc:content"/>
+                        </div>
+
+                        <div class="grid-item">
+                            <xsl:value-of select="si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="si:real/si:unit"/>
+                        </div>
+                        </xsl:for-each>
+
+                        <xsl:for-each select="dcc:quantity[5]">
+                        <div class="grid-item">
+                            <xsl:value-of select="dcc:name/dcc:content"/>
+                        </div>
+
+                        <div class="grid-item">
+                            <xsl:value-of select="dcc:noQuantity/dcc:content"/>
+                        </div>
+                        </xsl:for-each>
+                    </div>
                     </xsl:for-each>
                 </div>
+
+                <xsl:for-each select="dcc:measurementResults/dcc:measurementResult/dcc:results">
+                <div class="results">
+                    <h3 class="not-in-xml-file">Kalibrointitulokset ja mittausepävarmuus</h3>
+                    <p class="not-in-xml-file">
+                        Mainituilla painealueillla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina, samoin riippumattomina männän pyörimissuunnasta.
+                    </p>
+
+                    <xsl:for-each select="dcc:result">
+                    <div class="result">
+                        <p>
+                            <span class="bolded"><xsl:value-of select="dcc:name/dcc:content"/><span class="from-template">:</span></span><br/>
+                            <span class="bolded"><span class="from-template">S(20,p) = </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="dcc:data/dcc:quantity/si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="dcc:data/dcc:quantity/si:real/si:unit" /></span><br/>
+                            <span class="from-template">(k = </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:expandedUnc/si:coverageFactor"/><span class="from-template">, </span><xsl:value-of select="dcc:description/dcc:content"/><span class="from-template">)</span>
+                        </p>
+                    </div>
+                    </xsl:for-each>
+                </div>
+                </xsl:for-each>
 
                 <div class="remarks">
                     <h3 class="not-in-xml-file">Huomautukset</h3>
@@ -171,6 +281,47 @@ xmlns:si="https://ptb.de/si">
         </div>
     </body>
 </html>
+</xsl:template>
+
+<xsl:template match="si:unit">
+    <xsl:choose>
+        <xsl:when test=". = '\volt'">
+            <span>V</span>
+        </xsl:when>
+        <xsl:when test=". = '\degreeCelsius'">
+            <span>°C</span>
+        </xsl:when>
+        <xsl:when test=". = '\milli\ampere'">
+            <span>µA</span>
+        </xsl:when>
+        <xsl:when test=". = '\milli\volt'">
+            <span>µV</span>
+        </xsl:when>
+        <xsl:when test=". = '\kilo\pascal'">
+            <span>kPa</span>
+        </xsl:when>
+        <xsl:when test=". = '\ohm'">
+            <span>Ω</span>
+        </xsl:when>
+        <xsl:when test=". = '\hertz'">
+            <span>Hz</span>
+        </xsl:when>
+        <xsl:when test=". = '\hecto\pascal'">
+            <span>hPa</span>
+        </xsl:when>
+        <xsl:when test=". = '\percent'">
+            <span>%</span>
+        </xsl:when>
+        <xsl:when test=". = '\metre\second\tothe{-2}'">
+            <span>m/s²</span>
+        </xsl:when>
+        <xsl:when test=". = '\milli\metre\tothe{2}'">
+            <span>mm²</span>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:value-of select="."/>
+        </xsl:otherwise>
+    </xsl:choose>
 </xsl:template>
 
 </xsl:stylesheet>

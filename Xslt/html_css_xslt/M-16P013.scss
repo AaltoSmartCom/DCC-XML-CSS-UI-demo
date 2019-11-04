@@ -12,6 +12,10 @@ body {
     color: blue !important;
 }
 
+.bolded {
+    font-weight: bold;
+}
+
 #document {
     max-width: 880px;
     margin: 20px auto;
@@ -54,6 +58,21 @@ header {
     .logos {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+#calibration {
+    .condition {
+        .grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            margin-bottom: 30px;
+
+            .grid-item {
+                margin-right: 60px;
+                padding: 1px;
+            }
+        }
     }
 }
 
