@@ -70,12 +70,36 @@ header .document-title {
   display: grid;
   -ms-grid-columns: auto 1fr;
       grid-template-columns: auto 1fr;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 #calibration .condition .grid .grid-item {
   margin-right: 60px;
   padding: 1px;
+}
+
+#calibration .results .loop {
+  margin-bottom: 60px;
+}
+
+#calibration .results .uncertainty-table .table-title {
+  margin-bottom: 4px;
+}
+
+#calibration .results .uncertainty-table table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+  border: 1px black solid;
+}
+
+#calibration .results .uncertainty-table table th, #calibration .results .uncertainty-table table td {
+  border: 1px black solid;
+  padding: 2px;
+}
+
+#calibration .results .uncertainty-table table th.text-align-center, #calibration .results .uncertainty-table table td.text-align-center {
+  text-align: center;
 }
 
 footer {

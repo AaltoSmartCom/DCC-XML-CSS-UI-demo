@@ -66,11 +66,39 @@ header {
         .grid {
             display: grid;
             grid-template-columns: auto 1fr;
-            margin-bottom: 30px;
+            margin-bottom: 60px;
 
             .grid-item {
                 margin-right: 60px;
                 padding: 1px;
+            }
+        }
+    }
+
+    .results {
+        .loop {
+            margin-bottom: 60px;
+        }
+
+        .uncertainty-table {
+            .table-title {
+                margin-bottom: 4px;
+            }
+
+            table {
+                width: 100%;
+                text-align: left;
+                border-spacing: 0;
+                border: 1px rgb(0, 0, 0) solid;
+
+                th, td {
+                    border: 1px rgb(0, 0, 0) solid;
+                    padding: 2px;
+                }
+
+                th.text-align-center, td.text-align-center {
+                    text-align: center;
+                }
             }
         }
     }

@@ -242,10 +242,8 @@ xmlns:si="https://ptb.de/si">
                 <xsl:for-each select="dcc:measurementResults/dcc:measurementResult/dcc:results">
                 <div class="results">
                     <h3 class="not-in-xml-file">Kalibrointitulokset ja mittausepävarmuus</h3>
-                    <p class="not-in-xml-file">
-                        Mainituilla painealueillla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina, samoin riippumattomina männän pyörimissuunnasta.
-                    </p>
 
+                    <!-- Loop --> <div class="loop">
                     <xsl:for-each select="dcc:result">
                     <div class="result">
                         <p>
@@ -255,6 +253,74 @@ xmlns:si="https://ptb.de/si">
                         </p>
                     </div>
                     </xsl:for-each>
+                    <p class="not-in-xml-file">
+                        Mainituilla painealueillla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina, samoin riippumattomina männän pyörimissuunnasta.
+                    </p>
+                    <!-- /Loop --> </div>
+
+                    <!-- Fixed -->
+                    <xsl:for-each select="dcc:result[1]">
+                    <div class="result">
+                        <p>
+                            <span class="bolded"><xsl:value-of select="dcc:name/dcc:content"/><span class="from-template">:</span></span><br/>
+                            <span class="bolded"><span class="from-template">S(20,p) = </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="dcc:data/dcc:quantity/si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="dcc:data/dcc:quantity/si:real/si:unit" /></span><br/>
+                            <span class="from-template">(k = </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:expandedUnc/si:coverageFactor"/><span class="from-template">, </span><xsl:value-of select="dcc:description/dcc:content"/><span class="from-template">)</span>
+                        </p>
+                    </div>
+                    </xsl:for-each>
+
+                    <xsl:for-each select="dcc:result[2]">
+                    <div class="result">
+                        <p>
+                            <span class="bolded"><xsl:value-of select="dcc:name/dcc:content"/><span class="from-template">:</span></span><br/>
+                            <span class="bolded"><span class="from-template">S(20,p) = </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:value"/><xsl:text> </xsl:text><xsl:apply-templates select="dcc:data/dcc:quantity/si:real/si:unit" /><span class="from-template"> ± </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:expandedUnc/si:uncertainty"/><xsl:text> </xsl:text><xsl:apply-templates select="dcc:data/dcc:quantity/si:real/si:unit" /></span><br/>
+                            <span class="from-template">(k = </span><xsl:value-of select="dcc:data/dcc:quantity/si:real/si:expandedUnc/si:coverageFactor"/><span class="from-template">, </span><xsl:value-of select="dcc:description/dcc:content"/><span class="from-template">)</span>
+                        </p>
+                    </div>
+                    </xsl:for-each>
+
+                    <p class="not-in-xml-file">
+                        Mainituilla painealueillla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina, samoin riippumattomina männän pyörimissuunnasta.
+                    </p>
+
+                    <xsl:for-each select="dcc:result[3]">
+                    <div class="result">
+                        <div class="uncertainty-table">
+                            <table>
+                                <tr>
+                                    <th>
+                                        <span class="not-in-xml-file">Epävarmuuden osatekijä</span>
+                                    </th>
+                                    <th class="text-align-center">
+                                        <span class="not-in-xml-file">Suhteellinen epävarmuus (1s) miljoonasosina (ppm) Matalapainealue</span>
+                                    </th>
+                                    <th class="text-align-center">
+                                        <span class="not-in-xml-file">Suhteellinen epävarmuus (1s) miljoonasosina (ppm) Korkeapainealue</span>
+                                    </th>
+                                </tr>
+
+                                <xsl:for-each select="dcc:data/dcc:list/dcc:list">
+                                <tr>
+                                    <td>
+                                        <xsl:value-of select="dcc:name/dcc:content"/>
+                                    </td>
+                                    <td class="text-align-center">
+                                        <xsl:value-of select="dcc:quantity[1]/si:real/si:value"/>
+                                    </td>
+                                    <td class="text-align-center">
+                                        <xsl:value-of select="dcc:quantity[2]/si:real/si:value"/>
+                                    </td>
+                                </tr>
+                                 </xsl:for-each>
+
+                            </table>
+                        </div>
+
+                        <p><xsl:value-of select="dcc:description/dcc:content"/></p>
+                    </div>
+                    </xsl:for-each>
+                    <!-- /Fixed -->
+
                 </div>
                 </xsl:for-each>
 
