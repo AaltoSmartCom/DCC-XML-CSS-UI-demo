@@ -11,7 +11,7 @@ xmlns:si="https://ptb.de/si">
 <html>
     <head>
         <title>Kalibrointitodistus Nro: <xsl:value-of select="dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></title>
-        <link rel="stylesheet" href="M-16P013.css"/>
+        <link rel="stylesheet" href="../Stylesheets/CSS/certificate_type_2.css"/>
     </head>
     <body>
         <div id="document">
@@ -123,8 +123,8 @@ xmlns:si="https://ptb.de/si">
             <div id="laboratory-info">
                 <xsl:for-each select="dcc:administrativeData/dcc:calibrationLaboratory">
                 <div class="logos">
-                    <img src="images/mikes-logo.jpg"/>
-                    <img src="images/cipm-mra-logo.jpg"/>
+                    <img src="../Stylesheets/images/mikes-logo.jpg"/>
+                    <img src="../Stylesheets/images/cipm-mra-logo.jpg"/>
                 </div>
                 <p>
                     <xsl:value-of select="dcc:contact/dcc:name/dcc:content"/>, <xsl:value-of select="dcc:contact/dcc:location/dcc:street"/><xsl:text> </xsl:text><xsl:value-of select="dcc:contact/dcc:location/dcc:streetNo"/>, <xsl:value-of select="dcc:contact/dcc:location/dcc:countryCode"/>-<xsl:value-of select="dcc:contact/dcc:location/dcc:postCode"/><xsl:text> </xsl:text><xsl:value-of select="dcc:contact/dcc:location/dcc:city"/>, <span class="not-in-xml-file">FINLAND, </span><span class="from-template">tel </span><span class="not-in-xml-file">+358 20 722 111</span><br/>

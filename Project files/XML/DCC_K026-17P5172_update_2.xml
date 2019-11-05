@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="DCC_K026-17P5172.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../Stylesheets/XSL/certificate_type_1.xsl"?>
 <dcc:digitalCalibrationCertificate
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd"
@@ -36,8 +36,8 @@
 			<dcc:usedLangCodeISO639_1>sv</dcc:usedLangCodeISO639_1>
             <dcc:mandatoryLangCodeISO639_1>fi</dcc:mandatoryLangCodeISO639_1>
             <dcc:uniqueIdentifier>K026-17P5172</dcc:uniqueIdentifier>
-            <dcc:beginPerformanceDate>2017-10-02</dcc:beginPerformanceDate>
-            <dcc:endPerformanceDate>2017-10-02</dcc:endPerformanceDate>
+            <dcc:beginPerformanceDate>2017-11-01</dcc:beginPerformanceDate>
+            <dcc:endPerformanceDate>2017-11-01</dcc:endPerformanceDate>
         </dcc:coreData>
         <dcc:items>
             <dcc:item id="dcc3">
@@ -70,6 +70,8 @@
                     <dcc:content>Beamex Oy Ab</dcc:content>
                 </dcc:name>
                 <dcc:eMail>service@beamex.com</dcc:eMail>
+				<dcc:phone>+358 10 550 5000</dcc:phone>
+				<dcc:fax>+358 10 550 5404</dcc:fax>
                 <dcc:location>
                     <dcc:further id="additional">
 					    <dcc:content lang="en">ACCREDITED CALIBRATION LABORATORY</dcc:content>
@@ -168,7 +170,8 @@
 					<dcc:description>
 						<dcc:content lang="en">
 						Calibration was carred out according to the internal instruction no. 7.1.4.1.49.
-						
+						</dcc:content>
+						<dcc:content lang="en">
 						Before starting the calibration of the unit, the unit was allowed to stabilise to the constant laboratory conditions for 2 hours.
 						</dcc:content>
                     </dcc:description>
@@ -183,7 +186,7 @@
                     </dcc:description>
                 </dcc:usedMethod>
 				<dcc:usedMethod>
-					<dcc:name id="Epävarmuus">
+					<dcc:name id="Uncertainty">
                         <dcc:content lang="en">Calibration Uncertainty</dcc:content>
 					</dcc:name>
 					<dcc:description>
@@ -386,7 +389,7 @@
             <dcc:influenceConditions>
                 <dcc:influenceCondition>
                     <dcc:name>
-                        <dcc:content lang="en">calibration Conditions</dcc:content>
+                        <dcc:content lang="en">Calibration Conditions</dcc:content>
                     </dcc:name>
                     <dcc:data>
                         <dcc:list>
@@ -410,7 +413,7 @@
                                     </si:real>
 									<si:real>
                                         <si:value>71.6</si:value>
-                                        <si:unit>degreeFahrenhiet</si:unit>
+                                        <si:unit>degreeFahrenheit</si:unit>
                                     </si:real>
 									</si:hybrid>
                                 </dcc:quantity>
@@ -425,7 +428,7 @@
 										</si:real>
 										<si:real>
 											<si:value>75.2</si:value>
-											<si:unit>degreeFahrenhiet</si:unit>
+											<si:unit>degreeFahrenheit</si:unit>
 										</si:real>
 									</si:hybrid>
                                 </dcc:quantity>
@@ -461,11 +464,14 @@
                 <dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Voltage Measurement</dcc:content>
+						<dcc:content lang="en">Measurement Section (IN), S/N: 21091.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -1 ... 60 V, 1 Year Uncertainty: -1 ... 1 V ±(5 µV + 0.006% RDG) and 1... 60 V ±(0.25 mV + 0.006% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="Voltage">
                         <dcc:list>
@@ -750,13 +756,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -805,11 +806,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Current Measurement</dcc:content>
+						<dcc:content lang="en">Measurement Section (IN), S/N: 21091.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: ±100 mA, 1 Year Uncertainty: ±(1 µA + 0.1% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="Current">
                         <dcc:list>
@@ -1034,13 +1038,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -1080,6 +1079,7 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Frequency Measurement</dcc:content>
+						<dcc:content lang="en">Measurement Section (IN), S/N: 21091.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
@@ -1088,6 +1088,8 @@
 						50 ... 500 Hz ±(0.002 Hz + 0.002% RDG), 500 ... 5000 Hz ±(0.02 Hz + 0.002% RDG) and
 						5000 ... 50000 Hz ±(0.2 Hz + 0.002% RDG),
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="FrequencyMeasurement">
                         <dcc:list>
@@ -1252,13 +1254,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -1289,6 +1286,7 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Low Voltage Measurement TC1</dcc:content>
+						<dcc:content lang="en">Measurement Section (IN), S/N: 21091.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
@@ -1518,13 +1516,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -1564,11 +1557,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Low Voltage Measurement TC2</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -1000 ... 1000 mV, 1 Year Uncertainty: ±(4 µV + 0.007% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="MeasurementTC2">
                         <dcc:list>
@@ -1793,13 +1789,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -1839,11 +1830,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Low Voltage Generation TC1</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -1000 ... 1000 mV, 1 Year Uncertainty: ±(4 µV + 0.007% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="GenerationTC1">
                         <dcc:list>
@@ -2068,13 +2062,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -2114,11 +2103,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Voltage Generation</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -3 ... 24 V, 1 Year Uncertainty: ±(0.1 µV + 0.007% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="VoltageGeneration">
                         <dcc:list>
@@ -2363,13 +2355,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -2409,12 +2396,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Current Generation, Internal Supply (Source)</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: 0 ... 55 mA, 1 Year Uncertainty: 0 ... 25 mA ±(1 µA + 0.01% RDG) and
 						25 ... 55 mA ±(2 µA + 0.01% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="CurrentGenerationInternal">
                         <dcc:list>
@@ -2599,13 +2589,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -2639,12 +2624,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Current Generation, External Supply (Sink)</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: 0 ... 55 mA, 1 Year Uncertainty: 0 ... 25 mA ±(1 µA + 0.01% RDG) and
 						25 ... 55 mA ±(2 µA + 0.01% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="CurrentGenerationExternal">
                         <dcc:list>
@@ -2829,13 +2817,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -2869,6 +2852,7 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Resistance Measurement R1</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
@@ -2876,6 +2860,8 @@
 						110 ... 150 Ω ±(0.007% RDG),  150 ... 300 Ω ±(0.008% RDG), 300 ... 400 Ω ±(0.009% RDG) and
 						400 ... 4000 Ω ±(12 mΩ + 0.015% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="MeasurementR1">
                         <dcc:list>
@@ -3100,13 +3086,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -3146,6 +3127,7 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Resistance Measurement R2</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
@@ -3153,6 +3135,8 @@
 						110 ... 150 Ω ±(0.007% RDG),  150 ... 300 Ω ±(0.008% RDG), 300 ... 400 Ω ±(0.009% RDG) and
 						400 ... 4000 Ω ±(12 mΩ + 0.015% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="MeasurementR2">
                         <dcc:list>
@@ -3377,13 +3361,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -3423,12 +3402,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Resistance Simulation R1</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: 0 ... 4000 Ω, 1 Year Uncertainty: 0 ... 100 Ω ±(20 mΩ),  100 ... 400 Ω ±(10 mΩ + 0.01% RDG) and
 						400 ... 4000 Ω ±(20 mΩ + 0.015% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="SimulationR2">
                         <dcc:list>
@@ -3673,13 +3655,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -3722,6 +3699,7 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Frequency Generation</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
@@ -3730,6 +3708,8 @@
 						50 ... 500 Hz ±(0.002 Hz + 0.002% RDG), 500 ... 5000 Hz ±(0.02 Hz + 0.002% RDG) and
 						5000 ... 50000 Hz ±(0.2 Hz + 0.002% RDG),
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="FrequencyGeneration">
                         <dcc:list>
@@ -3894,13 +3874,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -3931,12 +3906,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Pt100 Measurement R1</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -200 ... 850°C ITS90, 1 Year Uncertainty: -200 ... 0°C ± 0.015°C,
 						0 ... 850°C ±(0.015 °C + 0.012% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/resistance conversions are based on standard IEC 60751 ed2.0. The expanded uncertainties of the temperature measurements
 						are based on electrical measurements. The expanded uncertainty of the electrical measurements is converted to the temperature in
@@ -4109,13 +4087,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -4143,12 +4116,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Pt100 Measurement R2</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -200 ... 850°C ITS90, 1 Year Uncertainty: -200 ... 0°C ± 0.015°C,
 						0 ... 850°C ±(0.015 °C + 0.012% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/resistance conversions are based on standard IEC 60751 ed2.0. The expanded uncertainties of the temperature measurements
 						are based on electrical measurements. The expanded uncertainty of the electrical measurements is converted to the temperature in
@@ -4321,13 +4297,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -4355,12 +4326,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Pt100 Simulation R1</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -200 ... 850°C ITS90, 1 Year Uncertainty: -200 ... 0°C ± 0.05°C,
 						0 ... 850°C ±(0.05°C + 0.014% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/resistance conversions are based on standard IEC 60751 ed2.0. The expanded uncertainties of the temperature measurements
 						are based on electrical measurements. The expanded uncertainty of the electrical measurements is converted to the temperature in
@@ -4556,13 +4530,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -4590,12 +4559,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Thermocouple measurement TC1, Type K (without cold junction comp. RJ=0°C)</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -270 ... 1372°C ITS90, 1 Year Uncertainty: -270 ... -200°C ±(0.007% of thermovoltage + 4 µV),
 						-200 ... 0°C ±(0.1°C + 0.1% RDG), 0 ... 1000°C ±(0.1°C + 0.007% RDG), 1000 ... 1372°C ±0.017% RDG
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/voltage conversions are based on the IEC 60584-1 ed2.0 standard. The expanded uncertainties of the temperature measurements
 						are based on electrical measurements. The expanded uncertainty of the electrical measurements is converted to the temperature in
@@ -4768,13 +4740,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -4802,12 +4769,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Thermocouple measurement TC2, Type K (without cold junction comp. RJ=0°C)</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -270 ... 1372°C ITS90, 1 Year Uncertainty: -270 ... -200°C ±(0.007% of thermovoltage + 4 µV),
 						-200 ... 0°C ±(0.1°C + 0.1% RDG), 0 ... 1000°C ±(0.1°C + 0.007% RDG), 1000 ... 1372°C ±0.017% RDG
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/voltage conversions are based on the IEC 60584-1 ed2.0 standard. The expanded uncertainties of the temperature measurements
 						are based on electrical measurements. The expanded uncertainty of the electrical measurements is converted to the temperature in
@@ -4980,13 +4950,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -5014,12 +4979,15 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Thermocouple Simulation TC1, Type K (without cold junction comp. RJ=0°C)</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -270 ... 1372°C ITS90, 1 Year Uncertainty: -270 ... -200°C ±(0.007% of thermovoltage + 4 µV),
 						-200 ... 0°C ±(0.1°C + 0.1% RDG), 0 ... 1000°C ±(0.1°C + 0.007% RDG), 1000 ... 1372°C ±0.017% RDG
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/voltage conversions are based on the IEC 60584-1 ed2.0 standard. The expanded uncertainties of the temperature measurements
 						are based on electrical measurements. The expanded uncertainty of the electrical measurements is converted to the temperature in
@@ -5215,13 +5183,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -5249,11 +5212,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Internal Reference Junction TC1</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Thermocouple, Type K
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/voltage conversion is based on the IEC 60584-1 ed2.0 standard. Calibration of the internal reference junction compensation
 						has been made by measuring an ice bath (0°C) with the K type thermocouple specified in the calibration procedures.
@@ -5333,13 +5299,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -5355,11 +5316,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">Internal Reference Junction TC2</dcc:content>
+						<dcc:content lang="en">Temperature Section (TC-R-OUT), S/N: 61065.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Thermocouple, Type K
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						Temperature/voltage conversion is based on the IEC 60584-1 ed2.0 standard. Calibration of the internal reference junction compensation
 						has been made by measuring an ice bath (0°C) with the K type thermocouple specified in the calibration procedures.
@@ -5439,13 +5403,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -5461,11 +5420,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">P1C Pressure Measurement</dcc:content>
+						<dcc:content lang="en">Pressure Module, S/N: 48805.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -100 ... 100 kPa gauge, 1 Year Uncertainty: ±(0.015% FS + 0.025% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						The pressure sensor has been zeroed before calibration of negative gauge.
 						</dcc:content>
@@ -5833,13 +5795,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                     <dcc:content lang="en">Status</dcc:content>
-                                </dcc:name>
-								-->
-                                <dcc:name>
-                                    <dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -5900,11 +5857,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">P20C Pressure Measurement</dcc:content>
+						<dcc:content lang="en">Pressure Module, S/N: 49042.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: -100 ... 2000 kPa gauge, 1 Year Uncertainty: ±(0.01% FS + 0.025% RDG)
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 						<dcc:content lang="en">
 						The pressure sensor has been zeroed before calibration of negative gauge.
 						</dcc:content>
@@ -6272,13 +6232,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                 <dcc:content lang="en">Status</dcc:content>
-								</dcc:name>
-								-->
-								<dcc:name>
-									<dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
 								</dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>
@@ -6339,11 +6294,14 @@
 				<dcc:result>
                     <dcc:name>
                         <dcc:content lang="en">PB Pressure Measurement</dcc:content>
+						<dcc:content lang="en">Barometric Module, S/N: 48083.</dcc:content>
                     </dcc:name>
 					<dcc:description>
 						<dcc:content lang="en">
 						Range: 70 ... 120 kPa abs, 1 Year Uncertainty: ±0.05 kPa
 						</dcc:content>
+						<dcc:content lang="en">Calibrated By: Duyanh Luong</dcc:content>
+						<dcc:content lang="en">Calibration Date: Oct 31, 2017</dcc:content>
 					</dcc:description>
                     <dcc:data id="PBMeasurement">
                         <dcc:list>
@@ -6508,13 +6466,8 @@
 								</si:list>
                             </dcc:quantity>
 							<dcc:quantity>
-								<!--
 								<dcc:name>
                                 <dcc:content lang="en">Status</dcc:content>
-								</dcc:name>
-								-->
-								<dcc:name>
-									<dcc:content lang="en">Status (1 = pass, 0 = fail)</dcc:content>
 								</dcc:name>
 								<si:list>
 									<si:listUnit>\one</si:listUnit>

@@ -11,7 +11,7 @@ xmlns:si="https://ptb.de/si">
 <html>
     <head>
         <title>Calibration Certificate No: <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></title>
-        <link rel="stylesheet" href="K026-17P5172.css"/>
+        <link rel="stylesheet" href="../Stylesheets/CSS/certificate_type_1.css"/>
     </head>
     <body>
 
@@ -43,7 +43,7 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item logo">
-                            <img src="images/calibration_logo.jpg" alt="Calibration Certificate"/>
+                            <img src="../Stylesheets/images/calibration_logo.jpg" alt="Calibration Certificate"/>
                         </div>
 
                         <div class="grid-item">
@@ -57,7 +57,7 @@ xmlns:si="https://ptb.de/si">
                 <div class="header">
                     <div class="grid">
                         <div class="grid-item item-1">
-                            <img src="images/beamex-logo.jpg" alt="Beamex"/>
+                            <img src="../Stylesheets/images/beamex-logo.jpg" alt="Beamex"/>
                         </div>
 
                         <div class="grid-item item-2">
@@ -79,8 +79,8 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <div class="grid-item item-4">
-                            <img src="images/finas-logo.jpg" alt="Finas"/>
-                            <img src="images/ilac-mra-logo.jpg" alt="ilac-MRA"/>
+                            <img src="../Stylesheets/images/finas-logo.jpg" alt="Finas"/>
+                            <img src="../Stylesheets/images/ilac-mra-logo.jpg" alt="ilac-MRA"/>
                         </div>
                         <div class="grid-item item-5"></div>
                     </div>
@@ -174,7 +174,7 @@ xmlns:si="https://ptb.de/si">
                     <p>
                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:statements/dcc:statement[3]/dcc:declaration/dcc:content"/>
                     </p>
-                    <img class="barcode" src="images/barcode.jpg" alt="barcode"/>
+                    <img class="barcode" src="../Stylesheets/images/barcode.jpg" alt="barcode"/>
                 </div>
             </div>
 
@@ -182,7 +182,7 @@ xmlns:si="https://ptb.de/si">
                 <div class="header">
                     <div class="grid">
                         <div class="grid-item item-1">
-                            <img src="images/beamex-logo.jpg" alt="Beamex"/>
+                            <img src="../Stylesheets/images/beamex-logo.jpg" alt="Beamex"/>
                         </div>
 
                         <div class="grid-item item-2">
@@ -278,7 +278,7 @@ xmlns:si="https://ptb.de/si">
                 <div class="header">
                     <div class="grid">
                         <div class="grid-item item-1">
-                            <img src="images/beamex-logo.jpg" alt="Beamex"/>
+                            <img src="../Stylesheets/images/beamex-logo.jpg" alt="Beamex"/>
                         </div>
 
                         <div class="grid-item item-2">
