@@ -187,7 +187,8 @@ xmlns:si="https://ptb.de/si">
                         </div>
 
                         <xsl:for-each select="dcc:quantity[1]">
-                        <div class="grid-item">
+                        <div class="grid-item ">
+                            <xsl:element name="lang"><xsl:value-of select="dcc:name/dcc:content/@lang"/></xsl:element>
                             <xsl:value-of select="dcc:name/dcc:content"/>
                         </div>
 
