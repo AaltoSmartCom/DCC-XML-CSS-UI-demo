@@ -36,6 +36,7 @@
 			<dcc:usedLangCodeISO639_1>sv</dcc:usedLangCodeISO639_1>
             <dcc:mandatoryLangCodeISO639_1>fi</dcc:mandatoryLangCodeISO639_1>
             <dcc:uniqueIdentifier>K026-17P4654</dcc:uniqueIdentifier>
+	    <dcc:receiptDate>2017-10-02</dcc:receiptDate>
             <dcc:beginPerformanceDate>2017-10-02</dcc:beginPerformanceDate>
             <dcc:endPerformanceDate>2017-10-02</dcc:endPerformanceDate>
         </dcc:coreData>
