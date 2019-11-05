@@ -247,8 +247,23 @@ xmlns:si="https://ptb.de/si">
                                             <xsl:for-each select="$cols">
                                                 <xsl:variable name="col-index" select="position()" />
 
-                                                <td><xsl:value-of select="$cols[$col-index]/si:list/si:real[$index]/si:value" /></td>
+                                                <xsl:choose>
+                                                    <xsl:when test="dcc:name/dcc:content = 'Status'">
+                                                        <xsl:choose>
+                                                            <xsl:when test="$cols[$col-index]/si:list/si:real[$index]/si:value = '1'">
+                                                            <td>PASS</td>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                            <td>FAIL</td>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
 
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <td><xsl:value-of select="$cols[$col-index]/si:list/si:real[$index]/si:value" /></td>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                                
                                                 <xsl:if test="dcc:name/dcc:content = 'Difference'">
                                                     <td>± <xsl:value-of select="$cols[$col-index - 1]/si:list/si:real[$index]/si:expandedUnc/si:uncertainty" /></td>
                                                 </xsl:if>
@@ -341,33 +356,38 @@ xmlns:si="https://ptb.de/si">
 </xsl:template>
 
 <xsl:template match="si:listUnit">
-[
     <xsl:choose>
         <xsl:when test=". = '\volt'">
-            <span>V</span>
+            <span>[ V ]</span>
         </xsl:when>
         <xsl:when test=". = '\degreeCelsius'">
-            <span>°C</span>
+            <span>[ °C ]</span>
         </xsl:when>
         <xsl:when test=". = '\milli\ampere'">
-            <span>µA</span>
+            <span>[ µA ]</span>
         </xsl:when>
         <xsl:when test=". = '\milli\volt'">
-            <span>µV</span>
+            <span>[ µV ]</span>
         </xsl:when>
         <xsl:when test=". = '\kilo\pascal'">
-            <span>kPa</span>
+            <span>[ kPa ]</span>
         </xsl:when>
         <xsl:when test=". = '\ohm'">
-            <span>Ω</span>
+            <span>[ Ω ]</span>
         </xsl:when>
         <xsl:when test=". = '\hertz'">
-            <span>Hz</span>
+            <span>[ Hz ]</span>
+        </xsl:when>
+        <xsl:when test=". = '\kilo\Pascal'">
+            <span>[ kPa ]</span>
+        </xsl:when>
+        <xsl:when test=". = '\one'">
+            
         </xsl:when>
         <xsl:otherwise>
             <xsl:value-of select="."/>
         </xsl:otherwise>
-    </xsl:choose> ]
+    </xsl:choose>
 </xsl:template>
 
 </xsl:stylesheet>
