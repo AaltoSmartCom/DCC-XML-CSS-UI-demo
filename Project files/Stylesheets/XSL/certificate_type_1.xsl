@@ -261,35 +261,33 @@
                         <!-- Table loop start -->
                         <xsl:for-each select="dcc:digitalCalibrationCertificate/dcc:measurementResults/dcc:measurementResult/dcc:results/dcc:result">
 
+                            <xsl:variable name="headers" select="dcc:name/dcc:content[@lang='en']" />
+                            <xsl:variable name="description" select="dcc:description/dcc:content[@lang='en']" />
+
                             <div class="content">
                                 <div class="grid">
                                     <div class="grid-item left">
 
-                                        <xsl:for-each select="dcc:name/dcc:content">
+                                        <xsl:for-each select="$headers">
                                             <h4>
                                                 <xsl:value-of select="."/>
                                             </h4>
                                         </xsl:for-each>
                                         <p>
-                                            <xsl:value-of select="dcc:description/dcc:content[1]"/>
+                                            <xsl:value-of select="$description[1]"/>
                                         </p>
-
                                     </div>
 
                                     <div class="grid-item right">
-
-                                        <xsl:value-of select="dcc:description/dcc:content[2]"/>
+                                        <xsl:value-of select="$description[2]"/>
                                         <br/>
-                                        <xsl:value-of select="dcc:description/dcc:content[3]"/>
-
+                                        <xsl:value-of select="$description[3]"/>
                                     </div>
 
                                     <div class="grid-item table">
-
                                         <xsl:variable name="cols" select="dcc:data/dcc:list/dcc:quantity" />
                                         <xsl:variable name="col" select="$cols[1]" />
                                         <xsl:variable name="rows" select="$col/si:list/si:real" />
-
                                         <table>
                                             <tr class="table-title">
 
@@ -356,7 +354,6 @@
                                             </xsl:for-each>
 
                                         </table>
-
                                     </div>
                                 </div>
                             </div>
@@ -399,12 +396,15 @@
 
                                 <div>
 
-                                    <xsl:for-each select="dcc:name/dcc:content">
+                                    <xsl:variable name="headers" select="dcc:name/dcc:content[@lang='en']" />
+                                    <xsl:variable name="description" select="dcc:description/dcc:content[@lang='en']" />
+
+                                    <xsl:for-each select="$headers">
                                         <h3>
                                             <xsl:value-of select="."/>
                                         </h3>
                                     </xsl:for-each>
-                                    <xsl:for-each select="dcc:description/dcc:content">
+                                    <xsl:for-each select="$description">
                                         <p>
                                             <xsl:value-of select="."/>
                                         </p>
@@ -474,19 +474,23 @@
 
                                 <div>
 
-                                    <xsl:for-each select="dcc:name/dcc:content">
+                                    <xsl:variable name="headers" select="dcc:name/dcc:content[@lang='en']" />
+                                    <xsl:variable name="description" select="dcc:description/dcc:content[@lang='en']" />
+                                    <xsl:variable name="listdesc" select="dcc:data/dcc:list/dcc:name/dcc:content[@lang='en']" />
+
+                                    <xsl:for-each select="$headers">
                                         <h3>
                                             <xsl:value-of select="."/>
                                         </h3>
                                     </xsl:for-each>
-                                    <xsl:for-each select="dcc:description/dcc:content">
+                                    <xsl:for-each select="$description">
                                         <p>
                                             <xsl:value-of select="."/>
                                         </p>
                                     </xsl:for-each>
-                                    <xsl:for-each select="dcc:data/dcc:list/dcc:name">
+                                    <xsl:for-each select="$listdesc">
                                         <p>
-                                            <xsl:value-of select="dcc:content"/>
+                                            <xsl:value-of select="."/>
                                         </p>
                                     </xsl:for-each>
 
