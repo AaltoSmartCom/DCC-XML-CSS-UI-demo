@@ -465,6 +465,7 @@
                     </dcc:name>
                     <dcc:data>
                         <dcc:list>
+			<!--
 			    <dcc:quantity id="Mittaaja">
                                 <dcc:name>
                                     <dcc:content lang="fi">Mittaaja</dcc:content>
@@ -489,6 +490,7 @@
 					<dcc:content lang="fi">8.2.2016 ja 3.2.2016</dcc:content>
 				</dcc:noQuantity>
                             </dcc:quantity>
+			-->
                             <dcc:quantity id="Lämpötila">
                                 <dcc:name>
                                     <dcc:content lang="fi">Lämpötila</dcc:content>
