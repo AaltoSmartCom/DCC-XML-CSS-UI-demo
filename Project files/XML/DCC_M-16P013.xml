@@ -6,1100 +6,1096 @@
 		xmlns:dcc="https://ptb.de/dcc"
 		xmlns:si="https://ptb.de/si">
 
-     <!--
+  <!--
 	
     Copyright (c) 2019 Aalto-korkeakoulusäätiö
 	
     -->
 
-    <dcc:administrativeData>
-        <dcc:dccSoftware>
-            <dcc:software id="Notepad_plusplus">
-                <dcc:name>
-                    <dcc:content>Notepad++ (32-bit)</dcc:content>
-                </dcc:name>
-                <dcc:release>v7.6.6</dcc:release>
-                <dcc:description id="Notepad">
-                    <dcc:content lang="en">Homepage: https://notepad-plus-plus.org/</dcc:content>
-                    <dcc:content lang="en">Installed components:</dcc:content>
-                    <dcc:content lang="en">- XML Tools plugin version 2.3.2 unicode beta4 r908</dcc:content>
-                    <dcc:content lang="en">- Npp Hash Maker version 1.0 unicode 2011-07-03</dcc:content>
-                    <dcc:content lang="en">- XML Tools plugin version 2.3.2 unicode beta4 r908</dcc:content>
-                    <dcc:content lang="en">- MIME Tools Version 1.7 unicode</dcc:content>
-                </dcc:description>
-            </dcc:software>
-        </dcc:dccSoftware>
-        <dcc:coreData>
-            <dcc:countryCodeISO3166_1>FI</dcc:countryCodeISO3166_1>
-            <dcc:usedLangCodeISO639_1>fi</dcc:usedLangCodeISO639_1>
-            <dcc:usedLangCodeISO639_1>en</dcc:usedLangCodeISO639_1>
-	    <dcc:usedLangCodeISO639_1>sv</dcc:usedLangCodeISO639_1>
-            <dcc:mandatoryLangCodeISO639_1>fi</dcc:mandatoryLangCodeISO639_1>
-            <dcc:uniqueIdentifier>M-16P013</dcc:uniqueIdentifier>
-            <dcc:receiptDate>2016-02-11</dcc:receiptDate>
-            <dcc:beginPerformanceDate>2016-02-03</dcc:beginPerformanceDate>
-            <dcc:endPerformanceDate>2016-02-08</dcc:endPerformanceDate>
-        </dcc:coreData>
-        <dcc:items>
-            <dcc:item id="dcc1_1">
-                <dcc:name>
-                    <dcc:content lang="fi">Painevaaka</dcc:content>
-                </dcc:name>
-                <dcc:description>
-                    <dcc:content lang="fi">Ruska 2465 painevaaka</dcc:content>
-                </dcc:description>
-                <dcc:manufacturer>
-                    <dcc:name>
-                        <dcc:content>Ruska Instrument Corporation</dcc:content>
-                    </dcc:name>
-                </dcc:manufacturer>
-                <dcc:model>2465</dcc:model>
-                <dcc:identifications>
-                    <dcc:identification id="id1_1">
-                        <dcc:issuer>manufacturer</dcc:issuer>
-                        <dcc:value>21035</dcc:value>
-                        <dcc:description>
-                            <dcc:content lang="fi">Sarjanumero</dcc:content>
-				<dcc:content lang="en">Serial number</dcc:content>
-			    <dcc:content lang="sv">Serienummer</dcc:content>
-                        </dcc:description>
-                    </dcc:identification>
-                </dcc:identifications>
-            </dcc:item>
-            
-            <dcc:item id="dcc1_2">
-                <dcc:name>
-                    <dcc:content lang="fi">Mäntä-sylinteriyhdistelmä</dcc:content>
-                </dcc:name>
-                <dcc:description>
-                    <dcc:content lang="fi">Ruska V-431 korkeapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
-                </dcc:description>
-                <dcc:manufacturer>
-                    <dcc:name>
-                        <dcc:content>Ruska Instrument Corporation</dcc:content>
-                    </dcc:name>
-                </dcc:manufacturer>
-                <dcc:model>V</dcc:model>
-                <dcc:identifications>
-                    <dcc:identification id="id1_2">
-                        <dcc:issuer>manufacturer</dcc:issuer>
-                        <dcc:value>V-431</dcc:value>
-                        <dcc:description>
-                            <dcc:content lang="fi">Sarjanumero</dcc:content>
-				<dcc:content lang="en">Serial number</dcc:content>
-			    <dcc:content lang="sv">Serienummer</dcc:content>
-                        </dcc:description>
-                    </dcc:identification>
-                </dcc:identifications>
-            </dcc:item>
-            
-            <dcc:item id="dcc1_3">
-                <dcc:name>
-                    <dcc:content lang="fi">Mäntä-sylinteriyhdistelmä</dcc:content>
-                </dcc:name>
-                <dcc:description>
-                    <dcc:content lang="fi">Ruska TL-1006 matalapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
-                </dcc:description>
-                <dcc:manufacturer>
-                    <dcc:name>
-                        <dcc:content>Ruska Instrument Corporation</dcc:content>
-                    </dcc:name>
-                </dcc:manufacturer>
-                <dcc:model>TL</dcc:model>
-                <dcc:identifications>
-                    <dcc:identification id="id1_3">
-                        <dcc:issuer>manufacturer</dcc:issuer>
-                        <dcc:value>TL-1006</dcc:value>
-                        <dcc:description>
-                            <dcc:content lang="fi">Sarjanumero</dcc:content>
-				<dcc:content lang="en">Serial number</dcc:content>
-			    <dcc:content lang="sv">Serienummer</dcc:content>
-                        </dcc:description>
-                    </dcc:identification>
-                </dcc:identifications>
-            </dcc:item>
-        </dcc:items>
-        <dcc:calibrationLaboratory>
-            <dcc:contact>
-                <dcc:name>
-                    <dcc:content>Mittaustekniikan keskus, MIKES</dcc:content>
-                </dcc:name>
-                <dcc:eMail>info@vtt.fi</dcc:eMail>
-                <dcc:location>
-                    <dcc:further id="additional">
-			<dcc:content lang="en">National Standards Laboratory</dcc:content>
-                        <dcc:content lang="fi">Kansallinen mittanormaalilaboratorio</dcc:content>
-                        <dcc:content lang="fi">KALIBROINTITODISTUS</dcc:content>
-                        <dcc:content lang="sv">KALIBRERINGSBEVIS</dcc:content>
-			<dcc:content lang="en">CERTIFICATE OF CALIBRATION</dcc:content>
-                    </dcc:further>
-			<dcc:street>Tekniikantie</dcc:street>
-			<dcc:streetNo>1</dcc:streetNo>
-			<dcc:postCode>02150</dcc:postCode>
-			<dcc:city>Espoo</dcc:city>
-			<dcc:countryCode>FI</dcc:countryCode>
-                </dcc:location>
-            </dcc:contact>
-        </dcc:calibrationLaboratory>
-        <dcc:respPersons>
-            <dcc:respPerson id="ResearchScientist">
-                <dcc:person>
-                    <dcc:name>
-                        <dcc:content>Juho Salminen</dcc:content>
-                    </dcc:name>
-                </dcc:person>
-                <dcc:description>
-                    <dcc:content lang="fi">Tutkija</dcc:content>
-                </dcc:description>
-                <dcc:mainSigner>true</dcc:mainSigner>
-                <dcc:cryptElectronicSignature>true</dcc:cryptElectronicSignature>
-                <dcc:cryptElectronicTimeStamp>true</dcc:cryptElectronicTimeStamp>
-            </dcc:respPerson>
-            <dcc:respPerson id="SeniorScientist">
-                <dcc:person>
-                    <dcc:name>
-                        <dcc:content>Sari Saxholm</dcc:content>
-                    </dcc:name>
-                </dcc:person>
-                <dcc:description>
-                    <dcc:content lang="fi">Erikoistutkija</dcc:content>
-                </dcc:description>
-                <dcc:cryptElectronicSignature>true</dcc:cryptElectronicSignature>
-                <dcc:cryptElectronicTimeStamp>true</dcc:cryptElectronicTimeStamp>
-            </dcc:respPerson>
-        </dcc:respPersons>
-        <dcc:customer>
+  <dcc:administrativeData>
+    <dcc:dccSoftware>
+      <dcc:software id="Notepad_plusplus">
+        <dcc:name>
+          <dcc:content>Notepad++ (32-bit)</dcc:content>
+        </dcc:name>
+        <dcc:release>v7.6.6</dcc:release>
+        <dcc:description id="Notepad">
+          <dcc:content lang="en">Homepage: https://notepad-plus-plus.org/</dcc:content>
+          <dcc:content lang="en">Installed components:</dcc:content>
+          <dcc:content lang="en">- XML Tools plugin version 2.3.2 unicode beta4 r908</dcc:content>
+          <dcc:content lang="en">- Npp Hash Maker version 1.0 unicode 2011-07-03</dcc:content>
+          <dcc:content lang="en">- XML Tools plugin version 2.3.2 unicode beta4 r908</dcc:content>
+          <dcc:content lang="en">- MIME Tools Version 1.7 unicode</dcc:content>
+        </dcc:description>
+      </dcc:software>
+    </dcc:dccSoftware>
+    <dcc:coreData>
+      <dcc:countryCodeISO3166_1>FI</dcc:countryCodeISO3166_1>
+      <dcc:usedLangCodeISO639_1>fi</dcc:usedLangCodeISO639_1>
+      <dcc:usedLangCodeISO639_1>en</dcc:usedLangCodeISO639_1>
+      <dcc:usedLangCodeISO639_1>sv</dcc:usedLangCodeISO639_1>
+      <dcc:mandatoryLangCodeISO639_1>fi</dcc:mandatoryLangCodeISO639_1>
+      <dcc:uniqueIdentifier>M-16P013</dcc:uniqueIdentifier>
+      <dcc:receiptDate>2016-02-11</dcc:receiptDate>
+      <dcc:beginPerformanceDate>2016-02-03</dcc:beginPerformanceDate>
+      <dcc:endPerformanceDate>2016-02-08</dcc:endPerformanceDate>
+    </dcc:coreData>
+    <dcc:items>
+      <dcc:item id="dcc1_1">
+        <dcc:name>
+          <dcc:content lang="fi">Painevaaka</dcc:content>
+        </dcc:name>
+        <dcc:description>
+          <dcc:content lang="fi">Ruska 2465 painevaaka</dcc:content>
+        </dcc:description>
+        <dcc:manufacturer>
+          <dcc:name>
+            <dcc:content>Ruska Instrument Corporation</dcc:content>
+          </dcc:name>
+        </dcc:manufacturer>
+        <dcc:model>2465</dcc:model>
+        <dcc:identifications>
+          <dcc:identification id="id1_1">
+            <dcc:issuer>manufacturer</dcc:issuer>
+            <dcc:value>21035</dcc:value>
+            <dcc:description>
+              <dcc:content lang="fi">Sarjanumero</dcc:content>
+              <dcc:content lang="en">Serial number</dcc:content>
+              <dcc:content lang="sv">Serienummer</dcc:content>
+            </dcc:description>
+          </dcc:identification>
+        </dcc:identifications>
+      </dcc:item>
+
+      <dcc:item id="dcc1_2">
+        <dcc:name>
+          <dcc:content lang="fi">Mäntä-sylinteriyhdistelmä</dcc:content>
+        </dcc:name>
+        <dcc:description>
+          <dcc:content lang="fi">Ruska V-431 korkeapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
+        </dcc:description>
+        <dcc:manufacturer>
+          <dcc:name>
+            <dcc:content>Ruska Instrument Corporation</dcc:content>
+          </dcc:name>
+        </dcc:manufacturer>
+        <dcc:model>V</dcc:model>
+        <dcc:identifications>
+          <dcc:identification id="id1_2">
+            <dcc:issuer>manufacturer</dcc:issuer>
+            <dcc:value>V-431</dcc:value>
+            <dcc:description>
+              <dcc:content lang="fi">Sarjanumero</dcc:content>
+              <dcc:content lang="en">Serial number</dcc:content>
+              <dcc:content lang="sv">Serienummer</dcc:content>
+            </dcc:description>
+          </dcc:identification>
+        </dcc:identifications>
+      </dcc:item>
+
+      <dcc:item id="dcc1_3">
+        <dcc:name>
+          <dcc:content lang="fi">Mäntä-sylinteriyhdistelmä</dcc:content>
+        </dcc:name>
+        <dcc:description>
+          <dcc:content lang="fi">Ruska TL-1006 matalapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
+        </dcc:description>
+        <dcc:manufacturer>
+          <dcc:name>
+            <dcc:content>Ruska Instrument Corporation</dcc:content>
+          </dcc:name>
+        </dcc:manufacturer>
+        <dcc:model>TL</dcc:model>
+        <dcc:identifications>
+          <dcc:identification id="id1_3">
+            <dcc:issuer>manufacturer</dcc:issuer>
+            <dcc:value>TL-1006</dcc:value>
+            <dcc:description>
+              <dcc:content lang="fi">Sarjanumero</dcc:content>
+              <dcc:content lang="en">Serial number</dcc:content>
+              <dcc:content lang="sv">Serienummer</dcc:content>
+            </dcc:description>
+          </dcc:identification>
+        </dcc:identifications>
+      </dcc:item>
+    </dcc:items>
+    <dcc:calibrationLaboratory>
+      <dcc:contact>
+        <dcc:name>
+          <dcc:content>Mittaustekniikan keskus, MIKES</dcc:content>
+        </dcc:name>
+        <dcc:eMail>info@vtt.fi</dcc:eMail>
+        <dcc:location>
+          <dcc:further id="additional">
+            <dcc:content lang="en">National Standards Laboratory</dcc:content>
+            <dcc:content lang="fi">Kansallinen mittanormaalilaboratorio</dcc:content>
+            <dcc:content lang="fi">KALIBROINTITODISTUS</dcc:content>
+            <dcc:content lang="sv">KALIBRERINGSBEVIS</dcc:content>
+            <dcc:content lang="en">CERTIFICATE OF CALIBRATION</dcc:content>
+          </dcc:further>
+          <dcc:street>Tekniikantie</dcc:street>
+          <dcc:streetNo>1</dcc:streetNo>
+          <dcc:postCode>02150</dcc:postCode>
+          <dcc:city>Espoo</dcc:city>
+          <dcc:countryCode>FI</dcc:countryCode>
+        </dcc:location>
+      </dcc:contact>
+    </dcc:calibrationLaboratory>
+    <dcc:respPersons>
+      <dcc:respPerson id="ResearchScientist">
+        <dcc:person>
+          <dcc:name>
+            <dcc:content>Juho Salminen</dcc:content>
+          </dcc:name>
+        </dcc:person>
+        <dcc:description>
+          <dcc:content lang="fi">Tutkija</dcc:content>
+        </dcc:description>
+        <dcc:mainSigner>true</dcc:mainSigner>
+        <dcc:cryptElectronicSignature>true</dcc:cryptElectronicSignature>
+        <dcc:cryptElectronicTimeStamp>true</dcc:cryptElectronicTimeStamp>
+      </dcc:respPerson>
+      <dcc:respPerson id="SeniorScientist">
+        <dcc:person>
+          <dcc:name>
+            <dcc:content>Sari Saxholm</dcc:content>
+          </dcc:name>
+        </dcc:person>
+        <dcc:description>
+          <dcc:content lang="fi">Erikoistutkija</dcc:content>
+        </dcc:description>
+        <dcc:cryptElectronicSignature>true</dcc:cryptElectronicSignature>
+        <dcc:cryptElectronicTimeStamp>true</dcc:cryptElectronicTimeStamp>
+      </dcc:respPerson>
+    </dcc:respPersons>
+    <dcc:customer>
+      <dcc:name>
+        <dcc:content>Beamex Oy Ab</dcc:content>
+      </dcc:name>
+      <dcc:eMail>service@beamex.com</dcc:eMail>
+      <dcc:location>
+        <dcc:street>Ristisuonraitti</dcc:street>
+        <dcc:streetNo>10</dcc:streetNo>
+        <dcc:postCode>68600</dcc:postCode>
+        <dcc:city>Pietarsaari</dcc:city>
+        <dcc:countryCode>FI</dcc:countryCode>
+      </dcc:location>
+    </dcc:customer>
+    <dcc:statements>
+      <dcc:statement id="MRA">
+        <dcc:convention>CIPM-MRA</dcc:convention>
+        <dcc:valid>true</dcc:valid>
+      </dcc:statement>
+      <dcc:statement>
+        <dcc:convention>Traceability</dcc:convention>
+        <dcc:traceable>true</dcc:traceable>
+        <dcc:declaration>
+          <dcc:content lang="fi">
+            MIKES on kansallinen metrologialaitos, joka nimeää kansalliset mittanormaalilaboratoriot ja valvoo niiden toimintaa. Kansallisen
+            mittanormaalilaboratorion tehtävänä on pitää yllä kansallisia mittanormaaleja ja niiden jäljitettävyyttä SI-järjestelmän yksiköihin.
+            Kansallinen mittanormaalijärjestelmä perustuu lakiin nro 1156/1993 ja asetukseen nro 972/1994. MIKES on osa Teknologian tutkimuskesus VTT Oy:tä.
+            Tämä todistus on kansainvälisen paino- ja mittakomitean (CIPM) laatiman vastavuoroisen tunnustaissopimuksen(MRA) liitteeseen C sisällytettyjen
+            kalibrointi- ja mittauskykyjen (CMC) mukainen. Kaikki MRA:ssa mukana olevat laitokset tunnustavat toistensa kalibrointi- ja mittaustodistusten
+            kelpoisuuden niille suureille, mittausalueille ja mittausepävarmuuksille, jotka on määritelty liitteessä C (katso yksityiskohdat
+            http://www.bipm.org).
+          </dcc:content>
+          <dcc:content lang="sv">
+            MIKES är det nationella metrologiinstitutet, som utser de nationella mätnormallaboratorierna och övervakar deras verksamhet. Det nationella
+            mätnormallaboratoriet har som uppgift att upprätthålla nationella mätnormaler och deras spårbarhet till SI-systems enheter. Det nationella
+            mätnormalsystemet är stadgat i lag nr 1156/1993 och förordning nr 972/1994. MIKES är en del av Teknologiska forskningscentralen Ab.
+            Detta bevis är i överensstämmlese med de kalibrerings- och mätningsförmågor (CMC) som ingår i bilaga C till arrangemanget om ömsesidigt
+            erkännande (MRA), som har utarbetats av den internationella kommittén för vikt och mått (CIPM). Inom MRA erkänner alla deltagande institut
+            giltigheten av varandas kalibrerings- och mätningsbevis för de storheter, mätområden och med de osäkerheter som är angivna i bilaga C
+            (för närmare detaljer se http://www.bipm.org).
+          </dcc:content>
+          <dcc:content lang="en">
+            MIKES is the National Metrology Institute of Finland which designates the National Standards Laboratories and supervises their activities.
+            The National Standards Laboratories are responsible for maintaining of national standards and their traceability to SI units. The Finnish
+            national standards system is based on the Law No. 1156/1993, and the Decree No. 972/1994. MIKES is a part of VTT Technical Research Centre
+            of Finland Ltd.
+            This certificate is consistent with Calibration and Measurement Capabilities (CMCs) that are included in Appendix C of the Mutual recognition
+            Arrangement (MRA) drawn up by the International Committee for Weights and Measures (CIPM). Under the MRA, all participating institutes recognise
+            the validity of each other's calibration and measurement certificates for the quantities, ranges and measurement uncertainties specified in
+            Appendix C (for details see http://www.bipm.org).
+          </dcc:content>
+        </dcc:declaration>
+      </dcc:statement>
+      <dcc:statement>
+        <dcc:declaration>
+          <dcc:content lang="fi">
+            Tämän todistuksen osittainen julkaiseminen on sallittu vain kansallisen mittanormaalilaboratorion antaman kirjallisen luvan perusteella.
+          </dcc:content>
+          <dcc:content lang="sv">
+            Utdarg ur detta bevis får endast publiceras med skriftligt tillstånd av det nationella mätnormallaboratoriet.
+          </dcc:content>
+          <dcc:content lang="en">
+            This Certificate may not be reproduced partially, except with a written approval of the issuing National Standards Laboratory.
+          </dcc:content>
+        </dcc:declaration>
+      </dcc:statement>
+    </dcc:statements>
+  </dcc:administrativeData>
+  <dcc:measurementResults>
+    <dcc:measurementResult>
+      <dcc:usedMethods>
+        <dcc:usedMethod>
+          <dcc:name id="Condition">
+            <dcc:content lang="fi">Kalibroidun laitteen kunto</dcc:content>
+            <dcc:content lang="sv">Kondition av kalibrerat instrument</dcc:content>
+            <dcc:content lang="en">Condition of calibrated instrument</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">
+              Kalibroitavasta painevaa'asta ja sen mäntä-sylinteriyhdistelmistä oli käytettävissä seuraavat tiedot:
+
+              Valmistaja                          Ruska Instrument Corporation
+              Malli                               2465
+              Valmistusnumero                     21035
+              Mäntä-sylinteriyhdistelmät          TL-1006 (matala painealue 5 ... 110 kPa)
+              V-431 (korkea painealue 0,13 ... 4,1 MPa)
+              Referenssitaso                      Merkitty vaa'an runkoon
+              Mäntä-syl. yhdistelmien             Mp-alue: 0,000015 1/°C (valmistajan ilm.)
+              lämpötilakertoimet                  Kp-alue: 0,000009 1/°C (valmistajan ilm.)
+              Punnussarja                         20845, punnusten ja mäntien massat kalibroitu, todistus M-16M013,
+              massat ja tiheydet todistuksen mukaiset
+
+              Kalibroitavan laitteen toimintakunnossa ei havaittu huomauttamista.
+            </dcc:content>
+          </dcc:description>
+        </dcc:usedMethod>
+        <dcc:usedMethod>
+          <dcc:name id="Method">
+            <dcc:content lang="fi">Kalibrointimenetelmä</dcc:content>
+            <dcc:content lang="sv">Kalibreringsmetod</dcc:content>
+            <dcc:content lang="en">Calibration method</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">
+              Kalibroitavan painevaa'an ja sen mäntä-sylinteriyhdistelmien annettiin tasaantua mittaushuoneessa vallitseviin olosuhteisiin vähintään
+              16 tunnin ajan ennen mittauksia. Painevaaka ja mittanormaali asetettiin rinnakkain työpöydälle ja säädettiin vaaka-asentoon pienen
+              vesivaa'an avulla, joka asetettiin männän päälle.
+
+              Kalibroitavan painevaa'an punnuksia valittiin sekä matalapainealueelle että korkeapainealueelle viisi yhdistelmää, joita vastaavat paineet
+              mitattiin paineen mittanormaalin avulla 4 kertaa. mittauksia tehtiin sekä paineen nousevassa että laskevassa suunnassa käyttäen männän
+              molempia pyörimissuuntia. Pyörimisvauhti männälle ja sen päällä oleville punnuksille annettiin käsin.
+
+              Kalibroitavan laitteen ja mittanormaalin mäntäsylinteriyhdistelmän lämpötila mitattiin laitteen runkoon asennetun Pt-100-anturin avulla,
+              vastus luettiin yleismittarilla.
+            </dcc:content>
+          </dcc:description>
+          <dcc:description>
+            <dcc:content lang="fi">Tulosten laskenta</dcc:content>
+          </dcc:description>
+        </dcc:usedMethod>
+        <dcc:usedMethod>
+          <dcc:name id="Epävarmuus">
+            <dcc:content lang="fi">Kalibroinnin epävarmuus</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">
+              Kalibroinnin epävarmuus on ilmoitettu kullekin pisteelle erikseen. Standardiepävarmuus on ilmoitettu siten,
+              että keskihajonta on kerrottu kertoimella kaksi, eli (k=2), mikä normaalijakautumalla vastaa 95% todennäköisyyttä.
+              Epävarmuus on laskettu ohjeen EA-4/02 mukaisesti seuraavista epävarmuustekijöistä: mittanormaali, kalibrointimenetelmä
+              ja ympäristöolosuhteet sekä kalibroitavan kohteen lyhytaikainen vaikutus.
+            </dcc:content>
+          </dcc:description>
+        </dcc:usedMethod>
+      </dcc:usedMethods>
+      <dcc:measuringEquipments>
+        <dcc:measuringEquipment>
+          <dcc:name>
+            <dcc:content>DHI PG7601</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">Matalapainealueen painevaaka, DHI PG7601</dcc:content>
+            <dcc:content lang="fi">
+              Mittanormaalin paras mittauskyky (CMC) on 0,5 Pa + 0,0022 % mitatusta paineen arvosta (k=2).
+            </dcc:content>
+          </dcc:description>
+          <dcc:certificate>
+            <dcc:reference>
+              <dcc:content>M-15P035</dcc:content>
+              <dcc:content>M-14M060</dcc:content>
+              <dcc:content>M-15M045</dcc:content>
+            </dcc:reference>
+            <dcc:referenceID>-</dcc:referenceID>
+            <dcc:procedure>-</dcc:procedure>
+            <dcc:value>-</dcc:value>
+          </dcc:certificate>
+          <dcc:manufacturer>
             <dcc:name>
-                <dcc:content>Beamex Oy Ab</dcc:content>
+              <dcc:content>DH Instruments</dcc:content>
             </dcc:name>
-            <dcc:eMail>service@beamex.com</dcc:eMail>
-            <dcc:location>
-                <dcc:street>Ristisuonraitti</dcc:street>
-                <dcc:streetNo>10</dcc:streetNo>
-                <dcc:postCode>68600</dcc:postCode>
-                <dcc:city>Pietarsaari</dcc:city>
-                <dcc:countryCode>FI</dcc:countryCode>
-            </dcc:location>
-        </dcc:customer>
-        <dcc:statements>
-            <dcc:statement id="MRA">
-                <dcc:convention>CIPM-MRA</dcc:convention>
-                <dcc:valid>true</dcc:valid>
-            </dcc:statement>
-            <dcc:statement>
-                <dcc:convention>Traceability</dcc:convention>
-                <dcc:traceable>true</dcc:traceable>
-                <dcc:declaration>
-					<dcc:content lang="fi">
-					MIKES on kansallinen metrologialaitos, joka nimeää kansalliset mittanormaalilaboratoriot ja valvoo niiden toimintaa. Kansallisen
-					mittanormaalilaboratorion tehtävänä on pitää yllä kansallisia mittanormaaleja ja niiden jäljitettävyyttä SI-järjestelmän yksiköihin.
-					Kansallinen mittanormaalijärjestelmä perustuu lakiin nro 1156/1993 ja asetukseen nro 972/1994. MIKES on osa Teknologian tutkimuskesus VTT Oy:tä.
-					Tämä todistus on kansainvälisen paino- ja mittakomitean (CIPM) laatiman vastavuoroisen tunnustaissopimuksen(MRA) liitteeseen C sisällytettyjen
-					kalibrointi- ja mittauskykyjen (CMC) mukainen. Kaikki MRA:ssa mukana olevat laitokset tunnustavat toistensa kalibrointi- ja mittaustodistusten
-					kelpoisuuden niille suureille, mittausalueille ja mittausepävarmuuksille, jotka on määritelty liitteessä C (katso yksityiskohdat 
-					http://www.bipm.org).
-					</dcc:content>
-					<dcc:content lang="sv">
-					MIKES är det nationella metrologiinstitutet, som utser de nationella mätnormallaboratorierna och övervakar deras verksamhet. Det nationella
-					mätnormallaboratoriet har som uppgift att upprätthålla nationella mätnormaler och deras spårbarhet till SI-systems enheter. Det nationella
-					mätnormalsystemet är stadgat i lag nr 1156/1993 och förordning nr 972/1994. MIKES är en del av Teknologiska forskningscentralen Ab.
-					Detta bevis är i överensstämmlese med de kalibrerings- och mätningsförmågor (CMC) som ingår i bilaga C till arrangemanget om ömsesidigt
-					erkännande (MRA), som har utarbetats av den internationella kommittén för vikt och mått (CIPM). Inom MRA erkänner alla deltagande institut 
-					giltigheten av varandas kalibrerings- och mätningsbevis för de storheter, mätområden och med de osäkerheter som är angivna i bilaga C 
-					(för närmare detaljer se http://www.bipm.org).
-					</dcc:content>
-					<dcc:content lang="en">
-					MIKES is the National Metrology Institute of Finland which designates the National Standards Laboratories and supervises their activities.
-					The National Standards Laboratories are responsible for maintaining of national standards and their traceability to SI units. The Finnish
-					national standards system is based on the Law No. 1156/1993, and the Decree No. 972/1994. MIKES is a part of VTT Technical Research Centre
-					of Finland Ltd.
-					This certificate is consistent with Calibration and Measurement Capabilities (CMCs) that are included in Appendix C of the Mutual recognition 
-					Arrangement (MRA) drawn up by the International Committee for Weights and Measures (CIPM). Under the MRA, all participating institutes recognise
-					the validity of each other's calibration and measurement certificates for the quantities, ranges and measurement uncertainties specified in 
-					Appendix C (for details see http://www.bipm.org).
-					</dcc:content>
-                </dcc:declaration>
-            </dcc:statement>
-			<dcc:statement>
-                <dcc:declaration>
-					<dcc:content lang="fi">
-					Tämän todistuksen osittainen julkaiseminen on sallittu vain kansallisen mittanormaalilaboratorion antaman kirjallisen luvan perusteella.
-					</dcc:content>
-					<dcc:content lang="sv">
-					Utdarg ur detta bevis får endast publiceras med skriftligt tillstånd av det nationella mätnormallaboratoriet.
-					</dcc:content>
-					<dcc:content lang="en">
-					This Certificate may not be reproduced partially, except with a written approval of the issuing National Standards Laboratory.
-					</dcc:content>
-                </dcc:declaration>
-            </dcc:statement>
-        </dcc:statements>
-    </dcc:administrativeData>
-    <dcc:measurementResults>
-        <dcc:measurementResult>
-            <dcc:usedMethods>
-                <dcc:usedMethod>
-                    <dcc:name id="Condition">
-                        <dcc:content lang="fi">Kalibroidun laitteen kunto</dcc:content>
-                        <dcc:content lang="sv">Kondition av kalibrerat instrument</dcc:content>
-                        <dcc:content lang="en">Condition of calibrated instrument</dcc:content>
-                    </dcc:name>
-					<dcc:description>
-                        <dcc:content lang="fi">
-                        Kalibroitavasta painevaa'asta ja sen mäntä-sylinteriyhdistelmistä oli käytettävissä seuraavat tiedot:
-                        
-                        Valmistaja                          Ruska Instrument Corporation
-                        Malli                               2465
-                        Valmistusnumero                     21035
-                        Mäntä-sylinteriyhdistelmät          TL-1006 (matala painealue 5 ... 110 kPa)
-                                                            V-431 (korkea painealue 0,13 ... 4,1 MPa)
-                        Referenssitaso                      Merkitty vaa'an runkoon
-                        Mäntä-syl. yhdistelmien             Mp-alue: 0,000015 1/°C (valmistajan ilm.)
-                        lämpötilakertoimet                  Kp-alue: 0,000009 1/°C (valmistajan ilm.)
-                        Punnussarja                         20845, punnusten ja mäntien massat kalibroitu, todistus M-16M013,
-                                                            massat ja tiheydet todistuksen mukaiset
-                        
-						Kalibroitavan laitteen toimintakunnossa ei havaittu huomauttamista.
-						</dcc:content>
-                    </dcc:description>
-                </dcc:usedMethod>
-                <dcc:usedMethod>
-                    <dcc:name id="Method">
-                        <dcc:content lang="fi">Kalibrointimenetelmä</dcc:content>
-                        <dcc:content lang="sv">Kalibreringsmetod</dcc:content>
-                        <dcc:content lang="en">Calibration method</dcc:content>
-                    </dcc:name>
-                    <dcc:description>
-						<dcc:content lang="fi">
-						Kalibroitavan painevaa'an ja sen mäntä-sylinteriyhdistelmien annettiin tasaantua mittaushuoneessa vallitseviin olosuhteisiin vähintään
-						16 tunnin ajan ennen mittauksia. Painevaaka ja mittanormaali asetettiin rinnakkain työpöydälle ja säädettiin vaaka-asentoon pienen
-						vesivaa'an avulla, joka asetettiin männän päälle.
-						
-						Kalibroitavan painevaa'an punnuksia valittiin sekä matalapainealueelle että korkeapainealueelle viisi yhdistelmää, joita vastaavat paineet
-						mitattiin paineen mittanormaalin avulla 4 kertaa. mittauksia tehtiin sekä paineen nousevassa että laskevassa suunnassa käyttäen männän
-						molempia pyörimissuuntia. Pyörimisvauhti männälle ja sen päällä oleville punnuksille annettiin käsin.
-						
-						Kalibroitavan laitteen ja mittanormaalin mäntäsylinteriyhdistelmän lämpötila mitattiin laitteen runkoon asennetun Pt-100-anturin avulla,
-						vastus luettiin yleismittarilla.
-						</dcc:content>
-                    </dcc:description>
-                    <dcc:description>
-						<dcc:content lang="fi">Tulosten laskenta</dcc:content>
-                    </dcc:description>
-					<dcc:description>
-						<dcc:content lang="fi">
-						
-						</dcc:content>
-                    </dcc:description>
-                </dcc:usedMethod>
-				<dcc:usedMethod>
-					<dcc:name id="Epävarmuus">
-                        <dcc:content lang="fi">Kalibroinnin epävarmuus</dcc:content>
-					</dcc:name>
-					<dcc:description>
-                        <dcc:content lang="fi">
-						Kalibroinnin epävarmuus on ilmoitettu kullekin pisteelle erikseen. Standardiepävarmuus on ilmoitettu siten,
-						että keskihajonta on kerrottu kertoimella kaksi, eli (k=2), mikä normaalijakautumalla vastaa 95% todennäköisyyttä.
-						Epävarmuus on laskettu ohjeen EA-4/02 mukaisesti seuraavista epävarmuustekijöistä: mittanormaali, kalibrointimenetelmä
-						ja ympäristöolosuhteet sekä kalibroitavan kohteen lyhytaikainen vaikutus.
-						</dcc:content>
-                    </dcc:description>
-                </dcc:usedMethod>
-            </dcc:usedMethods>
-            <dcc:measuringEquipments>
-                <dcc:measuringEquipment>
-                    <dcc:name>
-                        <dcc:content>DHI PG7601</dcc:content>
-                    </dcc:name>
-                    <dcc:description>
-                        <dcc:content lang="fi">Matalapainealueen painevaaka, DHI PG7601</dcc:content>
-			<dcc:content lang="fi">
-			Mittanormaalin paras mittauskyky (CMC) on 0,5 Pa + 0,0022 % mitatusta paineen arvosta (k=2).
-			</dcc:content>
-                    </dcc:description>
-                    <dcc:certificate>
-                        <dcc:reference>
-                            <dcc:content>M-15P035</dcc:content>
-			    <dcc:content>M-14M060</dcc:content>
-			    <dcc:content>M-15M045</dcc:content>
-                        </dcc:reference>
-                        <dcc:referenceID>-</dcc:referenceID>
-                        <dcc:procedure>-</dcc:procedure>
-                        <dcc:value>-</dcc:value>
-                    </dcc:certificate>
-                    <dcc:manufacturer>
-                        <dcc:name>
-                            <dcc:content>DH Instruments</dcc:content>
-                        </dcc:name>
-                    </dcc:manufacturer>
-                    <dcc:model>PG7601</dcc:model>
-                    <dcc:identifications>
-                        <dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>149</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Painevaaka nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-			<dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>277</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Mäntä-sylinteriyhdistelmä nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-			<dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>249</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Punnusten kannatin nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-			<dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>2229</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Punnussarja nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-                    </dcc:identifications>
-                </dcc:measuringEquipment>
-				
-                <dcc:measuringEquipment>
-                    <dcc:name>
-                        <dcc:content>Desgranges et Huot 5203</dcc:content>
-                    </dcc:name>
-                    <dcc:description>
-                        <dcc:content lang="fi">Korkeapainealueen painevaaka, Desgranges et Huot 5203</dcc:content>
-			<dcc:content lang="fi">
-			Mittanormaalin paras mittauskyky (CMC) on 5 Pa + 0,0022 % mitatusta paineen arvosta (k=2).
-			</dcc:content>
-                    </dcc:description>
-                    <dcc:certificate>
-                        <dcc:reference>
-                            <dcc:content>M-15P076</dcc:content>
-			    <dcc:content>M-15M007</dcc:content>
-			    <dcc:content>M-15M008</dcc:content>
-			    <dcc:content>M-15M019</dcc:content>
-                        </dcc:reference>
-                        <dcc:referenceID>-</dcc:referenceID>
-                        <dcc:procedure>-</dcc:procedure>
-                        <dcc:value>-</dcc:value>
-                    </dcc:certificate>
-                    <dcc:manufacturer>
-                        <dcc:name>
-                            <dcc:content>Desgranges et Huot</dcc:content>
-                        </dcc:name>
-                    </dcc:manufacturer>
-                    <dcc:model>PG7601</dcc:model>
-                    <dcc:identifications>
-                        <dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>4401</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Painevaaka nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-			<dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>4012</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Mäntä-sylinteriyhdistelmä nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-			<dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>2926</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Punnusten kannatin nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-			<dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>2926</dcc:value>
-                            <dcc:description>
-                                <dcc:content>Punnussarja nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-                    </dcc:identifications>
-                </dcc:measuringEquipment>
-                
-                <dcc:measuringEquipment>
-                    <dcc:name>
-                        <dcc:content>Agilent 34401A</dcc:content>
-                    </dcc:name>
-                    <dcc:description>
-                        <dcc:content lang="fi">
-			Kalibroitavan painevaa'an lämpötilamittauksen vastuslukemat mitattiin yleismittarilla Agilent 34401A.
-			</dcc:content>
-                    </dcc:description>
-                    <dcc:certificate>
-                        <dcc:reference>
-                            <dcc:content>M-15E047</dcc:content>
-                        </dcc:reference>
-                        <dcc:referenceID>-</dcc:referenceID>
-                        <dcc:procedure>-</dcc:procedure>
-                        <dcc:value>-</dcc:value>
-                    </dcc:certificate>
-                    <dcc:manufacturer>
-                        <dcc:name>
-                            <dcc:content>Agilent Technologies</dcc:content>
-                        </dcc:name>
-                    </dcc:manufacturer>
-                    <dcc:model>34401A</dcc:model>
-                    <dcc:identifications>
-                        <dcc:identification>
-                            <dcc:issuer>manufacturer</dcc:issuer>
-                            <dcc:value>US36134097</dcc:value>
-                            <dcc:description>
-                                <dcc:content lang="fi">Nro</dcc:content>
-                            </dcc:description>
-                        </dcc:identification>
-                    </dcc:identifications>
-                </dcc:measuringEquipment>
-            </dcc:measuringEquipments>
-            <dcc:influenceConditions>
-                <dcc:influenceCondition>
-                    <dcc:name>
-                        <dcc:content lang="fi">Kalibrointiolosuhteet</dcc:content>
-                    </dcc:name>
-                    <dcc:data>
-                        <dcc:list>
-			    <dcc:quantity id="Mittaaja">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Mittaaja</dcc:content>
-                                </dcc:name>
-				<dcc:noQuantity>
-					<dcc:content lang="fi">Sari Saxholm</dcc:content>
-				</dcc:noQuantity>
-                            </dcc:quantity>
-			    <dcc:quantity id="Mittauspaikka">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Mittauspaikka</dcc:content>
-                                </dcc:name>
-				<dcc:noQuantity>
-					<dcc:content lang="fi">MIKES 060PAI ja MIKES 061PAI</dcc:content>
-				</dcc:noQuantity>
-                            </dcc:quantity>
-			    <dcc:quantity id="Mittauspäivä">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Mittauspäivä</dcc:content>
-                                </dcc:name>
-				<dcc:noQuantity>
-					<dcc:content lang="fi">8.2.2016 ja 3.2.2016</dcc:content>
-				</dcc:noQuantity>
-                            </dcc:quantity>
-                            <dcc:quantity id="Lämpötila">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Lämpötila</dcc:content>
-                                </dcc:name>
-                                <si:real>
-                                    <si:value>20.7</si:value>
-                                    <si:unit>\degreeCelsius</si:unit>
-				    <si:expandedUnc>
-					<si:uncertainty>1</si:uncertainty>
-					<si:coverageFactor>2</si:coverageFactor>
-					<si:coverageProbability>0.95</si:coverageProbability>
-				    </si:expandedUnc>
-                                </si:real>
-                            </dcc:quantity>
-                            <dcc:quantity id="Ilmanpaine">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Ilmanpaine</dcc:content>
-                                </dcc:name>
-                                <si:real>
-                                    <si:value>989</si:value>
-                                    <si:unit>\hecto\pascal</si:unit>
-				    <si:expandedUnc>
-					<si:uncertainty>5</si:uncertainty>
-					<si:coverageFactor>2</si:coverageFactor>
-					<si:coverageProbability>0.95</si:coverageProbability>
-				     </si:expandedUnc>
-                                </si:real>
-                            </dcc:quantity>
-			    <dcc:quantity id="Kosteus">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Suht. kosteus</dcc:content>
-                                </dcc:name>
-                                <si:real>
-                                    <si:value>47</si:value>
-                                    <si:unit>\percent</si:unit>
-				    <si:expandedUnc>
-					<si:uncertainty>10</si:uncertainty>
-					<si:coverageFactor>2</si:coverageFactor>
-					<si:coverageProbability>0.95</si:coverageProbability>
-				    </si:expandedUnc>
-                                </si:real>
-                            </dcc:quantity>
-			    <dcc:quantity id="Putoamiskiihtyvyys">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Putoamiskiihtyvyys</dcc:content>
-                                </dcc:name>
-                                <si:real>
-                                    <si:value>9.81907</si:value>
-                                    <si:unit>\metre\second\tothe{-2}</si:unit>
-                                </si:real>
-                            </dcc:quantity>
-			    <dcc:quantity id="Väliaine">
-                                <dcc:name>
-                                    <dcc:content lang="fi">Väliaine</dcc:content>
-                                </dcc:name>
-				<dcc:noQuantity>
-				    <dcc:content lang="fi">Typpikaasu</dcc:content>
-				</dcc:noQuantity>
-                            </dcc:quantity>
-                        </dcc:list>
-                    </dcc:data>
-                </dcc:influenceCondition>
-            </dcc:influenceConditions>
-            <dcc:results>
-                <dcc:result>
-                    <dcc:name>
-                        <dcc:content lang="fi">Matalapainealue, TL-1006</dcc:content>
-                    </dcc:name>
-			<dcc:description>
-				<dcc:content lang="fi">Mittaukset ylip.alueella 16,4 kPa ... 101 kPa.</dcc:content>
-				<dcc:content lang="fi">
-				Mainituilla painealueilla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina,
-				samoin riippumattomina männän pyörimissuunnasta.</dcc:content>
-			</dcc:description>
-                    <dcc:data id="Matalapaine">
-			<dcc:quantity>
-                            <dcc:name>
-                                <dcc:content lang="fi">Tehollinen pinta-ala</dcc:content>
-                            </dcc:name>
-			    <si:real>
-				<si:value>335.742</si:value>
-				<si:unit>\milli\metre\tothe{2}</si:unit>
-				<si:expandedUnc>
-				    <si:uncertainty>0.011</si:uncertainty>
-				    <si:coverageFactor>2</si:coverageFactor>
-				    <si:coverageProbability>0.95</si:coverageProbability>
-				</si:expandedUnc>
-			    </si:real>
-                        </dcc:quantity>
-                    </dcc:data>
-                </dcc:result>
-		<dcc:result>
-                    <dcc:name>
-                        <dcc:content lang="fi">Korkeapainealue, V-431</dcc:content>
-                    </dcc:name>
-			<dcc:description>
-				<dcc:content lang="fi">Mittaukset ylip.alueella 0,21 MPa ... 4,01 MPa.</dcc:content>
-				<dcc:content lang="fi">
-				Mainituilla painealueilla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina,
-				samoin riippumattomina männän pyörimissuunnasta.
-				</dcc:content>
-			</dcc:description>
-                    <dcc:data id="Korkeapaine">
-		    <dcc:quantity>
-                            <dcc:name>
-                                <dcc:content lang="fi">Tehollinen pinta-ala</dcc:content>
-                            </dcc:name>
-				<si:real>
-					<si:value>8.39331</si:value>
-					<si:unit>\milli\metre\tothe{2}</si:unit>
-					<si:expandedUnc>
-						<si:uncertainty>0.00022</si:uncertainty>
-						<si:coverageFactor>2</si:coverageFactor>
-						<si:coverageProbability>0.95</si:coverageProbability>
-					</si:expandedUnc>
-				</si:real>
-                        </dcc:quantity>
-                    </dcc:data>
-                </dcc:result>
-                <dcc:result>
-                    <dcc:name>
-                        <dcc:content lang="fi">Suhteellinen epävarmuus</dcc:content>
-                    </dcc:name>
-			<dcc:description>
-				<dcc:content lang="fi">
-				Lämpötilaa 20 °C vastaavan tehollisen pinta-alan arvon epävarmuus on laskettu GUMin
-				(Evaluation of measurement data - Guide to the expression of uncertainty in measurement, JCGM 100:2008)
-				mukaisesti käyttäen kattavuuskerrointa k=2. Laskettuun tehollisen pinta-alan epävarmuuteen vaikuttavat 
-				merkitsevät tekijät ja niiden suuruudet on esitetty seuraavassa taulukossa:
-				</dcc:content>
-			</dcc:description>
-                    <dcc:data id="SuhtEpävarmuus">
-                        <dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Epävarmuuden osatekijä</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<dcc:noQuantity>
-							<dcc:content lang="fi">Suhteellinen epävarmuus (1s) prosentteina (%), Matalapainealue</dcc:content>
-						</dcc:noQuantity>
-					</dcc:quantity>
-					<dcc:quantity>
-						<dcc:noQuantity>
-							<dcc:content lang="fi">Suhteellinen epävarmuus (1s) prosentteina (%), Korkeapainealue</dcc:content>
-						</dcc:noQuantity>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Tulosten hajonta</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0004</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0006</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Mittanormaalin epävarmuus suurimmalla mittauksissa käytetyllä paineella</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0013</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0015</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Kalibroitavan painevaa'an punnusten massojen epävarmuus (± 0,5 °C)</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0003</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0003</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Kalibroitavan painevaa'an mäntä-sylinteriyhdistelmän lämpötilan epävarmuus (± 0,5 °C)</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0005</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0003</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Kalibroitavan painevaa'an pystysuoruuteen liittyvä epävarmuus</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0003</si:value>
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0003</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content>Korkeuserokorjauksen epävarmuus</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0005</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0003</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Yhdistetty epävarmuus</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0015</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0017</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Kokonaisepävarmuus (k=2), %</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0031</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.0034</si:value>		
-							<si:unit>\percent</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-				<dcc:list>
-					<dcc:name>
-						<dcc:content lang="fi">Kokonaisepävarmuus (k=2), mm2</dcc:content>
-					</dcc:name>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Matalapainealue</si:label>
-							<si:value>0.0105</si:value>		
-							<si:unit>\milli\metre\tothe{2}</si:unit>
-						</si:real>
-					</dcc:quantity>
-					<dcc:quantity>
-						<si:real>
-							<si:label>Korkeapainealue</si:label>
-							<si:value>0.000220</si:value>		
-							<si:unit>\milli\metre\tothe{2}</si:unit>
-						</si:real>
-					</dcc:quantity>
-				</dcc:list>
-                        </dcc:list>
-                    </dcc:data>
-                </dcc:result>
-				<dcc:result>
-					<dcc:name>
-						<dcc:content lang="fi">Mittaukset, TL-1006</dcc:content>
-					</dcc:name>
-					<dcc:data id="TL-1006">
-						<dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>0.015</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>335.7439</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7452</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7458</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7468</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>0.025</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>335.743</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7432</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7427</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7445</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>0.050</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>335.7411</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7411</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7414</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7408</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>0.075</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>335.7414</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7418</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7416</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7422</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>0.100</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>335.7409</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.741</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7412</si:value>
-										</si:real>
-										<si:real>
-											<si:value>335.7413</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-                        </dcc:list>
-					</dcc:data>
-				</dcc:result>
-				<dcc:result>
-					<dcc:name>
-						<dcc:content lang="fi">Mittaukset, V-431</dcc:content>
-					</dcc:name>
-					<dcc:data id="V-431">
-						<dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>0.200</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>8.39325</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39327</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39334</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39329</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>1.00</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>8.39322</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39324</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39326</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39322</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>2.00</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>8.39330</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39331</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39332</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39332</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>3.00</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>8.39333</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39332</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39332</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39335</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-							<dcc:list>
-								<dcc:quantity>
-									<si:real>
-										<si:label>Paine (MPA)</si:label>
-										<si:value>4.00</si:value>
-										<si:unit>\mega\pascal</si:unit>
-									</si:real>
-								</dcc:quantity>
-								<dcc:quantity>
-									<si:list>
-										<si:label>Tehollinen pinta-ala (mm2)</si:label>
-										<si:listUnit>\milli\metre\tothe{2}</si:listUnit>
-										<si:real>
-											<si:value>8.39338</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39337</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39337</si:value>
-										</si:real>
-										<si:real>
-											<si:value>8.39336</si:value>
-										</si:real>
-									</si:list>
-								</dcc:quantity>
-							</dcc:list>
-                        </dcc:list>
-					</dcc:data>
-				</dcc:result>
-            </dcc:results>
-        </dcc:measurementResult>
-    </dcc:measurementResults>
+          </dcc:manufacturer>
+          <dcc:model>PG7601</dcc:model>
+          <dcc:identifications>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>149</dcc:value>
+              <dcc:description>
+                <dcc:content>Painevaaka nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>277</dcc:value>
+              <dcc:description>
+                <dcc:content>Mäntä-sylinteriyhdistelmä nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>249</dcc:value>
+              <dcc:description>
+                <dcc:content>Punnusten kannatin nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>2229</dcc:value>
+              <dcc:description>
+                <dcc:content>Punnussarja nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+          </dcc:identifications>
+        </dcc:measuringEquipment>
+
+        <dcc:measuringEquipment>
+          <dcc:name>
+            <dcc:content>Desgranges et Huot 5203</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">Korkeapainealueen painevaaka, Desgranges et Huot 5203</dcc:content>
+            <dcc:content lang="fi">
+              Mittanormaalin paras mittauskyky (CMC) on 5 Pa + 0,0022 % mitatusta paineen arvosta (k=2).
+            </dcc:content>
+          </dcc:description>
+          <dcc:certificate>
+            <dcc:reference>
+              <dcc:content>M-15P076</dcc:content>
+              <dcc:content>M-15M007</dcc:content>
+              <dcc:content>M-15M008</dcc:content>
+              <dcc:content>M-15M019</dcc:content>
+            </dcc:reference>
+            <dcc:referenceID>-</dcc:referenceID>
+            <dcc:procedure>-</dcc:procedure>
+            <dcc:value>-</dcc:value>
+          </dcc:certificate>
+          <dcc:manufacturer>
+            <dcc:name>
+              <dcc:content>Desgranges et Huot</dcc:content>
+            </dcc:name>
+          </dcc:manufacturer>
+          <dcc:model>PG7601</dcc:model>
+          <dcc:identifications>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>4401</dcc:value>
+              <dcc:description>
+                <dcc:content>Painevaaka nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>4012</dcc:value>
+              <dcc:description>
+                <dcc:content>Mäntä-sylinteriyhdistelmä nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>2926</dcc:value>
+              <dcc:description>
+                <dcc:content>Punnusten kannatin nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>2926</dcc:value>
+              <dcc:description>
+                <dcc:content>Punnussarja nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+          </dcc:identifications>
+        </dcc:measuringEquipment>
+
+        <dcc:measuringEquipment>
+          <dcc:name>
+            <dcc:content>Agilent 34401A</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">
+              Kalibroitavan painevaa'an lämpötilamittauksen vastuslukemat mitattiin yleismittarilla Agilent 34401A.
+            </dcc:content>
+          </dcc:description>
+          <dcc:certificate>
+            <dcc:reference>
+              <dcc:content>M-15E047</dcc:content>
+            </dcc:reference>
+            <dcc:referenceID>-</dcc:referenceID>
+            <dcc:procedure>-</dcc:procedure>
+            <dcc:value>-</dcc:value>
+          </dcc:certificate>
+          <dcc:manufacturer>
+            <dcc:name>
+              <dcc:content>Agilent Technologies</dcc:content>
+            </dcc:name>
+          </dcc:manufacturer>
+          <dcc:model>34401A</dcc:model>
+          <dcc:identifications>
+            <dcc:identification>
+              <dcc:issuer>manufacturer</dcc:issuer>
+              <dcc:value>US36134097</dcc:value>
+              <dcc:description>
+                <dcc:content lang="fi">Nro</dcc:content>
+              </dcc:description>
+            </dcc:identification>
+          </dcc:identifications>
+        </dcc:measuringEquipment>
+      </dcc:measuringEquipments>
+      <dcc:influenceConditions>
+        <dcc:influenceCondition>
+          <dcc:name>
+            <dcc:content lang="fi">Kalibrointiolosuhteet</dcc:content>
+          </dcc:name>
+          <dcc:data>
+            <dcc:list>
+              <dcc:quantity id="Mittaaja">
+                <dcc:name>
+                  <dcc:content lang="fi">Mittaaja</dcc:content>
+                </dcc:name>
+                <dcc:noQuantity>
+                  <dcc:content lang="fi">Sari Saxholm</dcc:content>
+                </dcc:noQuantity>
+              </dcc:quantity>
+              <dcc:quantity id="Mittauspaikka">
+                <dcc:name>
+                  <dcc:content lang="fi">Mittauspaikka</dcc:content>
+                </dcc:name>
+                <dcc:noQuantity>
+                  <dcc:content lang="fi">MIKES 060PAI ja MIKES 061PAI</dcc:content>
+                </dcc:noQuantity>
+              </dcc:quantity>
+              <dcc:quantity id="Mittauspäivä">
+                <dcc:name>
+                  <dcc:content lang="fi">Mittauspäivä</dcc:content>
+                </dcc:name>
+                <dcc:noQuantity>
+                  <dcc:content lang="fi">8.2.2016 ja 3.2.2016</dcc:content>
+                </dcc:noQuantity>
+              </dcc:quantity>
+              <dcc:quantity id="Lämpötila">
+                <dcc:name>
+                  <dcc:content lang="fi">Lämpötila</dcc:content>
+                </dcc:name>
+                <si:real>
+                  <si:value>20.7</si:value>
+                  <si:unit>\degreeCelsius</si:unit>
+                  <si:expandedUnc>
+                    <si:uncertainty>1</si:uncertainty>
+                    <si:coverageFactor>2</si:coverageFactor>
+                    <si:coverageProbability>0.95</si:coverageProbability>
+                  </si:expandedUnc>
+                </si:real>
+              </dcc:quantity>
+              <dcc:quantity id="Ilmanpaine">
+                <dcc:name>
+                  <dcc:content lang="fi">Ilmanpaine</dcc:content>
+                </dcc:name>
+                <si:real>
+                  <si:value>989</si:value>
+                  <si:unit>\hecto\pascal</si:unit>
+                  <si:expandedUnc>
+                    <si:uncertainty>5</si:uncertainty>
+                    <si:coverageFactor>2</si:coverageFactor>
+                    <si:coverageProbability>0.95</si:coverageProbability>
+                  </si:expandedUnc>
+                </si:real>
+              </dcc:quantity>
+              <dcc:quantity id="Kosteus">
+                <dcc:name>
+                  <dcc:content lang="fi">Suht. kosteus</dcc:content>
+                </dcc:name>
+                <si:real>
+                  <si:value>47</si:value>
+                  <si:unit>\percent</si:unit>
+                  <si:expandedUnc>
+                    <si:uncertainty>10</si:uncertainty>
+                    <si:coverageFactor>2</si:coverageFactor>
+                    <si:coverageProbability>0.95</si:coverageProbability>
+                  </si:expandedUnc>
+                </si:real>
+              </dcc:quantity>
+              <dcc:quantity id="Putoamiskiihtyvyys">
+                <dcc:name>
+                  <dcc:content lang="fi">Putoamiskiihtyvyys</dcc:content>
+                </dcc:name>
+                <si:real>
+                  <si:value>9.81907</si:value>
+                  <si:unit>\metre\second\tothe{-2}</si:unit>
+                </si:real>
+              </dcc:quantity>
+              <dcc:quantity id="Väliaine">
+                <dcc:name>
+                  <dcc:content lang="fi">Väliaine</dcc:content>
+                </dcc:name>
+                <dcc:noQuantity>
+                  <dcc:content lang="fi">Typpikaasu</dcc:content>
+                </dcc:noQuantity>
+              </dcc:quantity>
+            </dcc:list>
+          </dcc:data>
+        </dcc:influenceCondition>
+      </dcc:influenceConditions>
+      <dcc:results>
+        <dcc:result>
+          <dcc:name>
+            <dcc:content lang="fi">Matalapainealue, TL-1006</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">Mittaukset ylip.alueella 16,4 kPa ... 101 kPa.</dcc:content>
+            <dcc:content lang="fi">
+              Mainituilla painealueilla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina,
+              samoin riippumattomina männän pyörimissuunnasta.
+            </dcc:content>
+          </dcc:description>
+          <dcc:data id="Matalapaine">
+            <dcc:quantity>
+              <dcc:name>
+                <dcc:content lang="fi">Tehollinen pinta-ala</dcc:content>
+              </dcc:name>
+              <si:real>
+                <si:value>335.742</si:value>
+                <si:unit>\milli\metre\tothe{2}</si:unit>
+                <si:expandedUnc>
+                  <si:uncertainty>0.011</si:uncertainty>
+                  <si:coverageFactor>2</si:coverageFactor>
+                  <si:coverageProbability>0.95</si:coverageProbability>
+                </si:expandedUnc>
+              </si:real>
+            </dcc:quantity>
+          </dcc:data>
+        </dcc:result>
+        <dcc:result>
+          <dcc:name>
+            <dcc:content lang="fi">Korkeapainealue, V-431</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">Mittaukset ylip.alueella 0,21 MPa ... 4,01 MPa.</dcc:content>
+            <dcc:content lang="fi">
+              Mainituilla painealueilla tehollisen pinta-alan arvoja voidaan pitää paineesta riippumattomina,
+              samoin riippumattomina männän pyörimissuunnasta.
+            </dcc:content>
+          </dcc:description>
+          <dcc:data id="Korkeapaine">
+            <dcc:quantity>
+              <dcc:name>
+                <dcc:content lang="fi">Tehollinen pinta-ala</dcc:content>
+              </dcc:name>
+              <si:real>
+                <si:value>8.39331</si:value>
+                <si:unit>\milli\metre\tothe{2}</si:unit>
+                <si:expandedUnc>
+                  <si:uncertainty>0.00022</si:uncertainty>
+                  <si:coverageFactor>2</si:coverageFactor>
+                  <si:coverageProbability>0.95</si:coverageProbability>
+                </si:expandedUnc>
+              </si:real>
+            </dcc:quantity>
+          </dcc:data>
+        </dcc:result>
+        <dcc:result>
+          <dcc:name>
+            <dcc:content lang="fi">Suhteellinen epävarmuus</dcc:content>
+          </dcc:name>
+          <dcc:description>
+            <dcc:content lang="fi">
+              Lämpötilaa 20 °C vastaavan tehollisen pinta-alan arvon epävarmuus on laskettu GUMin
+              (Evaluation of measurement data - Guide to the expression of uncertainty in measurement, JCGM 100:2008)
+              mukaisesti käyttäen kattavuuskerrointa k=2. Laskettuun tehollisen pinta-alan epävarmuuteen vaikuttavat
+              merkitsevät tekijät ja niiden suuruudet on esitetty seuraavassa taulukossa:
+            </dcc:content>
+          </dcc:description>
+          <dcc:data id="SuhtEpävarmuus">
+            <dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Epävarmuuden osatekijä</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <dcc:noQuantity>
+                    <dcc:content lang="fi">Suhteellinen epävarmuus (1s) prosentteina (%), Matalapainealue</dcc:content>
+                  </dcc:noQuantity>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <dcc:noQuantity>
+                    <dcc:content lang="fi">Suhteellinen epävarmuus (1s) prosentteina (%), Korkeapainealue</dcc:content>
+                  </dcc:noQuantity>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Tulosten hajonta</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0004</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0006</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Mittanormaalin epävarmuus suurimmalla mittauksissa käytetyllä paineella</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0013</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0015</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Kalibroitavan painevaa'an punnusten massojen epävarmuus (± 0,5 °C)</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0003</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0003</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Kalibroitavan painevaa'an mäntä-sylinteriyhdistelmän lämpötilan epävarmuus (± 0,5 °C)</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0005</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0003</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Kalibroitavan painevaa'an pystysuoruuteen liittyvä epävarmuus</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0003</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0003</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content>Korkeuserokorjauksen epävarmuus</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0005</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0003</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Yhdistetty epävarmuus</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0015</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0017</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Kokonaisepävarmuus (k=2), %</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0031</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.0034</si:value>
+                    <si:unit>\percent</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:name>
+                  <dcc:content lang="fi">Kokonaisepävarmuus (k=2), mm2</dcc:content>
+                </dcc:name>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Matalapainealue</si:label>
+                    <si:value>0.0105</si:value>
+                    <si:unit>\milli\metre\tothe{2}</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Korkeapainealue</si:label>
+                    <si:value>0.000220</si:value>
+                    <si:unit>\milli\metre\tothe{2}</si:unit>
+                  </si:real>
+                </dcc:quantity>
+              </dcc:list>
+            </dcc:list>
+          </dcc:data>
+        </dcc:result>
+        <dcc:result>
+          <dcc:name>
+            <dcc:content lang="fi">Mittaukset, TL-1006</dcc:content>
+          </dcc:name>
+          <dcc:data id="TL-1006">
+            <dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>0.015</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>335.7439</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7452</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7458</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7468</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>0.025</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>335.743</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7432</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7427</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7445</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>0.050</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>335.7411</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7411</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7414</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7408</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>0.075</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>335.7414</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7418</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7416</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7422</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>0.100</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>335.7409</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.741</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7412</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>335.7413</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+            </dcc:list>
+          </dcc:data>
+        </dcc:result>
+        <dcc:result>
+          <dcc:name>
+            <dcc:content lang="fi">Mittaukset, V-431</dcc:content>
+          </dcc:name>
+          <dcc:data id="V-431">
+            <dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>0.200</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>8.39325</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39327</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39334</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39329</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>1.00</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>8.39322</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39324</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39326</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39322</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>2.00</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>8.39330</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39331</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39332</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39332</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>3.00</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>8.39333</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39332</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39332</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39335</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+              <dcc:list>
+                <dcc:quantity>
+                  <si:real>
+                    <si:label>Paine (MPA)</si:label>
+                    <si:value>4.00</si:value>
+                    <si:unit>\mega\pascal</si:unit>
+                  </si:real>
+                </dcc:quantity>
+                <dcc:quantity>
+                  <si:list>
+                    <si:label>Tehollinen pinta-ala (mm2)</si:label>
+                    <si:listUnit>\milli\metre\tothe{2}</si:listUnit>
+                    <si:real>
+                      <si:value>8.39338</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39337</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39337</si:value>
+                    </si:real>
+                    <si:real>
+                      <si:value>8.39336</si:value>
+                    </si:real>
+                  </si:list>
+                </dcc:quantity>
+              </dcc:list>
+            </dcc:list>
+          </dcc:data>
+        </dcc:result>
+      </dcc:results>
+    </dcc:measurementResult>
+  </dcc:measurementResults>
 </dcc:digitalCalibrationCertificate>

@@ -2386,6 +2386,9 @@
 									<si:real>
 										<si:value>1</si:value>
 									</si:real>
+									<si:real>
+										<si:value>1</si:value>
+									</si:real>
 								</si:list>
 							</dcc:quantity>
 						</dcc:list>
