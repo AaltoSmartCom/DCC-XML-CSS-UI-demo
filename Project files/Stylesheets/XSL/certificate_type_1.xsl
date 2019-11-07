@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="1.0" 
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd" 
-    xmlns:dcc="https://ptb.de/dcc" 
+    xmlns:dcc="https://ptb.de/dcc"
     xmlns:si="https://ptb.de/si">
 
     <xsl:template match="/">
@@ -27,22 +27,22 @@
                                         </h3>
                                         <p>
                                             <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:street"/>
-                                            <xsl:text></xsl:text>
+                                            <xsl:text> </xsl:text>
                                             <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:streetNo"/>
                                             <br/>
                                             <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:countryCode"/>
                                             <span class="from-template">-</span>
                                             <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:postCode"/>
-                                            <xsl:text></xsl:text>
+                                            <xsl:text> </xsl:text>
                                             <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:city"/>
                                             <br/>
                                             <span class="not-in-xml-file">Finland</span>
                                             <br/>
                                             <span class="from-template">Tel. </span>
-                                            <span class="not-in-xml-file">+358 10 550 5000</span>
+                                            <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:phone"/>
                                             <br/>
                                             <span class="from-template">Fax. </span>
-                                            <span class="not-in-xml-file">+358 10 550 5404</span>
+                                            <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:fax"/>
                                         </p>
                                         <p>
                                             <a class="not-in-xml-file" href="http://www.beamex.com" target="_blank">www.beamex.com</a>
@@ -95,22 +95,22 @@
                                     </h3>
                                     <p>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:street"/>
-                                        <xsl:text></xsl:text>
+                                        <xsl:text> </xsl:text>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:streetNo"/>
                                         <br/>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:countryCode"/>
                                         <span class="not-in-xml-file">-</span>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:postCode"/>
-                                        <xsl:text></xsl:text>
+                                        <xsl:text> </xsl:text>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:location/dcc:city"/>
                                         <br/>
                                         <span class="not-in-xml-file">Finland</span>
                                         <br/>
                                         <span class="from-template">Tel. </span>
-                                        <span class="not-in-xml-file">+358 10 550 5000</span>
+                                        <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:phone"/>
                                         <br/>
                                         <span class="from-template">Fax. </span>
-                                        <span class="not-in-xml-file">+358 10 550 5404</span>
+                                        <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:calibrationLaboratory/dcc:contact/dcc:fax"/>
                                     </p>
                                 </div>
 
@@ -140,11 +140,11 @@
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:customer/dcc:name/dcc:content"/>
                                         <br/>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:customer/dcc:location/dcc:street"/>
-                                        <xsl:text></xsl:text>
+                                        <xsl:text> </xsl:text>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:customer/dcc:location/dcc:streetNo"/>
                                         <br/>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:customer/dcc:location/dcc:postCode"/>
-                                        <xsl:text></xsl:text>
+                                        <xsl:text> </xsl:text>
                                         <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:customer/dcc:location/dcc:city"/>
                                         <br/>
                                         <span class="not-in-xml-file">Finland</span>
@@ -203,7 +203,7 @@
                                 </div>
 
                                 <div class="grid-item">
-                                    <p class="not-in-xml-file">Nov 01, 2017</p>
+                                    <p><xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:coreData/dcc:receiptDate"/></p>
                                 </div>
 
                                 <div class="grid-item">
@@ -252,9 +252,8 @@
                             <h3>
                                 <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:model"/>
                                 <span class="from-template">, S/N: </span>
-                                <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/>
-                                <span class="from-template">. Measurement Section (IN), S/N: </span>
-                                <span class="not-in-xml-file">21091.</span>
+                                <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:identifications/dcc:identification/dcc:value"/> <span class="from-template">. </span>
+                                <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:measurementResults/dcc:measurementResult/dcc:results/dcc:result/dcc:name/dcc:content[2]"/>
                             </h3>
                         </div>
 
@@ -343,7 +342,7 @@
                                                         </xsl:choose>
 
                                                         <xsl:if test="dcc:name/dcc:content = 'Difference'">
-                                                            <td>±                                                                
+                                                            <td>±
                                                                 <xsl:value-of select="$cols[$col-index - 1]/si:list/si:real[$index]/si:expandedUnc/si:uncertainty" />
                                                             </td>
                                                         </xsl:if>
@@ -383,7 +382,7 @@
                             <div class="title">
                                 <h3>
                                     <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:name/dcc:content"/>
-                                    <xsl:text></xsl:text>
+                                    <xsl:text> </xsl:text>
                                     <xsl:value-of select="dcc:digitalCalibrationCertificate/dcc:administrativeData/dcc:items/dcc:item/dcc:model"/>
                                 </h3>
                                 <h3>

@@ -1,0 +1,8 @@
+DCC-UI Project, phase 1, lessons learned
+
+-pitää miettiä mitkä tekstit pitää sisällyttää xml-dataan ja mitkä voidaan tuoda suoraan XSL-stylesheetistä. Vain data joka voi muuttua eri laitteen kalibroinnin välillä XML:ään, pysyvä ihmisen luettavaksi tarkoitettu teksti Stylesheettiin?
+
+-Eri kieliversion sijainti. Liittyy edelliseen kohtaan. Jos XML:ään jää vain numerodata tai tekstit joita ei tarvitse kääntää kuten laitteiden nimet, mallit, valmistajat yms. Voidaan stylesheeteistä tehdä omat kieliversionsa.
+
+-päivämäärät voisivat olla jaettu osiin [dd] [mm] [yyyy], jotta ne voitaisiin esittää eri muotoisina tai tarvittaessa niistä voitaisiin käyttää vain osia.
+
