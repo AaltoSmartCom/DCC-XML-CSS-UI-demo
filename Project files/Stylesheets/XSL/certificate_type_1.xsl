@@ -454,7 +454,12 @@
                                                 <xsl:value-of select="dcc:identifications/dcc:identification/dcc:value"/>
                                             </td>
                                             <td>
+					      <xsl:if test="dcc:certificate/dcc:referenceID = 'K026-17P4654'">
+                                                <a href="./DCC_K026-17P4654.xml"><xsl:value-of select="dcc:certificate/dcc:referenceID"/></a>
+					      </xsl:if>
+					      <xsl:if test="dcc:certificate/dcc:referenceID != 'K026-17P4654'">
                                                 <xsl:value-of select="dcc:certificate/dcc:referenceID"/>
+					      </xsl:if>
                                             </td>
                                             <td>
                                                 <xsl:value-of select="dcc:description/dcc:content"/>
