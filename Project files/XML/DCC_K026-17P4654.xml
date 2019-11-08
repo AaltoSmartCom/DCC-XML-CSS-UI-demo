@@ -36,6 +36,7 @@
 			<dcc:usedLangCodeISO639_1>sv</dcc:usedLangCodeISO639_1>
             <dcc:mandatoryLangCodeISO639_1>fi</dcc:mandatoryLangCodeISO639_1>
             <dcc:uniqueIdentifier>K026-17P4654</dcc:uniqueIdentifier>
+	    <dcc:receiptDate>2017-10-02</dcc:receiptDate>
             <dcc:beginPerformanceDate>2017-10-02</dcc:beginPerformanceDate>
             <dcc:endPerformanceDate>2017-10-02</dcc:endPerformanceDate>
         </dcc:coreData>
@@ -76,6 +77,8 @@
                     <dcc:content>Beamex Oy Ab</dcc:content>
                 </dcc:name>
                 <dcc:eMail>service@beamex.com</dcc:eMail>
+				<dcc:phone>+358 10 550 5000</dcc:phone>
+				<dcc:fax>+358 10 550 5404</dcc:fax>
                 <dcc:location>
                     <dcc:further id="additional">
 					    <dcc:content lang="en">ACCREDITED CALIBRATION LABORATORY</dcc:content>
@@ -171,37 +174,56 @@
                 <dcc:usedMethod>
                     <dcc:name id="Method">
 						<dcc:content>Default</dcc:content>
-                        <dcc:content lang="fi">Vertaus referenssinormaaliin</dcc:content>
+                        <dcc:content lang="en">Comparison to a reference normal</dcc:content>
+						<dcc:content lang="fi">Vertaus referenssinormaaliin</dcc:content>
+						<dcc:content lang="sv">Vertaus referenssinormaaliin</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<dcc:content lang="en">Calibration procedure</dcc:content>
 						<dcc:content lang="fi">Kalibroinnin suoritus</dcc:content>
+						<dcc:content lang="sv">Kalibreringförfarande</dcc:content>
                     </dcc:description>
 					<dcc:description>
+					<dcc:content lang="en">
+						Calibration was excecuted according to the internal specification no. 6237L.
+						Before calibration the pressure controller was allowed to stabilize to the prevailing conditions with the input voltage connected.
+						The pressure controller was calibrated by comparing it to the calibration laboratory reference normal Ruska 2465-751 s/n: 21035.
+						The measurements were taken for both increasing and decreasing pressure.
+						The medium used in the measurements was air.
+						</dcc:content>
 						<dcc:content lang="fi">
 						Kalibrointi suoritettiin sisäisen ohjeen no. 6327L mukaan.
 						Ennen kalibrointia painesäätimen annettiin tasaantua kalibrointilaboratoriossa vallitseviin olosuhteisiin, syöttöjännite kytkettynä.
 						Painesäädin kalibroitiin vertaamalla sitä kalibrointilaboratorion referenssinormaaliin Ruska 2465-751 s/n: 21035.
-						Mittaukset suoritettiin sekä paineen nousevassa että laskevasa suunnassa.
+						Mittaukset suoritettiin sekä paineen nousevassa että laskevassa suunnassa.
 						Väliaineena mittauksissa käytettiin ilmaa.
 						</dcc:content>
                     </dcc:description>
                     <dcc:description>
+						<dcc:content lang="en">The condition of the calibrated device</dcc:content>
                         <dcc:content lang="fi">Kalibroidun laitteen kunto</dcc:content>
                     </dcc:description>
 					<dcc:description>
-                        <dcc:content lang="fi">
-						Laitteen kunnossa ei havaittu mitään huomautettavaa.
-						</dcc:content>
+						<dcc:content lang="en">There was no remarks in the condition of the device.</dcc:content>
+                        <dcc:content lang="fi">Laitteen kunnossa ei havaittu mitään huomautettavaa.</dcc:content>
                     </dcc:description>
 					<dcc:description>
+						<dcc:content lang="en">The reference normal are traceable to the Finnish national measurement normals.</dcc:content>
                         <dcc:content lang="fi">Referenssinormaaleilla on jäljitettävyys Suomen kansallisiin mittanormaaleihin.</dcc:content>
                     </dcc:description>
                 </dcc:usedMethod>
 				<dcc:usedMethod>
-					<dcc:name id="Epävarmuus">
+					<dcc:name id="Uncertainty">
+						<dcc:content lang="en">Calibration uncertainty</dcc:content>
                         <dcc:content lang="fi">Kalibroinnin epävarmuus</dcc:content>
 					</dcc:name>
 					<dcc:description>
+						<dcc:content lang="en">
+						The calibration uncertainty is given separately to each measurement point. The given standard uncertainty has been defined
+						as the standard deviation multiplied by coefficient of two (k=2), which equals to 95% probability on normal distribution.
+						The uncertainty has been calculated according to the internal specification EA-4/02 from following uncertainty factors:
+						measurement normal, calibration method and the influence of the evironmental conditions and the calibrated object.
+						</dcc:content>
                         <dcc:content lang="fi">
 						Kalibroinnin epävarmuus on ilmoitettu kullekin pisteelle erikseen. Standardiepävarmuus on ilmoitettu siten,
 						että keskihajonta on kerrottu kertoimella kaksi, eli (k=2), mikä normaalijakautumalla vastaa 95% todennäköisyyttä.
@@ -217,6 +239,8 @@
                         <dcc:content>Dead Weight Tester (air)</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<dcc:content lang="en">Scale frame and piston-cylinder combination for high pressure zone</dcc:content>
+                        <dcc:content lang="en">Calibrated 08.02.2016</dcc:content>
                         <dcc:content lang="fi">Vaakarunko ja korkeapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
                         <dcc:content lang="fi">Kalibroitu 08.02.2016</dcc:content>
                     </dcc:description>
@@ -239,13 +263,15 @@
                             <dcc:issuer>manufacturer</dcc:issuer>
                             <dcc:value>21035</dcc:value>
                             <dcc:description>
-                                <dcc:content>Vaakarunko</dcc:content>
+								<dcc:content lang="en">Scale frame</dcc:content>
+                                <dcc:content lang="fi">Vaakarunko</dcc:content>
                             </dcc:description>
                         </dcc:identification>
                         <dcc:identification>
                             <dcc:issuer>manufacturer</dcc:issuer>
                             <dcc:value>V-431</dcc:value>
                             <dcc:description>
+								<dcc:content lang="en">Serial number</dcc:content>
                                 <dcc:content lang="fi">Sarjanumero</dcc:content>
                             </dcc:description>
                         </dcc:identification>
@@ -257,6 +283,8 @@
                         <dcc:content>Dead Weight Tester (air)</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<dcc:content lang="en">Scale frame and piston-cylinder combination for low pressure zone</dcc:content>
+                        <dcc:content lang="en">Calibrated 08.02.2016</dcc:content>
                         <dcc:content lang="fi">Vaakarunko ja matalapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
                         <dcc:content lang="fi">Kalibroitu 08.02.2016</dcc:content>
                     </dcc:description>
@@ -279,13 +307,15 @@
                             <dcc:issuer>manufacturer</dcc:issuer>
                             <dcc:value>21305</dcc:value>
                             <dcc:description>
-                                <dcc:content lang="fi">Sarjanumero</dcc:content>
+                                <dcc:content lang="en">Scale frame</dcc:content>
+                                <dcc:content lang="fi">Vaakarunko</dcc:content>
                             </dcc:description>
                         </dcc:identification>
                         <dcc:identification>
                             <dcc:issuer>manufacturer</dcc:issuer>
                             <dcc:value>TL-1006</dcc:value>
                             <dcc:description>
+                                <dcc:content lang="en">Serial number</dcc:content>
                                 <dcc:content lang="fi">Sarjanumero</dcc:content>
                             </dcc:description>
                         </dcc:identification>
@@ -297,7 +327,8 @@
                         <dcc:content>Mass Set</dcc:content>
                     </dcc:name>
                     <dcc:description>
-                        <dcc:content lang="fi">Kalibroitu 09.02.2016</dcc:content>
+                        <dcc:content lang="en">Calibrated 09.02.2016</dcc:content>
+						<dcc:content lang="fi">Kalibroitu 09.02.2016</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
                         <dcc:reference>
@@ -318,6 +349,7 @@
                             <dcc:issuer>manufacturer</dcc:issuer>
                             <dcc:value>20845</dcc:value>
                             <dcc:description>
+								<dcc:content lang="en">Serial number</dcc:content>
                                 <dcc:content lang="fi">Sarjanumero</dcc:content>
                             </dcc:description>
                         </dcc:identification>
@@ -350,6 +382,7 @@
                             <dcc:issuer>manufacturer</dcc:issuer>
                             <dcc:value>30666</dcc:value>
                             <dcc:description>
+								<dcc:content lang="en">Serial number</dcc:content>
                                 <dcc:content lang="fi">Sarjanumero</dcc:content>
                             </dcc:description>
                         </dcc:identification>
@@ -364,11 +397,13 @@
                     <dcc:data>
                         <dcc:list>
                             <dcc:name>
-                                <dcc:content lang="de">Kalibrointi suoritettiin vakioilmastoidussa tilassa, jossa lämpötila oli 23 °C ± 1 °C ja ilman suhteellinen kosteus 50 %RH ± 10 %RH.</dcc:content>
+								<dcc:content lang="en">Calibration was excecuted in a standard airconditioned space temperature was 23 °C ± 1 °C and relative humidity was 50 %RH ± 10 %RH.</dcc:content>
+                                <dcc:content lang="fi">Kalibrointi suoritettiin vakioilmastoidussa tilassa, jossa lämpötila oli 23 °C ± 1 °C ja ilman suhteellinen kosteus 50 %RH ± 10 %RH.</dcc:content>
                             </dcc:name>
-                            <dcc:list id="Lämpötila">
+                            <dcc:list id="Temperature">
                                 <dcc:name>
-                                    <dcc:content lang="en">temperature</dcc:content>
+                                    <dcc:content lang="en">Temperature</dcc:content>
+									<dcc:content lang="fi">Lämpötila</dcc:content>
                                 </dcc:name>
                                 <dcc:quantity>
                                     <dcc:name>
@@ -389,9 +424,10 @@
                                     </si:real>
                                 </dcc:quantity>
                             </dcc:list>
-                            <dcc:list id="Kosteus">
+                            <dcc:list id="Humidity">
                                 <dcc:name>
-                                    <dcc:content lang="en">relative humidity</dcc:content>
+                                    <dcc:content lang="en">Relative humidity</dcc:content>
+									<dcc:content lang="fi">Suhteellinen kosteus</dcc:content>
                                 </dcc:name>
                                 <dcc:quantity>
                                     <dcc:name>
@@ -419,12 +455,14 @@
             <dcc:results>
                 <dcc:result>
                     <dcc:name>
+						<dcc:content lang="en">Pressure zone: 0 ... 160 kPa, overpressure</dcc:content>
                         <dcc:content lang="fi">Painealue: 0 ... 160 kPa, ylipaine</dcc:content>
                     </dcc:name>
-                    <dcc:data id="Ylipaine">
+                    <dcc:data id="Overpressure">
                         <dcc:list>
                             <dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Nominal pressure</dcc:content>
                                     <dcc:content lang="fi">Nimellispaine</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -460,6 +498,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Reference normal pressure</dcc:content>
                                     <dcc:content lang="fi">Referenssinormaalin tuottama paine</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -495,6 +534,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Pressure indicated by the calibrated device</dcc:content>
                                     <dcc:content lang="fi">Kalibroitavan laitteen näyttämä</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -575,6 +615,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Difference</dcc:content>
                                     <dcc:content lang="fi">Poikkeama</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -613,13 +654,15 @@
                 </dcc:result>
                 <dcc:result>
                     <dcc:name>
+						<dcc:content lang="en">Pressure zone: 0 ... -100 kPa, underpressure</dcc:content>
                         <dcc:content lang="fi">Painealue: 0 ... -100 kPa, alipaine</dcc:content>
                     </dcc:name>
-                    <dcc:data id="Alipaine">
+                    <dcc:data id="Underpressure">
                         <dcc:list>
                             <dcc:quantity>
                                 <dcc:name>
-                                    <dcc:content lang="fi">Nimellispaine</dcc:content>
+                                    <dcc:content lang="en">Nominal pressure</dcc:content>
+									<dcc:content lang="fi">Nimellispaine</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\kilo\Pascal</si:listUnit>
@@ -651,6 +694,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Reference normal pressure</dcc:content>
                                     <dcc:content lang="fi">Referenssinormaalin tuottama paine</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -683,6 +727,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Pressure indicated by the calibrated device</dcc:content>
                                     <dcc:content lang="fi">Kalibroitavan laitteen näyttämä</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -755,7 +800,8 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
-                                    <dcc:content lang="fi">Poikkeama</dcc:content>
+                                    <dcc:content lang="en">Difference</dcc:content>
+									<dcc:content lang="fi">Poikkeama</dcc:content>
                                 </dcc:name>
 								<si:list>
 									<si:listUnit>\kilo\Pascal</si:listUnit>
@@ -790,12 +836,14 @@
                 </dcc:result>
 				<dcc:result>
                     <dcc:name>
+						<dcc:content lang="en">Pressure zone: 70 ... 120 kPa abs</dcc:content>
                         <dcc:content lang="fi">Painealue: 70 ... 120 kPa abs</dcc:content>
                     </dcc:name>
                     <dcc:data id="Abs">
                         <dcc:list>
                             <dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Nominal pressure</dcc:content>
                                     <dcc:content lang="fi">Nimellispaine</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -822,6 +870,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Reference normal pressure</dcc:content>
                                     <dcc:content lang="fi">Referenssinormaalin tuottama paine</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -848,6 +897,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Pressure indicated by the calibrated device</dcc:content>
                                     <dcc:content lang="fi">Kalibroitavan laitteen näyttämä</dcc:content>
                                 </dcc:name>
 								<si:list>
@@ -904,6 +954,7 @@
                             </dcc:quantity>
 							<dcc:quantity>
                                 <dcc:name>
+									<dcc:content lang="en">Difference</dcc:content>
                                     <dcc:content lang="fi">Poikkeama</dcc:content>
                                 </dcc:name>
 								<si:list>
