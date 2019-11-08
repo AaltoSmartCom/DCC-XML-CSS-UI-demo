@@ -239,10 +239,10 @@
             <dcc:content>Dead Weight Tester (air)</dcc:content>
           </dcc:name>
           <dcc:description>
-	    <dcc:content lang="en">Scale frame and piston-cylinder combination for high pressure zone</dcc:content>
             <dcc:content lang="en">Calibrated 08.02.2016</dcc:content>
-            <dcc:content lang="fi">Vaakarunko ja korkeapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
+	    <dcc:content lang="en">Scale frame and piston-cylinder combination for high pressure zone</dcc:content>
             <dcc:content lang="fi">Kalibroitu 08.02.2016</dcc:content>
+            <dcc:content lang="fi">Vaakarunko ja korkeapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
           </dcc:description>
           <dcc:certificate>
             <dcc:reference>
@@ -283,10 +283,10 @@
             <dcc:content>Dead Weight Tester (air)</dcc:content>
           </dcc:name>
           <dcc:description>
-	    <dcc:content lang="en">Scale frame and piston-cylinder combination for low pressure zone</dcc:content>
             <dcc:content lang="en">Calibrated 08.02.2016</dcc:content>
-            <dcc:content lang="fi">Vaakarunko ja matalapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
+	    <dcc:content lang="en">Scale frame and piston-cylinder combination for low pressure zone</dcc:content>
             <dcc:content lang="fi">Kalibroitu 08.02.2016</dcc:content>
+            <dcc:content lang="fi">Vaakarunko ja matalapainealueen mäntä-sylinteriyhdistelmä</dcc:content>
           </dcc:description>
           <dcc:certificate>
             <dcc:reference>
@@ -361,6 +361,7 @@
             <dcc:content>Pirani Vacuum Sensor</dcc:content>
           </dcc:name>
           <dcc:description>
+            <dcc:content lang="en">Calibrated 12.06.2017</dcc:content>
             <dcc:content lang="fi">Kalibroitu 12.06.2017</dcc:content>
           </dcc:description>
           <dcc:certificate>
