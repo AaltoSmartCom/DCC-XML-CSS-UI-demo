@@ -454,12 +454,17 @@
                                                 <xsl:value-of select="dcc:identifications/dcc:identification/dcc:value"/>
                                             </td>
                                             <td>
-					      <xsl:if test="dcc:certificate/dcc:referenceID = 'K026-17P4654'">
-                                                <a href="./DCC_K026-17P4654.xml"><xsl:value-of select="dcc:certificate/dcc:referenceID"/></a>
-					      </xsl:if>
-					      <xsl:if test="dcc:certificate/dcc:referenceID != 'K026-17P4654'">
-                                                <xsl:value-of select="dcc:certificate/dcc:referenceID"/>
-					      </xsl:if>
+											<xsl:choose>
+												<xsl:when test="dcc:certificate/dcc:referenceID = 'K026-17P4654'">
+													<a href="./DCC_K026-17P4654.xml"><xsl:value-of select="dcc:certificate/dcc:referenceID"/></a>
+												</xsl:when>
+												<xsl:when test="dcc:certificate/dcc:referenceID = 'M-16P013'">
+													<a href="./DCC_M-16P013.xml"><xsl:value-of select="dcc:certificate/dcc:referenceID"/></a>
+												</xsl:when>
+												<xsl:otherwise>
+													<xsl:value-of select="dcc:certificate/dcc:referenceID"/>
+												</xsl:otherwise>
+											</xsl:choose>
                                             </td>
                                             <td>
                                                 <xsl:value-of select="dcc:description/dcc:content"/>
