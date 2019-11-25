@@ -30,21 +30,32 @@
             <dcc:endPerformanceDate>2019-08-09</dcc:endPerformanceDate>
         </dcc:coreData>
         <dcc:items>
+		
+		<!-- Device & Function -->
+		
             <dcc:item id="dcc4">
                 <dcc:name>
                     <dcc:content lang="en">Temperature Transmitter (tt)</dcc:content>
                 </dcc:name>
                 <dcc:description>
+					<!-- Function-->
+					<!-- Transfer Function -->
                     <dcc:content lang="en">Linear</dcc:content>
+					<!-- Range-->
 					<dcc:content lang="en">0 ... 100 °C</dcc:content>	
 					<dcc:content lang="en">4 ... 20 mA</dcc:content>
+					
+					<!-- Device -->
+					<!-- Rangeability -->
 					<dcc:content lang="en">-200 to 850 °C</dcc:content>
+					<!-- Operating Temperature -->
 					<dcc:content lang="en">-10 to 80 °C</dcc:content>
+					<!-- Operating Humidity -->
 					<dcc:content lang="en">Max. 85 %</dcc:content>
                 </dcc:description>
                 <dcc:manufacturer>
                     <dcc:name>
-                        <dcc:content>Kamstrup</dcc:content>
+                        <dcc:content>Kamstrup FlexTop HRT</dcc:content>
                     </dcc:name>
                 </dcc:manufacturer>
                 <dcc:model>FlexTop HRT</dcc:model>
@@ -66,6 +77,9 @@
                 </dcc:identifications>
             </dcc:item>
         </dcc:items>
+		
+		<!-- Position -->
+		
         <dcc:calibrationLaboratory>
             <dcc:contact>
                 <dcc:name>
@@ -86,6 +100,9 @@
                 </dcc:location>
             </dcc:contact>
         </dcc:calibrationLaboratory>
+		
+		<!-- Calibrated by: -->
+		
         <dcc:respPersons>
             <dcc:respPerson id="Signer">
                 <dcc:person>
@@ -118,6 +135,9 @@
             </dcc:statement>
         </dcc:statements>
     </dcc:administrativeData>
+	
+		<!-- Calibration Procedure -->
+	
     <dcc:measurementResults>
         <dcc:measurementResult>
             <dcc:usedMethods>
@@ -126,21 +146,36 @@
                         <dcc:content lang="en">Calibration Procedure</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<!-- Due Date -->
 						<dcc:content lang="fi">14/05/2019</dcc:content>
+						
+						<!-- Interval -->
 						<dcc:content lang="fi">365 days</dcc:content>
+						
+						<!-- Reject If Error -->
 						<dcc:content lang="fi">0,5 % of span</dcc:content>
+						
+						<!-- Adjust To Error -->
 						<dcc:content lang="fi">60 % of Reject If Error</dcc:content>
+						
+						<!-- Classification -->
 						<dcc:content lang="fi">A1</dcc:content>
+						
+						<!-- Calibration Strategy -->
 						<dcc:content lang="fi">Product Critical</dcc:content>
                     </dcc:description>
                 </dcc:usedMethod>
             </dcc:usedMethods>
+
+		<!-- Calibrators -->
+
             <dcc:measuringEquipments>
                 <dcc:measuringEquipment>
                     <dcc:name>
                         <dcc:content lang="en">Input Calibrator</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<!-- Due Date -->
 						<dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
@@ -172,6 +207,7 @@
                         <dcc:content lang="en">Input Module</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<!-- Due Date -->
                         <dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
@@ -203,6 +239,7 @@
                         <dcc:content lang="en">Output Calibrator</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<!-- Due Date -->
                         <dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
@@ -234,6 +271,7 @@
                         <dcc:content lang="en">Output Module</dcc:content>
                     </dcc:name>
                     <dcc:description>
+						<!-- Due Date -->
                         <dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
@@ -261,6 +299,9 @@
                     </dcc:identifications>
                 </dcc:measuringEquipment>
             </dcc:measuringEquipments>
+
+		<!-- Calibration Event-->
+
             <dcc:influenceConditions>
                 <dcc:influenceCondition>
                     <dcc:name>
@@ -269,7 +310,8 @@
                     <dcc:data>
                         <dcc:list>
 							<dcc:list id="CalibrationEvent">
-                                <dcc:quantity>
+								<dcc:dateTime>2019-08-09T10:25:40+03:00</dcc:dateTime>
+								<dcc:quantity>
                                     <dcc:name>
                                         <dcc:content lang="en">Calibration time</dcc:content>
                                     </dcc:name>
