@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../Stylesheets/XSL/certificate_type_1.xsl"?>
 <dcc:digitalCalibrationCertificate
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd"
+		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.2.0/dcc.xsd"
 		xmlns:dcc="https://ptb.de/dcc"
 		xmlns:si="https://ptb.de/si">
 
@@ -35,19 +35,28 @@
                     <dcc:content lang="en">Temperature Transmitter (tt)</dcc:content>
                 </dcc:name>
                 <dcc:description>
-                    <dcc:content lang="en">Transfer Function		Linear</dcc:content>
-					<dcc:content lang="en">Range					0 ... 100 °C		4 ... 20 mA</dcc:content>
-					<dcc:content lang="en">Rangeability				-200 to 850 °C</dcc:content>
-					<dcc:content lang="en">Operating temperature	-10 to 80 °C		Operating humidity		Max. 85 %</dcc:content>
+                    <dcc:content lang="en">Linear</dcc:content>
+					<dcc:content lang="en">0 ... 100 °C</dcc:content>	
+					<dcc:content lang="en">4 ... 20 mA</dcc:content>
+					<dcc:content lang="en">-200 to 850 °C</dcc:content>
+					<dcc:content lang="en">-10 to 80 °C</dcc:content>
+					<dcc:content lang="en">Max. 85 %</dcc:content>
                 </dcc:description>
                 <dcc:manufacturer>
                     <dcc:name>
-                        <dcc:content>Kamstrup Flextop HRT</dcc:content>
+                        <dcc:content>Kamstrup</dcc:content>
                     </dcc:name>
                 </dcc:manufacturer>
-                <dcc:model>TT0021</dcc:model>
+                <dcc:model>FlexTop HRT</dcc:model>
                 <dcc:identifications>
-                    <dcc:identification id="id41">
+					<dcc:identification id="id41">
+                        <dcc:issuer>manufacturer</dcc:issuer>
+                        <dcc:value>TT0021</dcc:value>
+                        <dcc:description>
+						    <dcc:content lang="en">Device ID</dcc:content>
+                        </dcc:description>
+                    </dcc:identification>
+                    <dcc:identification id="id42">
                         <dcc:issuer>manufacturer</dcc:issuer>
                         <dcc:value>43562</dcc:value>
                         <dcc:description>
@@ -65,9 +74,9 @@
                 <dcc:eMail>-</dcc:eMail>
                 <dcc:location>
                     <dcc:further id="Location">
-						<dcc:content lang="en">Position ID		101DR-TT0021</dcc:content>
-					    <dcc:content lang="en">Location			0025 Room</dcc:content>
-						<dcc:content lang="en">Plant			Pharmaceutical Plant/Plant 1, Finland (BPF)/Block 1/101 DR (Dryer 1)/</dcc:content>
+						<dcc:content lang="en">101DR-TT0021</dcc:content>
+					    <dcc:content lang="en">0025 Room</dcc:content>
+						<dcc:content lang="en">Pharmaceutical Plant/Plant 1, Finland (BPF)/Block 1/101 DR (Dryer 1)/</dcc:content>
                     </dcc:further>
 					<dcc:street>-</dcc:street>
 					<dcc:streetNo>-</dcc:streetNo>
@@ -117,10 +126,12 @@
                         <dcc:content lang="en">Calibration Procedure</dcc:content>
                     </dcc:name>
                     <dcc:description>
-						<dcc:content lang="fi">Due Date					14/05/2019					Interval		365 days</dcc:content>
-						<dcc:content lang="fi">Reject If Error 			0,5 % of span</dcc:content>
-						<dcc:content lang="fi">Adjust To Error			60 % of Reject If Error		Classification	A1</dcc:content>
-						<dcc:content lang="fi">Calibration Strategy		Product Critical</dcc:content>
+						<dcc:content lang="fi">14/05/2019</dcc:content>
+						<dcc:content lang="fi">365 days</dcc:content>
+						<dcc:content lang="fi">0,5 % of span</dcc:content>
+						<dcc:content lang="fi">60 % of Reject If Error</dcc:content>
+						<dcc:content lang="fi">A1</dcc:content>
+						<dcc:content lang="fi">Product Critical</dcc:content>
                     </dcc:description>
                 </dcc:usedMethod>
             </dcc:usedMethods>
@@ -130,7 +141,7 @@
                         <dcc:content lang="en">Input Calibrator</dcc:content>
                     </dcc:name>
                     <dcc:description>
-                        <dcc:content lang="en">MC6 : 601404				Due Date: 10/11/2019</dcc:content>
+						<dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
                         <dcc:reference>
@@ -161,7 +172,7 @@
                         <dcc:content lang="en">Input Module</dcc:content>
                     </dcc:name>
                     <dcc:description>
-                        <dcc:content lang="en">TC-R-OUT/R1 : 61055		Due Date: 10/11/2019</dcc:content>
+                        <dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
                         <dcc:reference>
@@ -176,7 +187,7 @@
                             <dcc:content>Beamex</dcc:content>
                         </dcc:name>
                     </dcc:manufacturer>
-                    <dcc:model>MC6, TC-R-OUT/R1</dcc:model>
+                    <dcc:model>TC-R-OUT/R1</dcc:model>
                     <dcc:identifications>
                         <dcc:identification>
                             <dcc:issuer>manufacturer</dcc:issuer>
@@ -192,7 +203,7 @@
                         <dcc:content lang="en">Output Calibrator</dcc:content>
                     </dcc:name>
                     <dcc:description>
-                        <dcc:content lang="en">MC6 : 601404			Due Date: 10/11/2019</dcc:content>
+                        <dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
                         <dcc:reference>
@@ -223,7 +234,7 @@
                         <dcc:content lang="en">Output Module</dcc:content>
                     </dcc:name>
                     <dcc:description>
-                        <dcc:content lang="en">IN : 21091			Due Date: 10/11/2019</dcc:content>
+                        <dcc:content lang="en">10/11/2019</dcc:content>
                     </dcc:description>
                     <dcc:certificate>
                         <dcc:reference>
@@ -238,7 +249,7 @@
                             <dcc:content>Beamex</dcc:content>
                         </dcc:name>
                     </dcc:manufacturer>
-                    <dcc:model>MC6, IN</dcc:model>
+                    <dcc:model>IN</dcc:model>
                     <dcc:identifications>
                         <dcc:identification>
                             <dcc:issuer>manufacturer</dcc:issuer>
