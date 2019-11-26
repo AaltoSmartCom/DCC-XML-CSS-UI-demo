@@ -210,8 +210,24 @@
                                     <h3 class="from-template">Signatures</h3>
                                 </div>
 
-                                <div class="grid-item">
-                                    <p></p>
+                                <div class="grid-item signatures">
+                                    <div class="signature">
+                                        <img class="signature-img" src="../Stylesheets/images/digital_signature_signed.png" />
+                                        <div>
+                                            <p class="name">Duyanh Luong</p>
+                                            <p class="title">Service Technician</p>
+                                            <a href="#" class="click">Click for signature details</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="signature">
+                                        <img class="signature-img" src="../Stylesheets/images/digital_signature_signed.png" />
+                                        <div>
+                                            <p class="name">Jari Kivelä</p>
+                                            <p class="title">Calibration Engineer</p>
+                                            <a href="#" class="click">Click for signature details</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="grid-item">

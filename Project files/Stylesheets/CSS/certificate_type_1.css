@@ -153,6 +153,50 @@ body {
   border-bottom: 2px solid black;
 }
 
+.page.signature .signature-img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+.page.signature .signatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+}
+
+.page.signature .signatures .signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.page.signature .signatures .signature p:first-child {
+  margin-top: 20px;
+}
+
+.page.signature .signatures .signature .name, .page.signature .signatures .signature .title, .page.signature .signatures .signature a.click {
+  margin: 0;
+}
+
+.page.signature .signatures .signature .name {
+  font-size: 1.1em;
+}
+
+.page.signature .signatures .signature .title {
+  font-weight: bold;
+}
+
+.page.signature .signatures .signature a.click {
+  display: block;
+  margin-top: 5px;
+  font-size: .7em;
+}
+
 .page.signature .content {
   display: -ms-grid;
   display: grid;

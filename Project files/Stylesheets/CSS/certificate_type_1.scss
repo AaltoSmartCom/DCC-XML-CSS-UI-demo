@@ -114,6 +114,46 @@ body {
                     }
                 }
             }
+
+        }
+
+        .signature-img {
+            align-self: flex-start;
+            width: 50px;
+            height: auto;
+            padding: 10px;
+        }
+
+        .signatures {
+            display: flex;
+            margin-top: 1em;
+
+            .signature {
+                display: flex;
+                width: 50%;
+
+                p:first-child {
+                    margin-top: 20px;
+                }
+
+                .name, .title, a.click {
+                    margin: 0;
+                }
+
+                .name {
+                    font-size: 1.1em;
+                }
+
+                .title {
+                    font-weight: bold;
+                }
+
+                a.click {
+                    display: block;
+                    margin-top: 5px;
+                    font-size: .7em;
+                }
+            }
         }
 
         .content {
