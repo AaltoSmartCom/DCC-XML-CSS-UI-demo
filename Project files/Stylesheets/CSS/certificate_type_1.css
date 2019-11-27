@@ -179,7 +179,7 @@ body {
   margin-top: 20px;
 }
 
-.page.signature .signatures .signature .name, .page.signature .signatures .signature .title, .page.signature .signatures .signature a.click {
+.page.signature .signatures .signature .name, .page.signature .signatures .signature .title, .page.signature .signatures .signature .click {
   margin: 0;
 }
 
@@ -191,8 +191,7 @@ body {
   font-weight: bold;
 }
 
-.page.signature .signatures .signature a.click {
-  display: block;
+.page.signature .signatures .signature .click {
   margin-top: 5px;
   font-size: .7em;
 }
@@ -389,5 +388,28 @@ body {
 .page.results .content .equipment-table table th, .page.results .content .equipment-table table td, .page.equipments .content .equipment-table table th, .page.equipments .content .equipment-table table td {
   border: 1px black solid;
   padding: 2px;
+}
+
+.modal {
+  max-width: 720px !important;
+}
+
+.modal .click {
+  margin: 0;
+  margin-top: 5px;
+  font-size: .7em;
+}
+
+.modal .detail-table {
+  padding-bottom: 20px;
+}
+
+.modal .detail-table td {
+  padding: 5px;
+}
+
+.modal .detail-table tr td:first-child {
+  font-weight: bold;
+  padding-right: 15px;
 }
 /*# sourceMappingURL=certificate_type_1.css.map */

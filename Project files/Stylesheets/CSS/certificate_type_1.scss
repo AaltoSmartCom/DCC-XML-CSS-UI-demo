@@ -136,7 +136,7 @@ body {
                     margin-top: 20px;
                 }
 
-                .name, .title, a.click {
+                .name, .title, .click {
                     margin: 0;
                 }
 
@@ -148,8 +148,7 @@ body {
                     font-weight: bold;
                 }
 
-                a.click {
-                    display: block;
+                .click {
                     margin-top: 5px;
                     font-size: .7em;
                 }
@@ -320,4 +319,27 @@ body {
         }
     }
 
+}
+
+.modal {
+    max-width: 720px !important;
+
+    .click {
+        margin: 0;
+        margin-top: 5px;
+        font-size: .7em;
+    }
+
+    .detail-table {
+        padding-bottom: 20px;
+
+        td {
+            padding: 5px;
+        }
+
+        tr td:first-child {
+            font-weight: bold;
+            padding-right: 15px;
+        }
+    }
 }
