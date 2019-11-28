@@ -6501,4 +6501,31 @@
       </dcc:results>
     </dcc:measurementResult>
   </dcc:measurementResults>
+
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-73764226478b16c346152383b36b5772">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference Id="r-id-1" URI="9996_19_ATLL_N%C3%A4idis%20AS.pdf">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>leqrAfo49y3z7VIiSFGEqvD42pJoT9uz2C1ol4tbsZw=</ds:DigestValue>
+      </ds:Reference>
+      <ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-73764226478b16c346152383b36b5772">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>Y2LNNl60OgSHhacsbFdgaO1k8jkxEfnPrwUatgnaI1I=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue Id="value-id-73764226478b16c346152383b36b5772"> SlVfcrHLCUdazkl0HncazO4pXqFc8E3JvJWP8FysxxevyZaFlws9O4ZXfK4WUuf5rfIIBCWJMImRF7HBfsxhVKbtngODhkETfzQYJkQ0bq/48LYefeBCX0JSRuHc+c5CIGZn6ohMpDZ6PEeeQdVQiAYWsNvB+uMJuqB6wHEUb8kf+Qwylx1FoD+PIjp4ce3zfFt6DLif0DNDhRUgs73dzpDLZLhQlJh2KggfvBF2bNISUSoLbORbu+k3bkDnZ1SZPd1zN4I94o74f6CW65758uPLzub5EmGYZDt2nTmgZZlT6/9nQmK4+qF+JNMUSBnLO52XM3x/kFUa2giPkVKBDA==
+    </ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate> 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
+        </ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  
 </dcc:digitalCalibrationCertificate>
