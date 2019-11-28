@@ -135,23 +135,6 @@ body {
                 p:first-child {
                     margin-top: 20px;
                 }
-
-                .name, .title, .click {
-                    margin: 0;
-                }
-
-                .name {
-                    font-size: 1.1em;
-                }
-
-                .title {
-                    font-weight: bold;
-                }
-
-                .click {
-                    margin-top: 5px;
-                    font-size: .7em;
-                }
             }
         }
 
@@ -323,18 +306,13 @@ body {
 
 .modal {
     max-width: 720px !important;
-
-    .click {
-        margin: 0;
-        margin-top: 5px;
-        font-size: .7em;
-    }
+    padding-top: 35px !important;
 
     .detail-table {
-        padding-bottom: 20px;
+        padding: 20px 0;
 
         td {
-            padding: 5px;
+            padding: 5px 5px 5px 0;
         }
 
         tr td:first-child {
@@ -342,4 +320,29 @@ body {
             padding-right: 15px;
         }
     }
+}
+
+.name, .title, .click, .validation {
+    margin: 0;
+}
+
+.name {
+    font-size: 1.1em;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.validation {
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.click {
+    display: block;
+    margin-top: 5px;
+    font-size: .7em;
 }

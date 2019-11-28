@@ -179,23 +179,6 @@ body {
   margin-top: 20px;
 }
 
-.page.signature .signatures .signature .name, .page.signature .signatures .signature .title, .page.signature .signatures .signature .click {
-  margin: 0;
-}
-
-.page.signature .signatures .signature .name {
-  font-size: 1.1em;
-}
-
-.page.signature .signatures .signature .title {
-  font-weight: bold;
-}
-
-.page.signature .signatures .signature .click {
-  margin-top: 5px;
-  font-size: .7em;
-}
-
 .page.signature .content {
   display: -ms-grid;
   display: grid;
@@ -392,24 +375,44 @@ body {
 
 .modal {
   max-width: 720px !important;
-}
-
-.modal .click {
-  margin: 0;
-  margin-top: 5px;
-  font-size: .7em;
+  padding-top: 35px !important;
 }
 
 .modal .detail-table {
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .modal .detail-table td {
-  padding: 5px;
+  padding: 5px 5px 5px 0;
 }
 
 .modal .detail-table tr td:first-child {
   font-weight: bold;
   padding-right: 15px;
+}
+
+.name, .title, .click, .validation {
+  margin: 0;
+}
+
+.name {
+  font-size: 1.1em;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.validation {
+  font-weight: bold;
+  color: green;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.click {
+  display: block;
+  margin-top: 5px;
+  font-size: .7em;
 }
 /*# sourceMappingURL=certificate_type_1.css.map */
