@@ -31,6 +31,7 @@ body {
   display: grid;
   -ms-grid-row-align: start;
       align-self: start;
+  padding-bottom: 10px;
 }
 
 .page .header .grid {
@@ -84,7 +85,192 @@ body {
       justify-self: end;
 }
 
+.page .admin-data {
+  padding: 4px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.page .admin-data .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.page .admin-data .grid p, .page .admin-data .grid h1, .page .admin-data .grid h2, .page .admin-data .grid h3, .page .admin-data .grid h4, .page .admin-data .grid h5, .page .admin-data .grid h6 {
+  margin: 0;
+  margin-bottom: .3rem;
+}
+
+.page .admin-data .grid .grid-item {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  padding: 5px;
+}
+
+.page .admin-data .grid .grid-item .table-title {
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.page .admin-data .grid .grid-item table {
+  font-size: 12px;
+}
+
+.page .admin-data .grid .grid-item table tr td {
+  padding-bottom: 2px;
+  vertical-align: top;
+}
+
+.page .admin-data .grid .grid-item table tr > td:first-child {
+  min-width: 120px;
+}
+
+.page .results {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.page .results .grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: stretch;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.page .results .grid p, .page .results .grid h1, .page .results .grid h2, .page .results .grid h3, .page .results .grid h4, .page .results .grid h5, .page .results .grid h6 {
+  margin: 0;
+  margin-bottom: .3rem;
+}
+
+.page .results .grid .grid-item {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.page .results .grid .grid-item .graph-placeholder {
+  background: #f8f8f8;
+  border: 1px solid black;
+  width: 100%;
+  height: 360px;
+  text-align: center;
+}
+
+.page .results .grid .grid-item .graph-placeholder p {
+  font-size: 30px;
+  color: darkgray;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.page .results .grid .grid-item table {
+  font-size: 12px;
+}
+
+.page .results .grid .grid-item table tr td {
+  padding-bottom: 2px;
+  vertical-align: top;
+}
+
+.page .results .grid .grid-item table tr > td:first-child {
+  min-width: 120px;
+}
+
+.page .signature-img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+.page .calibrated-title {
+  margin: 0;
+  margin-top: 70px;
+  padding-top: 8px;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.page .signatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 120px;
+}
+
+.page .signatures .signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page .signatures .signature p:first-child {
+  margin-top: 20px;
+}
+
 .small {
+  font-size: .7em;
+}
+
+.modal {
+  max-width: 720px !important;
+  padding-top: 35px !important;
+}
+
+.modal .detail-table {
+  padding: 20px 0;
+}
+
+.modal .detail-table td {
+  padding: 5px 5px 5px 0;
+}
+
+.modal .detail-table tr td:first-child {
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.name, .title, .click, .validation, .time {
+  margin: 0;
+}
+
+.name {
+  font-size: 1.1em;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.validation {
+  font-weight: bold;
+  color: green;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.click {
+  display: block;
+  margin-top: 5px;
   font-size: .7em;
 }
 /*# sourceMappingURL=certificate_type_3.css.map */
