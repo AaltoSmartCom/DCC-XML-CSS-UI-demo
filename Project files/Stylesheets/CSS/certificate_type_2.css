@@ -49,6 +49,32 @@ header .document-title {
       grid-template-columns: 1fr 1fr;
 }
 
+#signature .signature-img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+#signature .signatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+}
+
+#signature .signatures .signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+#signature .signatures .signature p:first-child {
+  margin-top: 20px;
+}
+
 #laboratory-info {
   border-top: 3px #c85466 solid;
   border-bottom: 3px #c85466 solid;
@@ -109,5 +135,48 @@ footer {
 
 footer .statement {
   border-top: 3px #c85466 solid;
+}
+
+.modal {
+  max-width: 720px !important;
+  padding-top: 35px !important;
+}
+
+.modal .detail-table {
+  padding: 20px 0;
+}
+
+.modal .detail-table td {
+  padding: 5px 5px 5px 0;
+}
+
+.modal .detail-table tr td:first-child {
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.name, .title, .click, .validation {
+  margin: 0;
+}
+
+.name {
+  font-size: 1.1em;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.validation {
+  font-weight: bold;
+  color: green;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.click {
+  display: block;
+  margin-top: 5px;
+  font-size: .7em;
 }
 /*# sourceMappingURL=certificate_type_2.css.map */
