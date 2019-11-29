@@ -450,7 +450,7 @@ xmlns:si="https://ptb.de/si">
                             <table>
                                 <xsl:for-each select="dcc:data/dcc:list/dcc:list">
                                 <xsl:choose>
-                                    <xsl:when test="dcc:list[1]">
+                                    <xsl:when test="position() = 1">
                                     <tr>
                                         <th class="bolded">
                                             <xsl:value-of select="dcc:name/dcc:content"/>
