@@ -1,0 +1,73 @@
+body {
+    background: rgb(219, 219, 219);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.not-in-xml-file {
+    color: red !important;
+}
+
+.from-template {
+    color: blue !important;
+}
+
+.pages {
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.page {
+    min-height: 1448px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+
+    .header {
+        display: grid;
+        align-self: start;
+
+        .grid {
+            background: rgb(192, 192, 192);
+            padding: 5px 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+            grid-template-areas:
+                "item-1 item-2 item-2 item-2 item-3";
+
+            p, h1, h2, h3, h4, h5, h6 {
+                margin: 0;
+                margin-bottom: .3rem;
+            }
+
+                .grid-item {
+                align-self: center;
+                justify-self: start;
+
+                &.item-1 {
+                    grid-area: item-1;
+                    justify-self: start;
+                }
+
+                &.item-2 {
+                    grid-area: item-2;
+                    justify-self: center;
+                    text-align: center;
+                }
+
+                &.item-3 {
+                    grid-area: item-3;
+                    justify-self: end;
+                }
+            }
+        }
+    }
+}
+
+.small {
+    font-size: .7em;
+}
