@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Stylesheets/XSL/certificate_type_1.xsl"?>
-<dcc:digitalCalibrationCertificate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.2.0/dcc.xsd" 
-    xmlns:dcc="https://ptb.de/dcc" 
-    xmlns:si="https://ptb.de/si">
+<?xml-stylesheet type="text/xsl" href="../Stylesheets/XSL/certificate_type_3.xsl"?>
+<dcc:digitalCalibrationCertificate
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd"
+		xmlns:dcc="https://ptb.de/dcc"
+		xmlns:si="https://ptb.de/si">
 
     <!--
 	

@@ -47,6 +47,27 @@ header {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .signature-img {
+        align-self: flex-start;
+        width: 50px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .signatures {
+        display: flex;
+        margin-top: 1em;
+
+        .signature {
+            display: flex;
+            width: 50%;
+
+            p:first-child {
+                margin-top: 20px;
+            }
+        }
+    }
 }
 
 #laboratory-info {
@@ -110,4 +131,47 @@ footer {
     .statement {
         border-top: 3px rgb(200, 84, 102) solid;
     }
+}
+
+.modal {
+    max-width: 720px !important;
+    padding-top: 35px !important;
+
+    .detail-table {
+        padding: 20px 0;
+
+        td {
+            padding: 5px 5px 5px 0;
+        }
+
+        tr td:first-child {
+            font-weight: bold;
+            padding-right: 15px;
+        }
+    }
+}
+
+.name, .title, .click, .validation {
+    margin: 0;
+}
+
+.name {
+    font-size: 1.1em;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.validation {
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.click {
+    display: block;
+    margin-top: 5px;
+    font-size: .7em;
 }
