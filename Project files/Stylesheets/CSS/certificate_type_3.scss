@@ -83,8 +83,8 @@ body {
             }
 
             .grid-item {
-                align-self: center;
-                justify-self: start;
+                justify-items: stretch;
+                align-self: start;
                 padding: 5px;
 
                 .table-title {
@@ -93,6 +93,7 @@ body {
                 }
 
                 table {
+                    width: 100%;
                     font-size: 12px;
 
                     tr {
@@ -102,7 +103,7 @@ body {
                         }
 
                         &>td:first-child {
-                            min-width: 120px;
+                            width: 140px;
                         }
                     }
                 }
@@ -178,7 +179,7 @@ body {
         width: 100%;
         border-top: 1px solid black;
     }
-    
+
     .signatures {
         display: flex;
         padding-left: 120px;

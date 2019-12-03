@@ -106,11 +106,10 @@ body {
 }
 
 .page .admin-data .grid .grid-item {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: start;
-      justify-self: start;
+  justify-items: stretch;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
   padding: 5px;
 }
 
@@ -120,6 +119,7 @@ body {
 }
 
 .page .admin-data .grid .grid-item table {
+  width: 100%;
   font-size: 12px;
 }
 
@@ -129,7 +129,7 @@ body {
 }
 
 .page .admin-data .grid .grid-item table tr > td:first-child {
-  min-width: 120px;
+  width: 140px;
 }
 
 .page .results {
