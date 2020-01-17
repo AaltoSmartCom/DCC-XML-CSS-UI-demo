@@ -2,7 +2,7 @@
 
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.1.1/dcc.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v2.2.0/dcc.xsd"
     xmlns:dcc="https://ptb.de/dcc"
     xmlns:si="https://ptb.de/si">
 
@@ -199,23 +199,23 @@
                                     <table>
                                         <tr>
                                             <td><xsl:value-of select="dcc:measuringEquipment[1]/dcc:name/dcc:content"/></td>
-                                            <td><xsl:value-of select="dcc:measuringEquipment[1]/dcc:model"/> : <xsl:value-of select="dcc:measuringEquipment[1]/dcc:identifications/dcc:identification/dcc:value"/></td>
+                                            <td><xsl:value-of select="dcc:measuringEquipment[1]/dcc:model"/> : <a href="./DCC_K026-17P5172.xml"><xsl:value-of select="dcc:measuringEquipment[1]/dcc:identifications/dcc:identification/dcc:value"/></a></td>
                                             <td><span class="from-template">Due Date: </span><xsl:value-of select="dcc:measuringEquipment[1]/dcc:description/dcc:content"/></td>
                                         </tr>
 
                                         <tr>
                                             <td><xsl:value-of select="dcc:measuringEquipment[2]/dcc:name/dcc:content"/></td>
-                                            <td><xsl:value-of select="dcc:measuringEquipment[2]/dcc:model"/> : <xsl:value-of select="dcc:measuringEquipment[2]/dcc:identifications/dcc:identification/dcc:value"/></td>
+                                            <td><xsl:value-of select="dcc:measuringEquipment[2]/dcc:model"/> : <a href="./DCC_K026-17P5172.xml"><xsl:value-of select="dcc:measuringEquipment[2]/dcc:identifications/dcc:identification/dcc:value"/></a></td>
                                             <td><span class="from-template">Due Date: </span><xsl:value-of select="dcc:measuringEquipment[2]/dcc:description/dcc:content"/></td>
                                         </tr>
                                         <tr>
                                             <td><xsl:value-of select="dcc:measuringEquipment[3]/dcc:name/dcc:content"/></td>
-                                            <td><xsl:value-of select="dcc:measuringEquipment[3]/dcc:model"/> : <xsl:value-of select="dcc:measuringEquipment[3]/dcc:identifications/dcc:identification/dcc:value"/></td>
+                                            <td><xsl:value-of select="dcc:measuringEquipment[3]/dcc:model"/> : <a href="./DCC_K026-17P5172.xml"><xsl:value-of select="dcc:measuringEquipment[3]/dcc:identifications/dcc:identification/dcc:value"/></a></td>
                                             <td><span class="from-template">Due Date: </span><xsl:value-of select="dcc:measuringEquipment[3]/dcc:description/dcc:content"/></td>
                                         </tr>
                                         <tr>
                                             <td><xsl:value-of select="dcc:measuringEquipment[4]/dcc:name/dcc:content"/></td>
-                                            <td><xsl:value-of select="dcc:measuringEquipment[4]/dcc:model"/> : <xsl:value-of select="dcc:measuringEquipment[4]/dcc:identifications/dcc:identification/dcc:value"/></td>
+                                            <td><xsl:value-of select="dcc:measuringEquipment[4]/dcc:model"/> : <a href="./DCC_K026-17P5172.xml"><xsl:value-of select="dcc:measuringEquipment[4]/dcc:identifications/dcc:identification/dcc:value"/></a></td>
                                             <td><span class="from-template">Due Date: </span><xsl:value-of select="dcc:measuringEquipment[4]/dcc:description/dcc:content"/></td>
                                         </tr>
 
