@@ -12,6 +12,7 @@
                 <title>Calibration Certificate No: <xsl:value-of select="dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/>
                 </title>
                 <link rel="stylesheet" href="../Stylesheets/CSS/certificate_type_3.css"/>
+                <script src="../Stylesheets/JS/validation.js"></script>
 
                 <!-- Remember to include jQuery :) -->
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -246,8 +247,9 @@
 
                             <h4 class="calibrated-title">Calibrated by:</h4>
                             <div class="signatures">
+                            <button type="button" onclick="validate()" style="display: inline-block;width: 100px; height: 50px;margin-top:25px;">Verify</button>
                                 <div class="signature">
-                                    <img class="signature-img" src="../Stylesheets/images/digital_signature_signed.png" />
+                                    <img class="signature-img" src="../Stylesheets/images/uncertain.png" id="validationImage"/>
                                     <div>
                                         <p class="name">Sami Koskinen</p>
                                         <!-- <p class="title"></p> -->
