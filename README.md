@@ -1,59 +1,33 @@
 # DCC-XML-CSS-UI-demo
 
 A CSS based User Interface demonstration for Digital Calibration Certificates (DCC)
+The demo requires you to have an eIDAS-validation server running, to automate this you can use our Docker-compose file(instructions below).
 
-# Using
+### Prequisites
 
-To use this demo, you need to copy this repository to your local machine and
-then open any of the XML files in `Project Files/XML` in your browsers.  Some
-browsers have security policies that affect the behaviour; see below.
+* [Docker](https://www.docker.com/get-started)
+* Modern web-browser
 
-To copy the files, either use `git` (if you know how to) or click the
-`Clone or download` button and then click `Download ZIP`.  Once you have
-the `.zip` file, expand it, navigate to `Project Files/XML`, and open any
-of the XML files with your browser.
+## Building
 
-# Using Chrome
+To start the eIDAS-server and make the DCC XMLs more easily available you can just run the command below.
 
-By default, the Google Chrome browser security policy forbids XSLT
-formatting of XML files, when the XML files are loaded from a local
-file.  This can be changed with a command line option `--allow-file-access-from-files`.
-
-On OS X: from `Terminal.app` run
-
-```
-   /Applications/Google\ Chrome.app/contents/MacOS/Google\ Chrome --allow-file-access-from-files &
+```console
+docker-compose build && docker-compose up
 ```
 
-On Windows: from the command prompt run
-```
-   %LOCALAPPDATA%\Google\Chrome\Application\chrome.exe --allow-file-access-from-files
-```
+Then you can navigate to the web server at ```http://127.0.0.1:10001/```
+You will just see a test index page.
 
-Note: You will first have to quit Chrome, if it is currently running.
+## Viewing xml
 
-# Using Edge
+To view the XML file: navigate to ```http://127.0.0.1:10001/XML/<XMLNAME.xml>```
+The full list of XML files can be viewed [here](./project-files/XML).
 
-In some versions of Windows, Edge by default does not open XML files
-but delegates that to Internet Explorer, which in turn doesn't
-properly understand modern CSS.
+*Validation* demo can be found at path ```http://127.0.0.1:10001/XML/DCC-signed.xml```
 
-If you want to change your Windows so that in the future Edge will
-open XML files directly, from the command prompt run
-```
-   ftype xmlfile=microsoft-edge:file:///%1
-```
+## Demo gif
+Below you can first see a correct validation and then the result when the .xml file have been tampered with.
 
-Please note that the command requires Admin rights.
+![example](https://user-images.githubusercontent.com/41044502/79562522-ed7b3f00-80b3-11ea-8a56-8138c209b2c9.gif)
 
-Note: You will first have to quit Edge and then restart it, if it is currently running.
-
-# Using Safari
-
-With Safari, you can just open the XML files and they will work.
-
-# Using Opera or Brave
-
-At this point, we don't know how to make the XML to work with Opera or
-Brave.  Most probably they have a similar local security policy
-problem that Chrome has.  You may try similar approaches as for Chrome.
