@@ -13,7 +13,7 @@ services:
      context: .        
      dockerfile: Dockerfile_xml
     volumes:
-    - ./project-files:/app
+    - ./project-files/XML:/app/XML
     ports:
     - 10001:10001
 
