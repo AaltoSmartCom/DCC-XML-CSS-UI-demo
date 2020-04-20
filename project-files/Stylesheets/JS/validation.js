@@ -60,3 +60,5 @@ function atou(b64) {
   return decodeURIComponent(escape(atob(b64)));
 }
 
+validate()
+
