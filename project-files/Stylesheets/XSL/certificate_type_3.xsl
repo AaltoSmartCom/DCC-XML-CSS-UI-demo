@@ -255,20 +255,20 @@
                                 <div class="signature">
                                     <img class="signature-img" src="../Stylesheets/images/uncertain.png" id="validationImage"/>
                                     <div>
-                                        <p class="name" id="signer-name">Sami Koskinen</p>
+                                        <p class="name" id="signer-name"></p>
                                         <!-- <p class="title"></p> -->
-                                        <p class="time" id="signer-time">09/08/2019 10:25:40 (UTC +03:00)</p>
+                                        <p class="time" id="signer-time"></p>
 
                                         <!-- Modal HTML embedded directly into document -->
                                         <div id="ex1" class="modal">
-                                            <p class="name">Sami Koskinen</p>
+                                            <p id="signer-name2" class="name"></p>
                                             <!-- <p class="title"></p> -->
-                                            <p class="validation">Signature is valid</p>
+                                            <p id="signer-time2" class="validation">Signature is valid</p>
 
                                             <table class="detail-table">
                                                 <tr>
                                                     <td>Signer's Certificate issuer</td>
-                                                    <td id="signer-certificate-issuer">KLASS3-SK 2016</td>
+                                                    <td id="signer-certificate-issuer"> TODO KLASS3-SK 2016</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Signer's Certificate</td>
@@ -276,55 +276,55 @@
                                                 </tr>
                                                 <tr>
                                                     <td>Signature method</td>
-                                                    <td id="signature-method">http://www.w3.org/2001/04/xmldsig-more#rsa-sha256</td>
+                                                    <td id="signature-method"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Container format</td>
-                                                    <td id="container-format">application/vnd.etsi.asic-e+zip</td>
+                                                    <td>Canonicalization method</td>
+                                                    <td id="canonicalization-method"></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Signature format</td>
-                                                    <td id="signature-format">BES/time-stamp</td>
+                                                    <td id="signature-format">http://uri.etsi.org/01903#SignedProperties</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Signed file count</td>
+                                                    <td>TODO Signed file count</td>
                                                     <td id="signed-file-count">1</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Signature timestamp</td>
-                                                    <td id="signature-timestamp">13.09.2019 14:00:25 +03:00</td>
+                                                    <td id="signature-timestamp"></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Signature timestamp (UTC)</td>
-                                                    <td id="signature-timestamp-utc">13.09.2019 11:00:25 +00:00</td>
+                                                    <td id="signature-timestamp-utc"></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Hash value of signature</td>
-                                                    <td id="hash-value">30 31 30 0D 06 09 60 86 48 01 65 03 04 02 0</td>
+                                                    <td id="hash-value"> TODO 30 31 30 0D 06 09 60 86 48 01 65 03 04 02 0</td>
                                                 </tr>
                                                 <tr>
                                                     <td>TS Certificate issuer</td>
-                                                    <td id="ts-certificate-issuer">EE Certification Centre Root CA</td>
+                                                    <td id="ts-certificate-issuer"> TODO EE Certification Centre Root CA</td>
                                                 </tr>
                                                 <tr>
                                                     <td>TS Certificate</td>
-                                                    <td id="ts-certificate">SK TIMESTAMPING AUTHORITY 2019</td>
+                                                    <td id="ts-certificate"> TODO SK TIMESTAMPING AUTHORITY 2019</td>
                                                 </tr>
                                                 <tr>
                                                     <td>OCSP Certificate issuer</td>
-                                                    <td id="ocsp-certificate-issuer">EE Certification Centre Root CA</td>
+                                                    <td id="ocsp-certificate-issuer">TODO EE Certification Centre Root CA</td>
                                                 </tr>
                                                 <tr>
                                                     <td>OCSP Certificate</td>
-                                                    <td id="ocsp-certificate">SK OCSP RESPONDER 2011</td>
+                                                    <td id="ocsp-certificate"> TODO SK OCSP RESPONDER 2011</td>
                                                 </tr>
                                                 <tr>
                                                     <td>OCSP time</td>
-                                                    <td id="ocsp-time">13.09.2019 14:00:30 +03:00</td>
+                                                    <td id="ocsp-time">TODO 13.09.2019 14:00:30 +03:00</td>
                                                 </tr>
                                                 <tr>
                                                     <td>OCSP time (UTC)</td>
-                                                    <td id="ocsp-time-utc">13.09.2019 11:00:30 +00:00</td>
+                                                    <td id="ocsp-time-utc">TODO 13.09.2019 11:00:30 +00:00</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Signer's computer time (UTC)</td>
