@@ -30,6 +30,7 @@ async function validate() {
   var report = checkReport(JSON.parse(validationReport));
   if (report[0] && report[1]) {
     document.getElementById("validationImage").src = imagePath + "digital_signature_signed.png";
+    document.getElementById("validateButton").innerHTML = "Revalidate";
   } else {
     document.getElementById("validationImage").src = imagePath + "failed.png";
   }

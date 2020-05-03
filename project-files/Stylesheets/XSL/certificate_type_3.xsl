@@ -251,7 +251,7 @@
 
                             <h4 class="calibrated-title">Calibrated by:</h4>
                             <div class="signatures">
-                            <button type="button" onclick="validate()" style="display: inline-block;width: 100px; height: 50px;margin-top:25px;">Verify</button>
+                            <button type="button" id="validateButton" onclick="validate()" style="display: inline-block;width: 100px; height: 50px;margin-top:25px;">Verify</button>
                                 <div class="signature">
                                     <img class="signature-img" src="../Stylesheets/images/uncertain.png" id="validationImage"/>
                                     <div>
