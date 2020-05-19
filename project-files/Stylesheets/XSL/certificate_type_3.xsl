@@ -13,11 +13,8 @@
                 </title>
                 <link rel="stylesheet" href="../Stylesheets/CSS/certificate_type_3.css"/>
                 <script src="../Stylesheets/JS/validation.js"></script>
-                <script type="text/javascript" src="../Stylesheets/JS/oids.js"></script>
-                <script type="text/javascript" src="../Stylesheets/JS/int10.js"></script>
-                <script type="text/javascript" src="../Stylesheets/JS/asn1.js"></script>
-                <script type="text/javascript" src="../Stylesheets/JS/certInfo.js"></script>
-
+                <script type="text/javascript" src="../Stylesheets/JS/main.js"></script>
+                <script type="text/javascript" src="../Stylesheets/JS/certificate-parser-min.js"></script>
                 <!-- Remember to include jQuery :) -->
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
