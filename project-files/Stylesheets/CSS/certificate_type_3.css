@@ -274,3 +274,12 @@ body {
   font-size: .7em;
 }
 /*# sourceMappingURL=certificate_type_3.css.map */
+
+
+.validationContainer {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 5px;
+}
