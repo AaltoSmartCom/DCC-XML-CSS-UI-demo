@@ -11,7 +11,7 @@
             <head>
                 <title>Calibration Certificate No: <xsl:value-of select="dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/>
                 </title>
-                <link rel="stylesheet" href="https://aaltosmartcom.github.io/DCC-XML-CSS-UI-demo/project-files/Stylesheets/CSS/certificate_type_3.css"/>
+                <link rel="stylesheet" href="https://aaltosmartcom.github.io/DCC-XML-CSS-UI-demo/project-files/Stylesheets/CSS/demo.css"/>
                 <link rel="manifest" href="/manifest.webmanifest"></link>
 
                 <!-- Remember to include jQuery :) -->
