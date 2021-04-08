@@ -11,7 +11,7 @@ xmlns:si="https://ptb.de/si">
 <html>
     <head>
         <title>Kalibrointitodistus Nro: <xsl:value-of select="dcc:administrativeData/dcc:coreData/dcc:uniqueIdentifier"/></title>
-        <link rel="stylesheet" href="https://raw.githubusercontent.com/AaltoSmartCom/DCC-XML-CSS-UI-demo/master/project-files/Stylesheets/CSS/certificate_type_2.css"/>
+        <link rel="stylesheet" href="https://aaltosmartcom.github.io/DCC-XML-CSS-UI-demo/project-files/Stylesheets/CSS/certificate_type_2.css"/>
 
         <!-- Remember to include jQuery :) -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
