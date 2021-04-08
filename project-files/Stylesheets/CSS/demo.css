@@ -1,0 +1,284 @@
+body {
+
+
+  }
+  
+  .not-in-xml-file {
+    color: red !important;
+  }
+  
+  .from-template {
+    color: blue !important;
+  }
+  
+  .pages {
+    max-width: 1024px;
+    margin: 20px auto;
+  }
+  
+  .page {
+    min-height: 1448px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: white;
+    -webkit-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .page .header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: start;
+        align-self: start;
+    padding-bottom: 10px;
+  }
+  
+  .page .header .grid {
+    background: silver;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "item-1 item-2 item-2 item-2 item-3";
+  }
+  
+  .page .header .grid p, .page .header .grid h1, .page .header .grid h2, .page .header .grid h3, .page .header .grid h4, .page .header .grid h5, .page .header .grid h6 {
+    margin: 0;
+    margin-bottom: .3rem;
+  }
+  
+  .page .header .grid .grid-item {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  
+  .page .header .grid .grid-item.item-1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: item-1;
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  
+  .page .header .grid .grid-item.item-2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-area: item-2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    text-align: center;
+  }
+  
+  .page .header .grid .grid-item.item-3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+    grid-area: item-3;
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  
+  .page .admin-data {
+    padding: 4px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: start;
+        align-self: start;
+  }
+  
+  .page .admin-data .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  
+  .page .admin-data .grid p, .page .admin-data .grid h1, .page .admin-data .grid h2, .page .admin-data .grid h3, .page .admin-data .grid h4, .page .admin-data .grid h5, .page .admin-data .grid h6 {
+    margin: 0;
+    margin-bottom: .3rem;
+  }
+  
+  .page .admin-data .grid .grid-item {
+    justify-items: stretch;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+    padding: 5px;
+  }
+  
+  .page .admin-data .grid .grid-item .table-title {
+    margin: 0;
+    border-bottom: 1px solid black;
+  }
+  
+  .page .admin-data .grid .grid-item table {
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  .page .admin-data .grid .grid-item table tr td {
+    padding-bottom: 2px;
+    vertical-align: top;
+  }
+  
+  .page .admin-data .grid .grid-item table tr > td:first-child {
+    width: 140px;
+  }
+  
+  .page .results {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: start;
+        align-self: start;
+  }
+  
+  .page .results .grid {
+    display: -ms-grid;
+    display: grid;
+    justify-items: stretch;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  
+  .page .results .grid p, .page .results .grid h1, .page .results .grid h2, .page .results .grid h3, .page .results .grid h4, .page .results .grid h5, .page .results .grid h6 {
+    margin: 0;
+    margin-bottom: .3rem;
+  }
+  
+  .page .results .grid .grid-item {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .page .results .grid .grid-item .graph-placeholder {
+    background: #f8f8f8;
+    border: 1px solid black;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+  }
+  
+  .page .results .grid .grid-item .graph-placeholder p {
+    font-size: 30px;
+    color: darkgray;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .page .results .grid .grid-item table {
+    font-size: 12px;
+  }
+  
+  .page .results .grid .grid-item table tr td {
+    padding-bottom: 2px;
+    vertical-align: top;
+  }
+  
+  .page .results .grid .grid-item table tr > td:first-child {
+    min-width: 120px;
+  }
+  
+  .page .signature-img {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .page .calibrated-title {
+    margin: 0;
+    margin-top: 70px;
+    padding-top: 8px;
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  
+  .page .signatures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 120px;
+  }
+  
+  .page .signatures .signature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .page .signatures .signature p:first-child {
+    margin-top: 20px;
+  }
+  
+  .small {
+    font-size: .7em;
+  }
+  
+  .modal {
+    max-width: 720px !important;
+    padding-top: 35px !important;
+  }
+  
+  .modal .detail-table {
+    padding: 20px 0;
+  }
+  
+  .modal .detail-table td {
+    padding: 5px 5px 5px 0;
+  }
+  
+  .modal .detail-table tr td:first-child {
+    font-weight: bold;
+    padding-right: 15px;
+  }
+  
+  .name, .title, .click, .validation, .time {
+    margin: 0;
+  }
+  
+  .name {
+    font-size: 1.1em;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .validation {
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  
+  .click {
+    display: block;
+    margin-top: 5px;
+    font-size: .7em;
+  }
+  /*# sourceMappingURL=certificate_type_3.css.map */
+  
+  
+  .validationContainer {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
